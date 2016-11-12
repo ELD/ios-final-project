@@ -148,6 +148,8 @@ SWIFT_CLASS("_TtC11SocialJoint11AppDelegate")
 @end
 
 @class UILabel;
+@class UIImageView;
+@class UIButton;
 @class UITapGestureRecognizer;
 @class NSBundle;
 @class NSCoder;
@@ -155,15 +157,26 @@ SWIFT_CLASS("_TtC11SocialJoint11AppDelegate")
 SWIFT_CLASS("_TtC11SocialJoint14InitialSetUpVC")
 @interface InitialSetUpVC : UIViewController <CAAnimationDelegate>
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified WelcomeLabel;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified FBImageView;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified TwImageView;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified IGImageView;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified GPImageView;
+@property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified FBButtonChecked;
+@property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified TwButtonChecked;
+@property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified IGButtonChecked;
+@property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified GPButtonChecked;
+@property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified ContinueButton;
 @property (nonatomic) NSInteger introScreenTracker;
 @property (nonatomic, readonly) SEL _Nonnull aSelectorFirst;
 @property (nonatomic, strong) UITapGestureRecognizer * _Nonnull tapGesture;
 @property (nonatomic, strong) CAGradientLayer * _Nullable gradient;
 - (void)viewDidLoad;
+- (void)initialize SWIFT_METHOD_FAMILY(none);
 - (void)viewDidAppear:(BOOL)animated;
 - (void)introAnimateLayer;
 - (void)secondAnimateLayer;
 - (void)HandleFirstTap;
+- (IBAction)FBButtonPressed:(id _Nonnull)sender;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
