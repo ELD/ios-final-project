@@ -20,7 +20,6 @@ class InitialSetUpVC: UIViewController, CAAnimationDelegate {
     //This is to keep track of how many times Handle Tap occurs
     var introScreenTracker: Int = 0
     let aSelectorFirst : Selector = #selector(InitialSetUpVC.HandleFirstTap)
-    let aSelectorSecond : Selector = #selector(InitialSetUpVC.HandleSecondTap)
     var tapGesture = UITapGestureRecognizer()
     
     
@@ -32,16 +31,11 @@ class InitialSetUpVC: UIViewController, CAAnimationDelegate {
         view.isUserInteractionEnabled = true;
         
         
-        if (introScreenTracker == 0) {
-            tapGesture = UITapGestureRecognizer(target: self, action: aSelectorFirst)
-            view.addGestureRecognizer(tapGesture)
-        }
-        if (introScreenTracker == 1) {
-            
-            tapGesture = UITapGestureRecognizer(target: self, action: aSelectorSecond)
-            view.addGestureRecognizer(tapGesture)
-            
-        }
+        
+        tapGesture = UITapGestureRecognizer(target: self, action: aSelectorFirst)
+        view.addGestureRecognizer(tapGesture)
+        
+        
         
     }
     
@@ -105,38 +99,36 @@ class InitialSetUpVC: UIViewController, CAAnimationDelegate {
     func HandleFirstTap(){
         //When tapped the Animation fades out
         
-        introAnimateLayer()
-        UIView.animate(withDuration: 3) {
-            self.WelcomeLabel.alpha = 0
-            if (self.WelcomeLabel.alpha == 0){
-                self.WelcomeLabel.text = "Where all Social Platforms Meet \nOne Place"
-                UIView.animate(withDuration: 5, animations: {
-                    self.WelcomeLabel.alpha = 1
-                    
-                })
+        
+        if (introScreenTracker == 0) {
+            introAnimateLayer()
+            UIView.animate(withDuration: 3) {
+                self.WelcomeLabel.alpha = 0
+                if (self.WelcomeLabel.alpha == 0){
+                    self.WelcomeLabel.text = "Where all Social Platforms Meet"
+                    UIView.animate(withDuration: 5, animations: {
+                        self.WelcomeLabel.alpha = 1
+                        
+                    })
+                }
             }
         }
-        introScreenTracker = introScreenTracker + 1
         
-        
-    }
-    
-    
-    func HandleSecondTap(){
-        //When tapped the Animation fades out
-        
-        secondAnimateLayer()
-        
-        UIView.animate(withDuration: 3) {
-            self.WelcomeLabel.alpha = 0
-            if (self.WelcomeLabel.alpha == 0){
-                self.WelcomeLabel.text = "Choose your Social Media\n that you would like to See"
-                UIView.animate(withDuration: 5, animations: {
-                    self.WelcomeLabel.alpha = 1
-                    
-                })
+        if (introScreenTracker == 1) {
+            secondAnimateLayer()
+            UIView.animate(withDuration: 3) {
+                self.WelcomeLabel.alpha = 0
+                if (self.WelcomeLabel.alpha == 0){
+                    self.WelcomeLabel.text = "Choose your Social Media"
+                    UIView.animate(withDuration: 5, animations: {
+                        self.WelcomeLabel.alpha = 1
+                        
+                    })
+                }
             }
         }
+        
+        
         introScreenTracker = introScreenTracker + 1
         
         
