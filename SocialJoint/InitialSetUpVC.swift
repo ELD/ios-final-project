@@ -30,12 +30,8 @@ class InitialSetUpVC: UIViewController, CAAnimationDelegate {
         super.viewDidLoad()
         view.isUserInteractionEnabled = true;
         
-        
-        
         tapGesture = UITapGestureRecognizer(target: self, action: aSelectorFirst)
         view.addGestureRecognizer(tapGesture)
-        
-        
         
     }
     

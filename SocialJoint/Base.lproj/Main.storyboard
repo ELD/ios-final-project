@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,12 +24,44 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FaceBook" translatesAutoresizingMaskIntoConstraints="NO" id="9EB-G8-LnR">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="dfK-cK-sj3"/>
+                                    <constraint firstAttribute="height" constant="83" id="kjv-lj-kDU"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Twitter" translatesAutoresizingMaskIntoConstraints="NO" id="V64-LY-zTd">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="EQO-nH-Shz"/>
+                                    <constraint firstAttribute="width" constant="88" id="mx6-Ov-k5Y"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Instagram" translatesAutoresizingMaskIntoConstraints="NO" id="xAd-il-Hxh">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="672-sB-ajz"/>
+                                    <constraint firstAttribute="width" constant="88" id="88n-ln-7Zw"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Google Plus" translatesAutoresizingMaskIntoConstraints="NO" id="pHx-u5-3fJ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="CfV-Zp-x5v"/>
+                                    <constraint firstAttribute="width" constant="88" id="Y3z-bp-Ujj"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="U8T-nQ-7ev" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="COZ-hY-dhr"/>
                             <constraint firstItem="U8T-nQ-7ev" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="202" id="Kwp-fg-D6H"/>
+                            <constraint firstItem="pHx-u5-3fJ" firstAttribute="centerX" secondItem="xAd-il-Hxh" secondAttribute="centerX" id="N1z-Co-6Mb"/>
+                            <constraint firstItem="V64-LY-zTd" firstAttribute="top" secondItem="9EB-G8-LnR" secondAttribute="bottom" constant="-7" id="Oh5-d0-XGH"/>
+                            <constraint firstItem="9EB-G8-LnR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="SyH-VP-5K3"/>
+                            <constraint firstItem="xAd-il-Hxh" firstAttribute="top" secondItem="V64-LY-zTd" secondAttribute="bottom" constant="-7" id="Ucw-pf-02n"/>
+                            <constraint firstItem="V64-LY-zTd" firstAttribute="centerX" secondItem="9EB-G8-LnR" secondAttribute="centerX" id="Ye2-Ui-4Bz"/>
+                            <constraint firstItem="xAd-il-Hxh" firstAttribute="centerX" secondItem="V64-LY-zTd" secondAttribute="centerX" id="ftZ-dq-Bvl"/>
+                            <constraint firstItem="9EB-G8-LnR" firstAttribute="top" secondItem="U8T-nQ-7ev" secondAttribute="bottom" constant="42.5" id="h1n-ym-VqE"/>
+                            <constraint firstItem="pHx-u5-3fJ" firstAttribute="top" secondItem="xAd-il-Hxh" secondAttribute="bottom" constant="-7" id="pWu-6d-zsM"/>
                         </constraints>
                     </view>
                     <connections>
@@ -40,4 +73,10 @@
             <point key="canvasLocation" x="82.400000000000006" y="134.48275862068968"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FaceBook" width="968" height="820"/>
+        <image name="Google Plus" width="968" height="820"/>
+        <image name="Instagram" width="968" height="820"/>
+        <image name="Twitter" width="968" height="820"/>
+    </resources>
 </document>
