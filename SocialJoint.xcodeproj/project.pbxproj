@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAB74CDA1DD69C1C0041A0E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB74CD91DD69C1C0041A0E1 /* AppDelegate.swift */; };
+		EAB74CDC1DD69C1C0041A0E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB74CDB1DD69C1C0041A0E1 /* ViewController.swift */; };
+		EAB74CDF1DD69C1C0041A0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB74CDD1DD69C1C0041A0E1 /* Main.storyboard */; };
+		EAB74CE21DD69C1C0041A0E1 /* SocialJoint.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAB74CE01DD69C1C0041A0E1 /* SocialJoint.xcdatamodeld */; };
+		EAB74CE41DD69C1C0041A0E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB74CE31DD69C1C0041A0E1 /* Assets.xcassets */; };
+		EAB74CE71DD69C1C0041A0E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB74CE51DD69C1C0041A0E1 /* LaunchScreen.storyboard */; };
+		EAB74CEF1DD69D940041A0E1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EAB74CEE1DD69D940041A0E1 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAB74CD61DD69C1C0041A0E1 /* SocialJoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialJoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB74CD91DD69C1C0041A0E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAB74CDB1DD69C1C0041A0E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAB74CDE1DD69C1C0041A0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAB74CE11DD69C1C0041A0E1 /* SocialJoint.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocialJoint.xcdatamodel; sourceTree = "<group>"; };
+		EAB74CE31DD69C1C0041A0E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB74CE61DD69C1C0041A0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAB74CE81DD69C1C0041A0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB74CEE1DD69D940041A0E1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB74CD31DD69C1C0041A0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAB74CCD1DD69C1C0041A0E1 = {
+			isa = PBXGroup;
+			children = (
+				EAB74CD81DD69C1C0041A0E1 /* SocialJoint */,
+				EAB74CD71DD69C1C0041A0E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB74CD71DD69C1C0041A0E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB74CD61DD69C1C0041A0E1 /* SocialJoint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB74CD81DD69C1C0041A0E1 /* SocialJoint */ = {
+			isa = PBXGroup;
+			children = (
+				EAB74CF01DD69DA80041A0E1 /* Util */,
+				EAB74CD91DD69C1C0041A0E1 /* AppDelegate.swift */,
+				EAB74CDB1DD69C1C0041A0E1 /* ViewController.swift */,
+				EAB74CDD1DD69C1C0041A0E1 /* Main.storyboard */,
+				EAB74CE31DD69C1C0041A0E1 /* Assets.xcassets */,
+				EAB74CE51DD69C1C0041A0E1 /* LaunchScreen.storyboard */,
+				EAB74CE81DD69C1C0041A0E1 /* Info.plist */,
+				EAB74CE01DD69C1C0041A0E1 /* SocialJoint.xcdatamodeld */,
+			);
+			path = SocialJoint;
+			sourceTree = "<group>";
+		};
+		EAB74CF01DD69DA80041A0E1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				EAB74CEE1DD69D940041A0E1 /* .gitignore */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB74CD51DD69C1C0041A0E1 /* SocialJoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB74CEB1DD69C1C0041A0E1 /* Build configuration list for PBXNativeTarget "SocialJoint" */;
+			buildPhases = (
+				EAB74CD21DD69C1C0041A0E1 /* Sources */,
+				EAB74CD31DD69C1C0041A0E1 /* Frameworks */,
+				EAB74CD41DD69C1C0041A0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialJoint;
+			productName = SocialJoint;
+			productReference = EAB74CD61DD69C1C0041A0E1 /* SocialJoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB74CCE1DD69C1C0041A0E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ethan Bonin";
+				TargetAttributes = {
+					EAB74CD51DD69C1C0041A0E1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MCRP5NXT9W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EAB74CD11DD69C1C0041A0E1 /* Build configuration list for PBXProject "SocialJoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB74CCD1DD69C1C0041A0E1;
+			productRefGroup = EAB74CD71DD69C1C0041A0E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB74CD51DD69C1C0041A0E1 /* SocialJoint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB74CD41DD69C1C0041A0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB74CEF1DD69D940041A0E1 /* .gitignore in Resources */,
+				EAB74CE71DD69C1C0041A0E1 /* LaunchScreen.storyboard in Resources */,
+				EAB74CE41DD69C1C0041A0E1 /* Assets.xcassets in Resources */,
+				EAB74CDF1DD69C1C0041A0E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB74CD21DD69C1C0041A0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB74CE21DD69C1C0041A0E1 /* SocialJoint.xcdatamodeld in Sources */,
+				EAB74CDC1DD69C1C0041A0E1 /* ViewController.swift in Sources */,
+				EAB74CDA1DD69C1C0041A0E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAB74CDD1DD69C1C0041A0E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB74CDE1DD69C1C0041A0E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAB74CE51DD69C1C0041A0E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB74CE61DD69C1C0041A0E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB74CE91DD69C1C0041A0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAB74CEA1DD69C1C0041A0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB74CEC1DD69C1C0041A0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MCRP5NXT9W;
+				INFOPLIST_FILE = SocialJoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan-Bonin.SocialJoint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EAB74CED1DD69C1C0041A0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MCRP5NXT9W;
+				INFOPLIST_FILE = SocialJoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan-Bonin.SocialJoint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB74CD11DD69C1C0041A0E1 /* Build configuration list for PBXProject "SocialJoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB74CE91DD69C1C0041A0E1 /* Debug */,
+				EAB74CEA1DD69C1C0041A0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB74CEB1DD69C1C0041A0E1 /* Build configuration list for PBXNativeTarget "SocialJoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB74CEC1DD69C1C0041A0E1 /* Debug */,
+				EAB74CED1DD69C1C0041A0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EAB74CE01DD69C1C0041A0E1 /* SocialJoint.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAB74CE11DD69C1C0041A0E1 /* SocialJoint.xcdatamodel */,
+			);
+			currentVersion = EAB74CE11DD69C1C0041A0E1 /* SocialJoint.xcdatamodel */;
+			path = SocialJoint.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EAB74CCE1DD69C1C0041A0E1 /* Project object */;
+}
