@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA0C93A21DD774B400311F1B /* GradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0C93A11DD774B400311F1B /* GradientExtension.swift */; };
 		EAB74CDA1DD69C1C0041A0E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB74CD91DD69C1C0041A0E1 /* AppDelegate.swift */; };
 		EAB74CDF1DD69C1C0041A0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB74CDD1DD69C1C0041A0E1 /* Main.storyboard */; };
 		EAB74CE21DD69C1C0041A0E1 /* SocialJoint.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAB74CE01DD69C1C0041A0E1 /* SocialJoint.xcdatamodeld */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA0C93A11DD774B400311F1B /* GradientExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientExtension.swift; sourceTree = "<group>"; };
 		EAB74CD61DD69C1C0041A0E1 /* SocialJoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialJoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB74CD91DD69C1C0041A0E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAB74CDE1DD69C1C0041A0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA0C93A31DD77FE100311F1B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EA0C93A11DD774B400311F1B /* GradientExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		EAB74CCD1DD69C1C0041A0E1 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				EAB74CF01DD69DA80041A0E1 /* Util */,
+				EA0C93A31DD77FE100311F1B /* Extensions */,
 				EAB74CD91DD69C1C0041A0E1 /* AppDelegate.swift */,
 				EAB74CF11DD6A1C10041A0E1 /* InitialSetUpVC.swift */,
 				EAB74CDD1DD69C1C0041A0E1 /* Main.storyboard */,
@@ -153,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAB74CE21DD69C1C0041A0E1 /* SocialJoint.xcdatamodeld in Sources */,
+				EA0C93A21DD774B400311F1B /* GradientExtension.swift in Sources */,
 				EAB74CF21DD6A1C10041A0E1 /* InitialSetUpVC.swift in Sources */,
 				EAB74CDA1DD69C1C0041A0E1 /* AppDelegate.swift in Sources */,
 			);
@@ -316,6 +328,7 @@
 				EAB74CED1DD69C1C0041A0E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
