@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "bc75e783b402bbf9ecfd890da9af75e5"
+build_time: [532292211, 94124000]
+inputs:
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/RadioButton.swift": [532292181, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/SocialJoint/GradientExtension.swift": [532290489, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/SocialJoint/InitialSetUpVC.swift": [532290489, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/SocialJoint/AppDelegate.swift": [532290489, 0]

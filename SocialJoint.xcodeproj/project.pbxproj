@@ -41,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA2E495A1DD79C6A0059760B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AA2E495B1DD79C800059760B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAB74CF11DD6A1C10041A0E1 /* InitialSetUpVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		EA0C93A31DD77FE100311F1B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +68,8 @@
 		EAB74CCD1DD69C1C0041A0E1 = {
 			isa = PBXGroup;
 			children = (
-				EAB74CD81DD69C1C0041A0E1 /* SocialJoint */,
 				EAB74CD71DD69C1C0041A0E1 /* Products */,
+				EAB74CD81DD69C1C0041A0E1 /* SocialJoint */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,10 +84,11 @@
 		EAB74CD81DD69C1C0041A0E1 /* SocialJoint */ = {
 			isa = PBXGroup;
 			children = (
+				AA2E495A1DD79C6A0059760B /* Model */,
+				AA2E495B1DD79C800059760B /* Controllers */,
 				EAB74CF01DD69DA80041A0E1 /* Util */,
 				EA0C93A31DD77FE100311F1B /* Extensions */,
 				EAB74CD91DD69C1C0041A0E1 /* AppDelegate.swift */,
-				EAB74CF11DD6A1C10041A0E1 /* InitialSetUpVC.swift */,
 				EAB74CDD1DD69C1C0041A0E1 /* Main.storyboard */,
 				EAB74CE31DD69C1C0041A0E1 /* Assets.xcassets */,
 				EAB74CE51DD69C1C0041A0E1 /* LaunchScreen.storyboard */,
