@@ -10,10 +10,16 @@ import UIKit
 
 class InitialSetUpVC: UIViewController {
     
-    @IBOutlet var WelcomeLabel: UILabel!
     
+    // OUTLETS //
+    @IBOutlet var WelcomeLabel: UILabel!
     @IBOutlet var BackGrounView: UIView!
     
+    
+    //VARIABLES//
+    
+    //This is to keep track of how many times Handle Tap occurs
+    var introScreenTracker: Int = 0
     
     
     override func viewDidLoad() {
@@ -26,16 +32,22 @@ class InitialSetUpVC: UIViewController {
     
     
     func HandleTap(){
-        UIView.animate(withDuration: 2) {
-            self.WelcomeLabel.alpha = 0
+        //When tapped the Animation fades out
+        
+        if (introScreenTracker == 0){
+            UIView.animate(withDuration: 2) {
+                self.WelcomeLabel.alpha = 0
+                if (self.WelcomeLabel.alpha == 0){
+                    self.WelcomeLabel.text = "Where all Social Platforms Meet \nOne Place"
+                    UIView.animate(withDuration: 2, animations: {
+                        self.WelcomeLabel.alpha = 1
+                        self.introScreenTracker = self.introScreenTracker + 1
+                    })
+                }
+            }
         }
         
-        if (self.WelcomeLabel.alpha == 0){
-            WelcomeLabel.text = "Where all Social Platforms Meet \nOne Place"
-            UIView.animate(withDuration: 2, animations: {
-                self.WelcomeLabel.alpha = 1
-            })
-        }
+        
         
     }
     
