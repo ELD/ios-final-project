@@ -36,6 +36,18 @@ extension CAGradientLayer {
         return gradientLayer
     }
     
+    func MainColor() -> CAGradientLayer {
+        let topColor = UIColor(red: (95/255.0), green: (148/255.0), blue: (174/255.0), alpha: 1)
+        let bottomColor = UIColor(red: (195/255.0), green: (222/255.0), blue: (235/255.0), alpha: 1)
+        let gradientColors: [CGColor] = [topColor.cgColor, bottomColor.cgColor]
+        let gradientLocations: [Float] = [0.0, 1.0]
+        let gradientLayer: CAGradientLayer = CAGradientLayer()
+        gradientLayer.colors = gradientColors
+        gradientLayer.locations = gradientLocations as [NSNumber]?
+        return gradientLayer
+    }
+  
+
     
     
 }

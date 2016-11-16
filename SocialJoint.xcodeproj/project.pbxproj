@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA73467D1DDCB1B1008019EF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73467C1DDCB1B1008019EF /* SignInVC.swift */; };
+		AA73467F1DDCB313008019EF /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73467E1DDCB313008019EF /* MainScreenVC.swift */; };
 		EA0C93A21DD774B400311F1B /* GradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0C93A11DD774B400311F1B /* GradientExtension.swift */; };
 		EAB74CDA1DD69C1C0041A0E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB74CD91DD69C1C0041A0E1 /* AppDelegate.swift */; };
 		EAB74CDF1DD69C1C0041A0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB74CDD1DD69C1C0041A0E1 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA73467C1DDCB1B1008019EF /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		AA73467E1DDCB313008019EF /* MainScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
 		EA0C93A11DD774B400311F1B /* GradientExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientExtension.swift; sourceTree = "<group>"; };
 		EAB74CD61DD69C1C0041A0E1 /* SocialJoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialJoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB74CD91DD69C1C0041A0E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				EAB74CF11DD6A1C10041A0E1 /* InitialSetUpVC.swift */,
+				AA73467C1DDCB1B1008019EF /* SignInVC.swift */,
+				AA73467E1DDCB313008019EF /* MainScreenVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -183,7 +189,9 @@
 				EAB74CE21DD69C1C0041A0E1 /* SocialJoint.xcdatamodeld in Sources */,
 				EA0C93A21DD774B400311F1B /* GradientExtension.swift in Sources */,
 				EAB74CF21DD6A1C10041A0E1 /* InitialSetUpVC.swift in Sources */,
+				AA73467F1DDCB313008019EF /* MainScreenVC.swift in Sources */,
 				EAB74CDA1DD69C1C0041A0E1 /* AppDelegate.swift in Sources */,
+				AA73467D1DDCB1B1008019EF /* SignInVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
