@@ -183,12 +183,10 @@ SWIFT_CLASS("_TtC11SocialJoint14InitialSetUpVC")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UICollectionView;
 
 SWIFT_CLASS("_TtC11SocialJoint12MainScreenVC")
 @interface MainScreenVC : UIViewController
 @property (nonatomic, strong) CAGradientLayer * _Nullable gradient;
-@property (nonatomic, strong) IBOutlet UICollectionView * _Null_unspecified collectionView;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (void)viewDidAppear:(BOOL)animated;
