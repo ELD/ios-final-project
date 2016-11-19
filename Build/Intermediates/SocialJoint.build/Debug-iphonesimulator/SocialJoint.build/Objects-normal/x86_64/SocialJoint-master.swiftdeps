@@ -1,9 +1,9 @@
 version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
 options: "794cac071bb23310772a352b931445e6"
-build_time: [532626577, 9753000]
+build_time: [532727151, 752240000]
 inputs:
   "/Users/Ethan/Documents/PROJECT/ios-final-project/SocialJoint/GradientExtension.swift": [532625567, 0]
   "/Users/Ethan/Documents/PROJECT/ios-final-project/SocialJoint/InitialSetUpVC.swift": [532302280, 0]
-  "/Users/Ethan/Documents/PROJECT/ios-final-project/SocialJoint/MainScreenVC.swift": [532626576, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/SocialJoint/MainScreenVC.swift": [532727151, 0]
   "/Users/Ethan/Documents/PROJECT/ios-final-project/SocialJoint/AppDelegate.swift": [532290489, 0]
   "/Users/Ethan/Documents/PROJECT/ios-final-project/SocialJoint/SignInVC.swift": [532625631, 0]

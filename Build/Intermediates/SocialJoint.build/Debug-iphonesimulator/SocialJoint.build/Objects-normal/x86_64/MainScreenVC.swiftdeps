@@ -6,23 +6,20 @@ provides-nominal:
 provides-member:
 - ["C11SocialJoint12MainScreenVC", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "viewDidAppear"
-- "didReceiveMemoryWarning"
-- "collectionView"
 - "gradient"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- "UICollectionView"
-- "MainScreenVC"
-- "UIViewController"
 - "Bool"
-- "AssignmentPrecedence"
 - "CAGradientLayer"
+- "UIViewController"
+- "MainScreenVC"
+- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "CAGradientLayer"]
 - !private ["Ps9AnyObject", "IntroColor"]
 - !private ["Ps9AnyObject", "bounds"]
-- ["Ps9AnyObject", "collectionView"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "frame"]
 - ["Ps9AnyObject", "gradient"]
@@ -51,7 +48,6 @@ depends-member:
 - !private ["Ps7CVarArg", "CAGradientLayer"]
 - !private ["Ps7CVarArg", "IntroColor"]
 - !private ["Ps7CVarArg", "bounds"]
-- ["Ps7CVarArg", "collectionView"]
 - ["Ps7CVarArg", "didReceiveMemoryWarning"]
 - !private ["Ps7CVarArg", "frame"]
 - ["Ps7CVarArg", "gradient"]
@@ -65,7 +61,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "CAGradientLayer"]
 - !private ["Ps28CustomDebugStringConvertible", "IntroColor"]
 - !private ["Ps28CustomDebugStringConvertible", "bounds"]
-- ["Ps28CustomDebugStringConvertible", "collectionView"]
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
 - !private ["Ps28CustomDebugStringConvertible", "frame"]
 - ["Ps28CustomDebugStringConvertible", "gradient"]
@@ -79,7 +74,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "CAGradientLayer"]
 - !private ["Ps23CustomStringConvertible", "IntroColor"]
 - !private ["Ps23CustomStringConvertible", "bounds"]
-- ["Ps23CustomStringConvertible", "collectionView"]
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - !private ["Ps23CustomStringConvertible", "frame"]
 - ["Ps23CustomStringConvertible", "gradient"]
@@ -93,7 +87,6 @@ depends-member:
 - !private ["Ps9Equatable", "CAGradientLayer"]
 - !private ["Ps9Equatable", "IntroColor"]
 - !private ["Ps9Equatable", "bounds"]
-- ["Ps9Equatable", "collectionView"]
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
 - !private ["Ps9Equatable", "frame"]
 - ["Ps9Equatable", "gradient"]
@@ -107,7 +100,6 @@ depends-member:
 - !private ["Ps8Hashable", "CAGradientLayer"]
 - !private ["Ps8Hashable", "IntroColor"]
 - !private ["Ps8Hashable", "bounds"]
-- ["Ps8Hashable", "collectionView"]
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
 - !private ["Ps8Hashable", "frame"]
 - ["Ps8Hashable", "gradient"]
@@ -118,11 +110,8 @@ depends-member:
 - ["Ps8Hashable", "viewDidAppear"]
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
-- ["SQ", "deinit"]
 - ["C11SocialJoint12MainScreenVC", "Bool"]
 - ["C11SocialJoint12MainScreenVC", "CAGradientLayer"]
-- ["C11SocialJoint12MainScreenVC", "UICollectionView"]
-- ["C11SocialJoint12MainScreenVC", "collectionView"]
 - ["C11SocialJoint12MainScreenVC", "deinit"]
 - ["C11SocialJoint12MainScreenVC", "didReceiveMemoryWarning"]
 - ["C11SocialJoint12MainScreenVC", "gradient"]
@@ -134,7 +123,6 @@ depends-member:
 - !private ["PSo8NSCoding", "CAGradientLayer"]
 - !private ["PSo8NSCoding", "IntroColor"]
 - !private ["PSo8NSCoding", "bounds"]
-- ["PSo8NSCoding", "collectionView"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - !private ["PSo8NSCoding", "frame"]
 - ["PSo8NSCoding", "gradient"]
@@ -146,7 +134,6 @@ depends-member:
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo26NSExtensionRequestHandling", "CAGradientLayer"]
-- ["PSo26NSExtensionRequestHandling", "collectionView"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "gradient"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
@@ -157,9 +144,7 @@ depends-member:
 - ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "CAGradientLayer"]
 - !private ["CSo8NSObject", "IntroColor"]
-- ["CSo8NSObject", "UICollectionView"]
 - !private ["CSo8NSObject", "bounds"]
-- ["CSo8NSObject", "collectionView"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - !private ["CSo8NSObject", "frame"]
 - ["CSo8NSObject", "gradient"]
@@ -172,7 +157,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "CAGradientLayer"]
 - !private ["PSo16NSObjectProtocol", "IntroColor"]
 - !private ["PSo16NSObjectProtocol", "bounds"]
-- ["PSo16NSObjectProtocol", "collectionView"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - !private ["PSo16NSObjectProtocol", "frame"]
 - ["PSo16NSObjectProtocol", "gradient"]
@@ -190,7 +174,6 @@ depends-member:
 - !private ["PSo12UIAppearance", "layer"]
 - !private ["PSo21UIAppearanceContainer", "CAGradientLayer"]
 - !private ["PSo21UIAppearanceContainer", "bounds"]
-- ["PSo21UIAppearanceContainer", "collectionView"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "gradient"]
 - !private ["PSo21UIAppearanceContainer", "init"]
@@ -200,7 +183,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo18UIContentContainer", "CAGradientLayer"]
-- ["PSo18UIContentContainer", "collectionView"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "gradient"]
 - !private ["PSo18UIContentContainer", "init"]
@@ -214,7 +196,6 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "layer"]
 - !private ["PSo18UIFocusEnvironment", "CAGradientLayer"]
 - !private ["PSo18UIFocusEnvironment", "bounds"]
-- ["PSo18UIFocusEnvironment", "collectionView"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "gradient"]
 - !private ["PSo18UIFocusEnvironment", "init"]
@@ -227,9 +208,7 @@ depends-member:
 - !private ["PSo11UIFocusItem", "layer"]
 - ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "CAGradientLayer"]
-- ["CSo11UIResponder", "UICollectionView"]
 - !private ["CSo11UIResponder", "bounds"]
-- ["CSo11UIResponder", "collectionView"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - ["CSo11UIResponder", "gradient"]
 - ["CSo11UIResponder", "init"]
@@ -239,7 +218,6 @@ depends-member:
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["PSo30UIResponderStandardEditActions", "CAGradientLayer"]
 - !private ["PSo30UIResponderStandardEditActions", "bounds"]
-- ["PSo30UIResponderStandardEditActions", "collectionView"]
 - ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
 - ["PSo30UIResponderStandardEditActions", "gradient"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
@@ -249,7 +227,6 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["PSo16UIStateRestoring", "CAGradientLayer"]
-- ["PSo16UIStateRestoring", "collectionView"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "gradient"]
 - !private ["PSo16UIStateRestoring", "init"]
@@ -259,7 +236,6 @@ depends-member:
 - ["PSo16UIStateRestoring", ""]
 - !private ["PSo18UITraitEnvironment", "CAGradientLayer"]
 - !private ["PSo18UITraitEnvironment", "bounds"]
-- ["PSo18UITraitEnvironment", "collectionView"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UITraitEnvironment", "gradient"]
 - !private ["PSo18UITraitEnvironment", "init"]
@@ -272,8 +248,6 @@ depends-member:
 - !private ["CSo6UIView", "layer"]
 - ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "CAGradientLayer"]
-- ["CSo16UIViewController", "UICollectionView"]
-- ["CSo16UIViewController", "collectionView"]
 - ["CSo16UIViewController", "deinit"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "gradient"]
@@ -288,7 +262,6 @@ depends-member:
 - !private ["Ps9_Hashable", "CAGradientLayer"]
 - !private ["Ps9_Hashable", "IntroColor"]
 - !private ["Ps9_Hashable", "bounds"]
-- ["Ps9_Hashable", "collectionView"]
 - ["Ps9_Hashable", "didReceiveMemoryWarning"]
 - !private ["Ps9_Hashable", "frame"]
 - ["Ps9_Hashable", "gradient"]
@@ -310,7 +283,6 @@ depends-nominal:
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
 - "Ps8Hashable"
-- "SQ"
 - "C11SocialJoint12MainScreenVC"
 - "CSo7NSCoder"
 - "PSo8NSCoding"
@@ -348,4 +320,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "304ce1e689c41bb451596f5c4c487617"
+interface-hash: "8947781be2dfa16e0071f56dd729f8e9"
