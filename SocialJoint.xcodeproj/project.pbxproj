@@ -22,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		7ECDCB73DF256AD9CC3671F4 /* Pods_SocialJoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialJoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C3D5601DE106690006980A /* SocialJoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialJoint.entitlements; sourceTree = "<group>"; };
 		AA73467C1DDCB1B1008019EF /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		AA73467E1DDCB313008019EF /* MainScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
 		AD1C29BF70EBB17DB54D021D /* Pods-SocialJoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialJoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialJoint/Pods-SocialJoint.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +115,7 @@
 		EAB74CD81DD69C1C0041A0E1 /* SocialJoint */ = {
 			isa = PBXGroup;
 			children = (
+				A4C3D5601DE106690006980A /* SocialJoint.entitlements */,
 				AA2E495A1DD79C6A0059760B /* Model */,
 				AA2E495B1DD79C800059760B /* Controllers */,
 				EAB74CF01DD69DA80041A0E1 /* Util */,
@@ -171,8 +173,13 @@
 				TargetAttributes = {
 					EAB74CD51DD69C1C0041A0E1 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = MCRP5NXT9W;
+						DevelopmentTeam = 7N5NS23973;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -390,7 +397,8 @@
 			baseConfigurationReference = E7D108B0347C5E22CCAE261A /* Pods-SocialJoint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MCRP5NXT9W;
+				CODE_SIGN_ENTITLEMENTS = SocialJoint/SocialJoint.entitlements;
+				DEVELOPMENT_TEAM = 7N5NS23973;
 				INFOPLIST_FILE = SocialJoint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ethan-Bonin.SocialJoint";
@@ -404,7 +412,8 @@
 			baseConfigurationReference = AD1C29BF70EBB17DB54D021D /* Pods-SocialJoint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MCRP5NXT9W;
+				CODE_SIGN_ENTITLEMENTS = SocialJoint/SocialJoint.entitlements;
+				DEVELOPMENT_TEAM = 7N5NS23973;
 				INFOPLIST_FILE = SocialJoint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ethan-Bonin.SocialJoint";
