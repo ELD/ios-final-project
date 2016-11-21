@@ -7,16 +7,10 @@
 //
 
 import UIKit
-import FacebookCore
-import SwifteriOS
-import Accounts
-import Social
+import TwitterKit
 
 class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     @IBOutlet weak var collectionView: UICollectionView!
-    
-    // handle to the Twitter API
-    var swifter: Swifter?
     
     // Collection of Tweets
     var tweets: [Tweet] = []

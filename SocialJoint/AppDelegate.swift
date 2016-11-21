@@ -10,6 +10,8 @@ import UIKit
 import CoreData
 import FacebookCore
 import SwifteriOS
+import Fabric
+import TwitterKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
 //        SDKApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        Fabric.with([Twitter.self])
         
         return true
     }
