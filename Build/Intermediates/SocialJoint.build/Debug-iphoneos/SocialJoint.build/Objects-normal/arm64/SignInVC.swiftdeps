@@ -1,0 +1,916 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SignInVC"
+provides-nominal:
+- "C11SocialJoint8SignInVC"
+provides-member:
+- ["C11SocialJoint8SignInVC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "twitterLoginWasClicked"
+- "loginButtonDidLogOut"
+- "CONSUMER_KEY"
+- "nextButton"
+- "CONSUMER_SECRET"
+- "alert"
+depends-top-level:
+- !private "UIAlertAction"
+- !private "print"
+- "NSCoder"
+- !private "BooleanLiteralType"
+- !private "ACAccountTypeIdentifierTwitter"
+- "String"
+- "LoginButtonDelegate"
+- "StringLiteralType"
+- !private "UIAlertController"
+- "Swifter"
+- "UIButton"
+- "AssignmentPrecedence"
+- "LoginResult"
+- "SignInVC"
+- "UIViewController"
+- !private "Array"
+- !private "ACAccountStore"
+- "LoginButton"
+depends-member:
+- !private ["CSo14ACAccountStore", "accountType"]
+- !private ["CSo14ACAccountStore", "accounts"]
+- ["CSo14ACAccountStore", "deinit"]
+- !private ["CSo14ACAccountStore", "init"]
+- !private ["CSo14ACAccountStore", "requestAccessToAccounts"]
+- ["V12FacebookCore11AccessToken", "deinit"]
+- !private ["Ps9AnyObject", "ACAccountStore"]
+- !private ["Ps9AnyObject", "ACAccountTypeIdentifierTwitter"]
+- ["Ps9AnyObject", "CONSUMER_KEY"]
+- ["Ps9AnyObject", "CONSUMER_SECRET"]
+- !private ["Ps9AnyObject", "LoginButton"]
+- !private ["Ps9AnyObject", "Swifter"]
+- !private ["Ps9AnyObject", "UIAlertAction"]
+- !private ["Ps9AnyObject", "UIAlertController"]
+- !private ["Ps9AnyObject", "accountType"]
+- !private ["Ps9AnyObject", "accounts"]
+- !private ["Ps9AnyObject", "addAction"]
+- ["Ps9AnyObject", "alert"]
+- !private ["Ps9AnyObject", "center"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "loginButtonDidCompleteLogin"]
+- ["Ps9AnyObject", "loginButtonDidLogOut"]
+- ["Ps9AnyObject", "nextButton"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "requestAccessToAccounts"]
+- !private ["Ps9AnyObject", "setTitle"]
+- ["Ps9AnyObject", "swifter"]
+- ["Ps9AnyObject", "twitterLoginWasClicked"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["P12FacebookCore26AppEventParameterValueType", "init"]
+- !private ["Sa", "Element"]
+- ["Sa", "deinit"]
+- !private ["Sa", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps22BidirectionalIndexable", "isEmpty"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "center"]
+- !private ["PSo15CALayerDelegate", "delegate"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "setTitle"]
+- !private ["Ps7CVarArg", "ACAccountStore"]
+- !private ["Ps7CVarArg", "ACAccountTypeIdentifierTwitter"]
+- ["Ps7CVarArg", "CONSUMER_KEY"]
+- ["Ps7CVarArg", "CONSUMER_SECRET"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "LoginButton"]
+- !private ["Ps7CVarArg", "Swifter"]
+- !private ["Ps7CVarArg", "UIAlertAction"]
+- !private ["Ps7CVarArg", "UIAlertController"]
+- !private ["Ps7CVarArg", "accountType"]
+- !private ["Ps7CVarArg", "accounts"]
+- !private ["Ps7CVarArg", "addAction"]
+- ["Ps7CVarArg", "alert"]
+- !private ["Ps7CVarArg", "center"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- ["Ps7CVarArg", "loginButtonDidCompleteLogin"]
+- ["Ps7CVarArg", "loginButtonDidLogOut"]
+- ["Ps7CVarArg", "nextButton"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "requestAccessToAccounts"]
+- !private ["Ps7CVarArg", "setTitle"]
+- ["Ps7CVarArg", "swifter"]
+- ["Ps7CVarArg", "twitterLoginWasClicked"]
+- !private ["Ps7CVarArg", "view"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "isEmpty"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "ACAccountStore"]
+- !private ["Ps28CustomDebugStringConvertible", "ACAccountTypeIdentifierTwitter"]
+- ["Ps28CustomDebugStringConvertible", "CONSUMER_KEY"]
+- ["Ps28CustomDebugStringConvertible", "CONSUMER_SECRET"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "LoginButton"]
+- !private ["Ps28CustomDebugStringConvertible", "Swifter"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertAction"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertController"]
+- !private ["Ps28CustomDebugStringConvertible", "accountType"]
+- !private ["Ps28CustomDebugStringConvertible", "accounts"]
+- !private ["Ps28CustomDebugStringConvertible", "addAction"]
+- ["Ps28CustomDebugStringConvertible", "alert"]
+- !private ["Ps28CustomDebugStringConvertible", "center"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- ["Ps28CustomDebugStringConvertible", "loginButtonDidCompleteLogin"]
+- ["Ps28CustomDebugStringConvertible", "loginButtonDidLogOut"]
+- ["Ps28CustomDebugStringConvertible", "nextButton"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "requestAccessToAccounts"]
+- !private ["Ps28CustomDebugStringConvertible", "setTitle"]
+- ["Ps28CustomDebugStringConvertible", "swifter"]
+- ["Ps28CustomDebugStringConvertible", "twitterLoginWasClicked"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "ACAccountStore"]
+- !private ["Ps23CustomStringConvertible", "ACAccountTypeIdentifierTwitter"]
+- ["Ps23CustomStringConvertible", "CONSUMER_KEY"]
+- ["Ps23CustomStringConvertible", "CONSUMER_SECRET"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "LoginButton"]
+- !private ["Ps23CustomStringConvertible", "Swifter"]
+- !private ["Ps23CustomStringConvertible", "UIAlertAction"]
+- !private ["Ps23CustomStringConvertible", "UIAlertController"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "accountType"]
+- !private ["Ps23CustomStringConvertible", "accounts"]
+- !private ["Ps23CustomStringConvertible", "addAction"]
+- ["Ps23CustomStringConvertible", "alert"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- ["Ps23CustomStringConvertible", "loginButtonDidCompleteLogin"]
+- ["Ps23CustomStringConvertible", "loginButtonDidLogOut"]
+- ["Ps23CustomStringConvertible", "nextButton"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "requestAccessToAccounts"]
+- !private ["Ps23CustomStringConvertible", "setTitle"]
+- ["Ps23CustomStringConvertible", "swifter"]
+- ["Ps23CustomStringConvertible", "twitterLoginWasClicked"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "ACAccountStore"]
+- !private ["Ps9Equatable", "ACAccountTypeIdentifierTwitter"]
+- ["Ps9Equatable", "CONSUMER_KEY"]
+- ["Ps9Equatable", "CONSUMER_SECRET"]
+- !private ["Ps9Equatable", "LoginButton"]
+- !private ["Ps9Equatable", "Swifter"]
+- !private ["Ps9Equatable", "UIAlertAction"]
+- !private ["Ps9Equatable", "UIAlertController"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "accountType"]
+- !private ["Ps9Equatable", "accounts"]
+- !private ["Ps9Equatable", "addAction"]
+- ["Ps9Equatable", "alert"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "loginButtonDidCompleteLogin"]
+- ["Ps9Equatable", "loginButtonDidLogOut"]
+- ["Ps9Equatable", "nextButton"]
+- !private ["Ps9Equatable", "normal"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "requestAccessToAccounts"]
+- !private ["Ps9Equatable", "setTitle"]
+- ["Ps9Equatable", "swifter"]
+- ["Ps9Equatable", "twitterLoginWasClicked"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps25ExpressibleByArrayLiteral", "normal"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "ACAccountStore"]
+- !private ["Ps8Hashable", "ACAccountTypeIdentifierTwitter"]
+- ["Ps8Hashable", "CONSUMER_KEY"]
+- ["Ps8Hashable", "CONSUMER_SECRET"]
+- !private ["Ps8Hashable", "LoginButton"]
+- !private ["Ps8Hashable", "Swifter"]
+- !private ["Ps8Hashable", "UIAlertAction"]
+- !private ["Ps8Hashable", "UIAlertController"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "accountType"]
+- !private ["Ps8Hashable", "accounts"]
+- !private ["Ps8Hashable", "addAction"]
+- ["Ps8Hashable", "alert"]
+- !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "loginButtonDidCompleteLogin"]
+- ["Ps8Hashable", "loginButtonDidLogOut"]
+- ["Ps8Hashable", "nextButton"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "requestAccessToAccounts"]
+- !private ["Ps8Hashable", "setTitle"]
+- ["Ps8Hashable", "swifter"]
+- ["Ps8Hashable", "twitterLoginWasClicked"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "isEmpty"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "isEmpty"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["C13FacebookLogin11LoginButton", "center"]
+- ["C13FacebookLogin11LoginButton", "deinit"]
+- !private ["C13FacebookLogin11LoginButton", "delegate"]
+- !private ["C13FacebookLogin11LoginButton", "init"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "ACAccountStore"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "ACAccountTypeIdentifierTwitter"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "CONSUMER_KEY"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "CONSUMER_SECRET"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "LoginButton"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "Swifter"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "UIAlertAction"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "UIAlertController"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "alert"]
+- ["P13FacebookLogin19LoginButtonDelegate", "loginButtonDidCompleteLogin"]
+- ["P13FacebookLogin19LoginButtonDelegate", "loginButtonDidLogOut"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "nextButton"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "present"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "print"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "swifter"]
+- !private ["P13FacebookLogin19LoginButtonDelegate", "view"]
+- ["P13FacebookLogin19LoginButtonDelegate", ""]
+- ["O13FacebookLogin11LoginResult", "cancelled"]
+- ["O13FacebookLogin11LoginResult", "deinit"]
+- ["O13FacebookLogin11LoginResult", "failed"]
+- ["O13FacebookLogin11LoginResult", "success"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "isEmpty"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "ACAccountStore"]
+- !private ["PSo8NSCoding", "ACAccountTypeIdentifierTwitter"]
+- ["PSo8NSCoding", "CONSUMER_KEY"]
+- ["PSo8NSCoding", "CONSUMER_SECRET"]
+- !private ["PSo8NSCoding", "LoginButton"]
+- !private ["PSo8NSCoding", "Swifter"]
+- !private ["PSo8NSCoding", "UIAlertAction"]
+- !private ["PSo8NSCoding", "UIAlertController"]
+- !private ["PSo8NSCoding", "addAction"]
+- ["PSo8NSCoding", "alert"]
+- !private ["PSo8NSCoding", "center"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loginButtonDidCompleteLogin"]
+- ["PSo8NSCoding", "loginButtonDidLogOut"]
+- ["PSo8NSCoding", "nextButton"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "setTitle"]
+- ["PSo8NSCoding", "swifter"]
+- ["PSo8NSCoding", "twitterLoginWasClicked"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "ACAccountStore"]
+- !private ["PSo26NSExtensionRequestHandling", "ACAccountTypeIdentifierTwitter"]
+- ["PSo26NSExtensionRequestHandling", "CONSUMER_KEY"]
+- ["PSo26NSExtensionRequestHandling", "CONSUMER_SECRET"]
+- !private ["PSo26NSExtensionRequestHandling", "LoginButton"]
+- !private ["PSo26NSExtensionRequestHandling", "Swifter"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- ["PSo26NSExtensionRequestHandling", "alert"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loginButtonDidCompleteLogin"]
+- ["PSo26NSExtensionRequestHandling", "loginButtonDidLogOut"]
+- ["PSo26NSExtensionRequestHandling", "nextButton"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "swifter"]
+- ["PSo26NSExtensionRequestHandling", "twitterLoginWasClicked"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "ACAccountStore"]
+- !private ["CSo8NSObject", "ACAccountTypeIdentifierTwitter"]
+- ["CSo8NSObject", "CONSUMER_KEY"]
+- ["CSo8NSObject", "CONSUMER_SECRET"]
+- ["CSo8NSObject", "LoginButton"]
+- ["CSo8NSObject", "LoginResult"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Swifter"]
+- !private ["CSo8NSObject", "UIAlertAction"]
+- !private ["CSo8NSObject", "UIAlertController"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "accountType"]
+- !private ["CSo8NSObject", "accounts"]
+- !private ["CSo8NSObject", "addAction"]
+- ["CSo8NSObject", "alert"]
+- !private ["CSo8NSObject", "center"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "loginButtonDidCompleteLogin"]
+- ["CSo8NSObject", "loginButtonDidLogOut"]
+- ["CSo8NSObject", "nextButton"]
+- !private ["CSo8NSObject", "present"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "requestAccessToAccounts"]
+- !private ["CSo8NSObject", "setTitle"]
+- ["CSo8NSObject", "swifter"]
+- ["CSo8NSObject", "twitterLoginWasClicked"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "ACAccountStore"]
+- !private ["PSo16NSObjectProtocol", "ACAccountTypeIdentifierTwitter"]
+- ["PSo16NSObjectProtocol", "CONSUMER_KEY"]
+- ["PSo16NSObjectProtocol", "CONSUMER_SECRET"]
+- !private ["PSo16NSObjectProtocol", "LoginButton"]
+- !private ["PSo16NSObjectProtocol", "Swifter"]
+- !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "accountType"]
+- !private ["PSo16NSObjectProtocol", "accounts"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- ["PSo16NSObjectProtocol", "alert"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "loginButtonDidCompleteLogin"]
+- ["PSo16NSObjectProtocol", "loginButtonDidLogOut"]
+- ["PSo16NSObjectProtocol", "nextButton"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "requestAccessToAccounts"]
+- !private ["PSo16NSObjectProtocol", "setTitle"]
+- ["PSo16NSObjectProtocol", "swifter"]
+- ["PSo16NSObjectProtocol", "twitterLoginWasClicked"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- !private ["Ps9OptionSet", "normal"]
+- ["Sq", "deinit"]
+- !private ["P12FacebookCore23PermissionRepresentable", "publicProfile"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps21RandomAccessIndexable", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "isEmpty"]
+- !private ["Ps16RawRepresentable", "alert"]
+- !private ["Ps16RawRepresentable", "default"]
+- !private ["Ps16RawRepresentable", "normal"]
+- ["O12FacebookCore14ReadPermission", "deinit"]
+- !private ["O12FacebookCore14ReadPermission", "publicProfile"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "isEmpty"]
+- ["Vs3Set", "deinit"]
+- !private ["Ps10SetAlgebra", "normal"]
+- !private ["C11SocialJoint8SignInVC", "ACAccountStore"]
+- !private ["C11SocialJoint8SignInVC", "ACAccountTypeIdentifierTwitter"]
+- ["C11SocialJoint8SignInVC", "CONSUMER_KEY"]
+- ["C11SocialJoint8SignInVC", "CONSUMER_SECRET"]
+- ["C11SocialJoint8SignInVC", "LoginButton"]
+- ["C11SocialJoint8SignInVC", "LoginResult"]
+- ["C11SocialJoint8SignInVC", "NSCoder"]
+- ["C11SocialJoint8SignInVC", "String"]
+- ["C11SocialJoint8SignInVC", "Swifter"]
+- !private ["C11SocialJoint8SignInVC", "UIAlertAction"]
+- !private ["C11SocialJoint8SignInVC", "UIAlertController"]
+- ["C11SocialJoint8SignInVC", "UIButton"]
+- ["C11SocialJoint8SignInVC", "alert"]
+- ["C11SocialJoint8SignInVC", "deinit"]
+- ["C11SocialJoint8SignInVC", "init"]
+- ["C11SocialJoint8SignInVC", "loginButtonDidCompleteLogin"]
+- ["C11SocialJoint8SignInVC", "loginButtonDidLogOut"]
+- ["C11SocialJoint8SignInVC", "nextButton"]
+- !private ["C11SocialJoint8SignInVC", "present"]
+- !private ["C11SocialJoint8SignInVC", "print"]
+- ["C11SocialJoint8SignInVC", "swifter"]
+- ["C11SocialJoint8SignInVC", "twitterLoginWasClicked"]
+- !private ["C11SocialJoint8SignInVC", "view"]
+- ["C11SocialJoint8SignInVC", "viewDidLoad"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["C10SwifteriOS7Swifter", "deinit"]
+- !private ["C10SwifteriOS7Swifter", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "center"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "setTitle"]
+- ["CSo13UIAlertAction", "deinit"]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "default"]
+- ["OSC18UIAlertActionStyle", "deinit"]
+- !private ["CSo17UIAlertController", "addAction"]
+- ["CSo17UIAlertController", "deinit"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["OSC22UIAlertControllerStyle", "alert"]
+- ["OSC22UIAlertControllerStyle", "deinit"]
+- !private ["PSo12UIAppearance", "center"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "setTitle"]
+- !private ["PSo21UIAppearanceContainer", "ACAccountStore"]
+- !private ["PSo21UIAppearanceContainer", "ACAccountTypeIdentifierTwitter"]
+- ["PSo21UIAppearanceContainer", "CONSUMER_KEY"]
+- ["PSo21UIAppearanceContainer", "CONSUMER_SECRET"]
+- !private ["PSo21UIAppearanceContainer", "LoginButton"]
+- !private ["PSo21UIAppearanceContainer", "Swifter"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertController"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- ["PSo21UIAppearanceContainer", "alert"]
+- !private ["PSo21UIAppearanceContainer", "center"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loginButtonDidCompleteLogin"]
+- ["PSo21UIAppearanceContainer", "loginButtonDidLogOut"]
+- ["PSo21UIAppearanceContainer", "nextButton"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "setTitle"]
+- ["PSo21UIAppearanceContainer", "swifter"]
+- ["PSo21UIAppearanceContainer", "twitterLoginWasClicked"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "setTitle"]
+- !private ["PSo18UIContentContainer", "ACAccountStore"]
+- !private ["PSo18UIContentContainer", "ACAccountTypeIdentifierTwitter"]
+- ["PSo18UIContentContainer", "CONSUMER_KEY"]
+- ["PSo18UIContentContainer", "CONSUMER_SECRET"]
+- !private ["PSo18UIContentContainer", "LoginButton"]
+- !private ["PSo18UIContentContainer", "Swifter"]
+- !private ["PSo18UIContentContainer", "UIAlertAction"]
+- !private ["PSo18UIContentContainer", "UIAlertController"]
+- !private ["PSo18UIContentContainer", "addAction"]
+- ["PSo18UIContentContainer", "alert"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loginButtonDidCompleteLogin"]
+- ["PSo18UIContentContainer", "loginButtonDidLogOut"]
+- ["PSo18UIContentContainer", "nextButton"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "swifter"]
+- ["PSo18UIContentContainer", "twitterLoginWasClicked"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "setTitle"]
+- !private ["VSC14UIControlState", "deinit"]
+- !private ["VSC14UIControlState", "normal"]
+- !private ["PSo17UICoordinateSpace", "center"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "setTitle"]
+- !private ["PSo13UIDynamicItem", "center"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "setTitle"]
+- !private ["PSo18UIFocusEnvironment", "ACAccountStore"]
+- !private ["PSo18UIFocusEnvironment", "ACAccountTypeIdentifierTwitter"]
+- ["PSo18UIFocusEnvironment", "CONSUMER_KEY"]
+- ["PSo18UIFocusEnvironment", "CONSUMER_SECRET"]
+- !private ["PSo18UIFocusEnvironment", "LoginButton"]
+- !private ["PSo18UIFocusEnvironment", "Swifter"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertController"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- ["PSo18UIFocusEnvironment", "alert"]
+- !private ["PSo18UIFocusEnvironment", "center"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loginButtonDidCompleteLogin"]
+- ["PSo18UIFocusEnvironment", "loginButtonDidLogOut"]
+- ["PSo18UIFocusEnvironment", "nextButton"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "setTitle"]
+- ["PSo18UIFocusEnvironment", "swifter"]
+- ["PSo18UIFocusEnvironment", "twitterLoginWasClicked"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "center"]
+- !private ["PSo11UIFocusItem", "delegate"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "setTitle"]
+- !private ["CSo11UIResponder", "ACAccountStore"]
+- !private ["CSo11UIResponder", "ACAccountTypeIdentifierTwitter"]
+- ["CSo11UIResponder", "CONSUMER_KEY"]
+- ["CSo11UIResponder", "CONSUMER_SECRET"]
+- ["CSo11UIResponder", "LoginButton"]
+- ["CSo11UIResponder", "LoginResult"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "Swifter"]
+- !private ["CSo11UIResponder", "UIAlertAction"]
+- !private ["CSo11UIResponder", "UIAlertController"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "addAction"]
+- ["CSo11UIResponder", "alert"]
+- !private ["CSo11UIResponder", "center"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loginButtonDidCompleteLogin"]
+- ["CSo11UIResponder", "loginButtonDidLogOut"]
+- ["CSo11UIResponder", "nextButton"]
+- !private ["CSo11UIResponder", "present"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "setTitle"]
+- ["CSo11UIResponder", "swifter"]
+- ["CSo11UIResponder", "twitterLoginWasClicked"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "ACAccountStore"]
+- !private ["PSo30UIResponderStandardEditActions", "ACAccountTypeIdentifierTwitter"]
+- ["PSo30UIResponderStandardEditActions", "CONSUMER_KEY"]
+- ["PSo30UIResponderStandardEditActions", "CONSUMER_SECRET"]
+- !private ["PSo30UIResponderStandardEditActions", "LoginButton"]
+- !private ["PSo30UIResponderStandardEditActions", "Swifter"]
+- !private ["PSo30UIResponderStandardEditActions", "UIAlertAction"]
+- !private ["PSo30UIResponderStandardEditActions", "UIAlertController"]
+- !private ["PSo30UIResponderStandardEditActions", "addAction"]
+- ["PSo30UIResponderStandardEditActions", "alert"]
+- !private ["PSo30UIResponderStandardEditActions", "center"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "loginButtonDidCompleteLogin"]
+- ["PSo30UIResponderStandardEditActions", "loginButtonDidLogOut"]
+- ["PSo30UIResponderStandardEditActions", "nextButton"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "setTitle"]
+- ["PSo30UIResponderStandardEditActions", "swifter"]
+- ["PSo30UIResponderStandardEditActions", "twitterLoginWasClicked"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "ACAccountStore"]
+- !private ["PSo16UIStateRestoring", "ACAccountTypeIdentifierTwitter"]
+- ["PSo16UIStateRestoring", "CONSUMER_KEY"]
+- ["PSo16UIStateRestoring", "CONSUMER_SECRET"]
+- !private ["PSo16UIStateRestoring", "LoginButton"]
+- !private ["PSo16UIStateRestoring", "Swifter"]
+- !private ["PSo16UIStateRestoring", "UIAlertAction"]
+- !private ["PSo16UIStateRestoring", "UIAlertController"]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- ["PSo16UIStateRestoring", "alert"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loginButtonDidCompleteLogin"]
+- ["PSo16UIStateRestoring", "loginButtonDidLogOut"]
+- ["PSo16UIStateRestoring", "nextButton"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "swifter"]
+- ["PSo16UIStateRestoring", "twitterLoginWasClicked"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "ACAccountStore"]
+- !private ["PSo18UITraitEnvironment", "ACAccountTypeIdentifierTwitter"]
+- ["PSo18UITraitEnvironment", "CONSUMER_KEY"]
+- ["PSo18UITraitEnvironment", "CONSUMER_SECRET"]
+- !private ["PSo18UITraitEnvironment", "LoginButton"]
+- !private ["PSo18UITraitEnvironment", "Swifter"]
+- !private ["PSo18UITraitEnvironment", "UIAlertAction"]
+- !private ["PSo18UITraitEnvironment", "UIAlertController"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- ["PSo18UITraitEnvironment", "alert"]
+- !private ["PSo18UITraitEnvironment", "center"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loginButtonDidCompleteLogin"]
+- ["PSo18UITraitEnvironment", "loginButtonDidLogOut"]
+- ["PSo18UITraitEnvironment", "nextButton"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "setTitle"]
+- ["PSo18UITraitEnvironment", "swifter"]
+- ["PSo18UITraitEnvironment", "twitterLoginWasClicked"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "center"]
+- !private ["CSo6UIView", "delegate"]
+- !private ["CSo6UIView", "setTitle"]
+- !private ["CSo16UIViewController", "ACAccountStore"]
+- !private ["CSo16UIViewController", "ACAccountTypeIdentifierTwitter"]
+- ["CSo16UIViewController", "CONSUMER_KEY"]
+- ["CSo16UIViewController", "CONSUMER_SECRET"]
+- ["CSo16UIViewController", "LoginButton"]
+- ["CSo16UIViewController", "LoginResult"]
+- ["CSo16UIViewController", "NSCoder"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "Swifter"]
+- !private ["CSo16UIViewController", "UIAlertAction"]
+- !private ["CSo16UIViewController", "UIAlertController"]
+- ["CSo16UIViewController", "UIButton"]
+- !private ["CSo16UIViewController", "addAction"]
+- ["CSo16UIViewController", "alert"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loginButtonDidCompleteLogin"]
+- ["CSo16UIViewController", "loginButtonDidLogOut"]
+- ["CSo16UIViewController", "nextButton"]
+- !private ["CSo16UIViewController", "present"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "swifter"]
+- ["CSo16UIViewController", "twitterLoginWasClicked"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "center"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setTitle"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "ACAccountStore"]
+- !private ["Ps9_Hashable", "ACAccountTypeIdentifierTwitter"]
+- ["Ps9_Hashable", "CONSUMER_KEY"]
+- ["Ps9_Hashable", "CONSUMER_SECRET"]
+- !private ["Ps9_Hashable", "LoginButton"]
+- !private ["Ps9_Hashable", "Swifter"]
+- !private ["Ps9_Hashable", "UIAlertAction"]
+- !private ["Ps9_Hashable", "UIAlertController"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "accountType"]
+- !private ["Ps9_Hashable", "accounts"]
+- !private ["Ps9_Hashable", "addAction"]
+- ["Ps9_Hashable", "alert"]
+- !private ["Ps9_Hashable", "center"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "loginButtonDidCompleteLogin"]
+- ["Ps9_Hashable", "loginButtonDidLogOut"]
+- ["Ps9_Hashable", "nextButton"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "requestAccessToAccounts"]
+- !private ["Ps9_Hashable", "setTitle"]
+- ["Ps9_Hashable", "swifter"]
+- ["Ps9_Hashable", "twitterLoginWasClicked"]
+- !private ["Ps9_Hashable", "view"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+depends-nominal:
+- "CSo14ACAccountStore"
+- "V12FacebookCore11AccessToken"
+- "Ps9AnyObject"
+- "P12FacebookCore26AppEventParameterValueType"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "C13FacebookLogin11LoginButton"
+- "P13FacebookLogin19LoginButtonDelegate"
+- "O13FacebookLogin11LoginResult"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Os5Never"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "P12FacebookCore23PermissionRepresentable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- "O12FacebookCore14ReadPermission"
+- !private "Ps8Sequence"
+- "Vs3Set"
+- !private "Ps10SetAlgebra"
+- "C11SocialJoint8SignInVC"
+- "Vs12StaticString"
+- "SS"
+- "C10SwifteriOS7Swifter"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- "CSo13UIAlertAction"
+- "OSC18UIAlertActionStyle"
+- "CSo17UIAlertController"
+- "OSC22UIAlertControllerStyle"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "VSC14UIControlState"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/arm64.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/SwifteriOS.framework/Modules/SwifteriOS.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/arm64.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+interface-hash: "9c38cd9a7aa010c9170379f13964ef9b"

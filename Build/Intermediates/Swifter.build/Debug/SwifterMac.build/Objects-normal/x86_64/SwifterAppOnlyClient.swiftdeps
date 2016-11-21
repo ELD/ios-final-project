@@ -1,0 +1,535 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppOnlyClient"
+provides-nominal:
+- "C10SwifterMac13AppOnlyClient"
+provides-member:
+- ["C10SwifterMac13AppOnlyClient", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Dictionary"
+- !private "Array"
+- "TwitterURL"
+- "AppOnlyClient"
+- "SwifterClientProtocol"
+- "String"
+- "HTTPRequest"
+- "Credential"
+- !private "URL"
+- !private "BooleanLiteralType"
+- !private "UnicodeScalarType"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "AppOnlyClient"]
+- ["Ps9AnyObject", "DownloadProgressHandler"]
+- ["Ps9AnyObject", "FailureHandler"]
+- !private ["Ps9AnyObject", "HTTPRequest"]
+- ["Ps9AnyObject", "SuccessHandler"]
+- !private ["Ps9AnyObject", "URL"]
+- ["Ps9AnyObject", "UploadProgressHandler"]
+- !private ["Ps9AnyObject", "accessToken"]
+- !private ["Ps9AnyObject", "base64EncodedCredentials"]
+- !private ["Ps9AnyObject", "consumerKey"]
+- !private ["Ps9AnyObject", "consumerSecret"]
+- ["Ps9AnyObject", "credential"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "dataEncoding"]
+- !private ["Ps9AnyObject", "downloadProgressHandler"]
+- !private ["Ps9AnyObject", "encodeParameters"]
+- !private ["Ps9AnyObject", "failureHandler"]
+- ["Ps9AnyObject", "get"]
+- !private ["Ps9AnyObject", "headers"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "post"]
+- !private ["Ps9AnyObject", "start"]
+- !private ["Ps9AnyObject", "successHandler"]
+- !private ["Ps9AnyObject", "urlEncodedString"]
+- ["Ps9AnyObject", ""]
+- !private ["C10SwifterMac13AppOnlyClient", "AppOnlyClient"]
+- ["C10SwifterMac13AppOnlyClient", "Credential"]
+- ["C10SwifterMac13AppOnlyClient", "Dictionary"]
+- ["C10SwifterMac13AppOnlyClient", "HTTPRequest"]
+- ["C10SwifterMac13AppOnlyClient", "String"]
+- ["C10SwifterMac13AppOnlyClient", "TwitterURL"]
+- !private ["C10SwifterMac13AppOnlyClient", "URL"]
+- ["C10SwifterMac13AppOnlyClient", "base64EncodedCredentials"]
+- ["C10SwifterMac13AppOnlyClient", "consumerKey"]
+- ["C10SwifterMac13AppOnlyClient", "consumerSecret"]
+- ["C10SwifterMac13AppOnlyClient", "credential"]
+- ["C10SwifterMac13AppOnlyClient", "dataEncoding"]
+- ["C10SwifterMac13AppOnlyClient", "deinit"]
+- ["C10SwifterMac13AppOnlyClient", "get"]
+- ["C10SwifterMac13AppOnlyClient", "init"]
+- ["C10SwifterMac13AppOnlyClient", "post"]
+- !private ["VCSo6NSData21Base64EncodingOptions", "Element"]
+- ["VCSo6NSData21Base64EncodingOptions", "deinit"]
+- !private ["Ps23BidirectionalCollection", "base64EncodedString"]
+- !private ["Ps22BidirectionalIndexable", "base64EncodedString"]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "DownloadProgressHandler"]
+- ["Ps7CVarArg", "Encoding"]
+- ["Ps7CVarArg", "FailureHandler"]
+- !private ["Ps7CVarArg", "Key"]
+- ["Ps7CVarArg", "SuccessHandler"]
+- ["Ps7CVarArg", "UploadProgressHandler"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "dataEncoding"]
+- !private ["Ps7CVarArg", "downloadProgressHandler"]
+- !private ["Ps7CVarArg", "encodeParameters"]
+- !private ["Ps7CVarArg", "failureHandler"]
+- !private ["Ps7CVarArg", "headers"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "start"]
+- !private ["Ps7CVarArg", "successHandler"]
+- !private ["Ps7CVarArg", "urlEncodedString"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "base64EncodedString"]
+- ["Ps10Comparable", "Encoding"]
+- !private ["Ps10Comparable", "data"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "urlEncodedString"]
+- !private ["C10SwifterMac10Credential", "accessToken"]
+- ["Ps28CustomDebugStringConvertible", "DownloadProgressHandler"]
+- ["Ps28CustomDebugStringConvertible", "Encoding"]
+- ["Ps28CustomDebugStringConvertible", "FailureHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "SuccessHandler"]
+- ["Ps28CustomDebugStringConvertible", "UploadProgressHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "base64EncodedString"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "dataEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "downloadProgressHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "encodeParameters"]
+- !private ["Ps28CustomDebugStringConvertible", "failureHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "headers"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "start"]
+- !private ["Ps28CustomDebugStringConvertible", "successHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "urlEncodedString"]
+- ["Ps29CustomPlaygroundQuickLookable", "Encoding"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "data"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "urlEncodedString"]
+- ["Ps17CustomReflectable", "Encoding"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "base64EncodedString"]
+- !private ["Ps17CustomReflectable", "data"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "urlEncodedString"]
+- ["Ps23CustomStringConvertible", "DownloadProgressHandler"]
+- ["Ps23CustomStringConvertible", "Encoding"]
+- ["Ps23CustomStringConvertible", "FailureHandler"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- ["Ps23CustomStringConvertible", "SuccessHandler"]
+- ["Ps23CustomStringConvertible", "UploadProgressHandler"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "base64EncodedString"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "dataEncoding"]
+- !private ["Ps23CustomStringConvertible", "downloadProgressHandler"]
+- !private ["Ps23CustomStringConvertible", "encodeParameters"]
+- !private ["Ps23CustomStringConvertible", "failureHandler"]
+- !private ["Ps23CustomStringConvertible", "headers"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "start"]
+- !private ["Ps23CustomStringConvertible", "successHandler"]
+- !private ["Ps23CustomStringConvertible", "urlEncodedString"]
+- ["Ps23CustomStringConvertible", "utf8"]
+- !private ["V10Foundation4Data", "base64EncodedString"]
+- ["V10Foundation4Data", "deinit"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Sd", "deinit"]
+- ["VE10FoundationSS8Encoding", "deinit"]
+- ["VE10FoundationSS8Encoding", "utf8"]
+- ["Ps9Equatable", "DownloadProgressHandler"]
+- !private ["Ps9Equatable", "Element"]
+- ["Ps9Equatable", "Encoding"]
+- ["Ps9Equatable", "FailureHandler"]
+- !private ["Ps9Equatable", "GET"]
+- !private ["Ps9Equatable", "POST"]
+- ["Ps9Equatable", "SuccessHandler"]
+- ["Ps9Equatable", "UploadProgressHandler"]
+- !private ["Ps9Equatable", "base64EncodedString"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "dataEncoding"]
+- !private ["Ps9Equatable", "downloadProgressHandler"]
+- !private ["Ps9Equatable", "encodeParameters"]
+- !private ["Ps9Equatable", "failureHandler"]
+- !private ["Ps9Equatable", "headers"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "start"]
+- !private ["Ps9Equatable", "successHandler"]
+- !private ["Ps9Equatable", "url"]
+- !private ["Ps9Equatable", "urlEncodedString"]
+- ["Ps9Equatable", "utf8"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "data"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "urlEncodedString"]
+- ["Ps32ExpressibleByStringInterpolation", "Encoding"]
+- !private ["Ps32ExpressibleByStringInterpolation", "data"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "urlEncodedString"]
+- ["Ps26ExpressibleByStringLiteral", "Encoding"]
+- !private ["Ps26ExpressibleByStringLiteral", "data"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "urlEncodedString"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "data"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "urlEncodedString"]
+- !private ["Sf", "deinit"]
+- !private ["O10SwifterMac14HTTPMethodType", "GET"]
+- !private ["O10SwifterMac14HTTPMethodType", "POST"]
+- ["O10SwifterMac14HTTPMethodType", "deinit"]
+- ["C10SwifterMac11HTTPRequest", "DownloadProgressHandler"]
+- ["C10SwifterMac11HTTPRequest", "FailureHandler"]
+- ["C10SwifterMac11HTTPRequest", "SuccessHandler"]
+- ["C10SwifterMac11HTTPRequest", "UploadProgressHandler"]
+- !private ["C10SwifterMac11HTTPRequest", "dataEncoding"]
+- ["C10SwifterMac11HTTPRequest", "deinit"]
+- !private ["C10SwifterMac11HTTPRequest", "downloadProgressHandler"]
+- !private ["C10SwifterMac11HTTPRequest", "encodeParameters"]
+- !private ["C10SwifterMac11HTTPRequest", "failureHandler"]
+- !private ["C10SwifterMac11HTTPRequest", "headers"]
+- !private ["C10SwifterMac11HTTPRequest", "init"]
+- !private ["C10SwifterMac11HTTPRequest", "start"]
+- !private ["C10SwifterMac11HTTPRequest", "successHandler"]
+- ["Ps8Hashable", "DownloadProgressHandler"]
+- ["Ps8Hashable", "Encoding"]
+- ["Ps8Hashable", "FailureHandler"]
+- !private ["Ps8Hashable", "GET"]
+- !private ["Ps8Hashable", "POST"]
+- ["Ps8Hashable", "SuccessHandler"]
+- ["Ps8Hashable", "UploadProgressHandler"]
+- !private ["Ps8Hashable", "base64EncodedString"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "dataEncoding"]
+- !private ["Ps8Hashable", "downloadProgressHandler"]
+- !private ["Ps8Hashable", "encodeParameters"]
+- !private ["Ps8Hashable", "failureHandler"]
+- !private ["Ps8Hashable", "headers"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "start"]
+- !private ["Ps8Hashable", "successHandler"]
+- !private ["Ps8Hashable", "url"]
+- !private ["Ps8Hashable", "urlEncodedString"]
+- ["Ps8Hashable", "utf8"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "base64EncodedString"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "base64EncodedString"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- ["Ps25LosslessStringConvertible", "Encoding"]
+- !private ["Ps25LosslessStringConvertible", "data"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "urlEncodedString"]
+- ["Ps10MirrorPath", "Encoding"]
+- !private ["Ps10MirrorPath", "data"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "urlEncodedString"]
+- !private ["Ps17MutableCollection", "base64EncodedString"]
+- !private ["Ps16MutableIndexable", "base64EncodedString"]
+- !private ["PSo8NSCoding", "data"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "urlEncodedString"]
+- !private ["PSo9NSCopying", "data"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "urlEncodedString"]
+- !private ["PSo16NSMutableCopying", "data"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "urlEncodedString"]
+- ["CSo8NSObject", "DownloadProgressHandler"]
+- ["CSo8NSObject", "FailureHandler"]
+- ["CSo8NSObject", "SuccessHandler"]
+- ["CSo8NSObject", "UploadProgressHandler"]
+- !private ["CSo8NSObject", "data"]
+- !private ["CSo8NSObject", "dataEncoding"]
+- !private ["CSo8NSObject", "downloadProgressHandler"]
+- !private ["CSo8NSObject", "encodeParameters"]
+- !private ["CSo8NSObject", "failureHandler"]
+- !private ["CSo8NSObject", "headers"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "start"]
+- !private ["CSo8NSObject", "successHandler"]
+- !private ["CSo8NSObject", "urlEncodedString"]
+- ["PSo16NSObjectProtocol", "DownloadProgressHandler"]
+- ["PSo16NSObjectProtocol", "FailureHandler"]
+- ["PSo16NSObjectProtocol", "SuccessHandler"]
+- ["PSo16NSObjectProtocol", "UploadProgressHandler"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "dataEncoding"]
+- !private ["PSo16NSObjectProtocol", "downloadProgressHandler"]
+- !private ["PSo16NSObjectProtocol", "encodeParameters"]
+- !private ["PSo16NSObjectProtocol", "failureHandler"]
+- !private ["PSo16NSObjectProtocol", "headers"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "start"]
+- !private ["PSo16NSObjectProtocol", "successHandler"]
+- !private ["PSo16NSObjectProtocol", "urlEncodedString"]
+- !private ["PSo19NSPasteboardReading", "data"]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardReading", "urlEncodedString"]
+- !private ["PSo19NSPasteboardWriting", "data"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- !private ["PSo19NSPasteboardWriting", "urlEncodedString"]
+- !private ["PSo14NSSecureCoding", "data"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "urlEncodedString"]
+- !private ["CSo8NSString", "data"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "urlEncodedString"]
+- !private ["VC10SwifterMac10Credential16OAuthAccessToken", "key"]
+- !private ["Ps9OptionSet", "Element"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "base64EncodedString"]
+- !private ["Ps21RandomAccessIndexable", "base64EncodedString"]
+- !private ["Ps26RangeReplaceableCollection", "base64EncodedString"]
+- !private ["Ps25RangeReplaceableIndexable", "base64EncodedString"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "GET"]
+- !private ["Ps16RawRepresentable", "POST"]
+- ["Ps16RawRepresentable", "utf8"]
+- !private ["P10Foundation20ReferenceConvertible", "base64EncodedString"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "base64EncodedString"]
+- !private ["Ps10SetAlgebra", "Element"]
+- ["SS", "Encoding"]
+- !private ["SS", "data"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "urlEncodedString"]
+- !private ["P10SwifterMac21SwifterClientProtocol", "AppOnlyClient"]
+- !private ["P10SwifterMac21SwifterClientProtocol", "HTTPRequest"]
+- !private ["P10SwifterMac21SwifterClientProtocol", "URL"]
+- !private ["P10SwifterMac21SwifterClientProtocol", "base64EncodedCredentials"]
+- !private ["P10SwifterMac21SwifterClientProtocol", "consumerKey"]
+- !private ["P10SwifterMac21SwifterClientProtocol", "consumerSecret"]
+- ["P10SwifterMac21SwifterClientProtocol", "credential"]
+- !private ["P10SwifterMac21SwifterClientProtocol", "dataEncoding"]
+- ["P10SwifterMac21SwifterClientProtocol", "get"]
+- ["P10SwifterMac21SwifterClientProtocol", "post"]
+- ["P10SwifterMac21SwifterClientProtocol", ""]
+- ["Ps16TextOutputStream", "Encoding"]
+- !private ["Ps16TextOutputStream", "data"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "urlEncodedString"]
+- ["Ps20TextOutputStreamable", "Encoding"]
+- !private ["Ps20TextOutputStreamable", "data"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "urlEncodedString"]
+- ["O10SwifterMac10TwitterURL", "deinit"]
+- !private ["O10SwifterMac10TwitterURL", "url"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- ["PSo22URLSessionDataDelegate", "DownloadProgressHandler"]
+- ["PSo22URLSessionDataDelegate", "FailureHandler"]
+- ["PSo22URLSessionDataDelegate", "SuccessHandler"]
+- ["PSo22URLSessionDataDelegate", "UploadProgressHandler"]
+- !private ["PSo22URLSessionDataDelegate", "dataEncoding"]
+- !private ["PSo22URLSessionDataDelegate", "downloadProgressHandler"]
+- !private ["PSo22URLSessionDataDelegate", "encodeParameters"]
+- !private ["PSo22URLSessionDataDelegate", "failureHandler"]
+- !private ["PSo22URLSessionDataDelegate", "headers"]
+- !private ["PSo22URLSessionDataDelegate", "init"]
+- !private ["PSo22URLSessionDataDelegate", "start"]
+- !private ["PSo22URLSessionDataDelegate", "successHandler"]
+- ["PSo18URLSessionDelegate", "DownloadProgressHandler"]
+- ["PSo18URLSessionDelegate", "FailureHandler"]
+- ["PSo18URLSessionDelegate", "SuccessHandler"]
+- ["PSo18URLSessionDelegate", "UploadProgressHandler"]
+- !private ["PSo18URLSessionDelegate", "dataEncoding"]
+- !private ["PSo18URLSessionDelegate", "downloadProgressHandler"]
+- !private ["PSo18URLSessionDelegate", "encodeParameters"]
+- !private ["PSo18URLSessionDelegate", "failureHandler"]
+- !private ["PSo18URLSessionDelegate", "headers"]
+- !private ["PSo18URLSessionDelegate", "init"]
+- !private ["PSo18URLSessionDelegate", "start"]
+- !private ["PSo18URLSessionDelegate", "successHandler"]
+- ["PSo22URLSessionTaskDelegate", "DownloadProgressHandler"]
+- ["PSo22URLSessionTaskDelegate", "FailureHandler"]
+- ["PSo22URLSessionTaskDelegate", "SuccessHandler"]
+- ["PSo22URLSessionTaskDelegate", "UploadProgressHandler"]
+- !private ["PSo22URLSessionTaskDelegate", "dataEncoding"]
+- !private ["PSo22URLSessionTaskDelegate", "downloadProgressHandler"]
+- !private ["PSo22URLSessionTaskDelegate", "encodeParameters"]
+- !private ["PSo22URLSessionTaskDelegate", "failureHandler"]
+- !private ["PSo22URLSessionTaskDelegate", "headers"]
+- !private ["PSo22URLSessionTaskDelegate", "init"]
+- !private ["PSo22URLSessionTaskDelegate", "start"]
+- !private ["PSo22URLSessionTaskDelegate", "successHandler"]
+- !private ["Sc", "deinit"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "data"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "urlEncodedString"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "Encoding"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "data"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "urlEncodedString"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "Encoding"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "data"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "urlEncodedString"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "data"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "urlEncodedString"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "data"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "urlEncodedString"]
+- ["Ps9_Hashable", "DownloadProgressHandler"]
+- ["Ps9_Hashable", "Encoding"]
+- ["Ps9_Hashable", "FailureHandler"]
+- !private ["Ps9_Hashable", "GET"]
+- !private ["Ps9_Hashable", "POST"]
+- ["Ps9_Hashable", "SuccessHandler"]
+- ["Ps9_Hashable", "UploadProgressHandler"]
+- !private ["Ps9_Hashable", "base64EncodedString"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "dataEncoding"]
+- !private ["Ps9_Hashable", "downloadProgressHandler"]
+- !private ["Ps9_Hashable", "encodeParameters"]
+- !private ["Ps9_Hashable", "failureHandler"]
+- !private ["Ps9_Hashable", "headers"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "start"]
+- !private ["Ps9_Hashable", "successHandler"]
+- !private ["Ps9_Hashable", "url"]
+- !private ["Ps9_Hashable", "urlEncodedString"]
+- ["Ps9_Hashable", "utf8"]
+- !private ["P10Foundation18_MutablePairBoxing", "base64EncodedString"]
+- ["Ps21_ObjectiveCBridgeable", "Encoding"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "base64EncodedString"]
+- !private ["Ps21_ObjectiveCBridgeable", "data"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "urlEncodedString"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C10SwifterMac13AppOnlyClient"
+- "VCSo6NSData21Base64EncodingOptions"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "C10SwifterMac10Credential"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "Vs10Dictionary"
+- !private "Sd"
+- "VE10FoundationSS8Encoding"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "O10SwifterMac14HTTPMethodType"
+- "C10SwifterMac11HTTPRequest"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "VC10SwifterMac10Credential16OAuthAccessToken"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- "SS"
+- "P10SwifterMac21SwifterClientProtocol"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "O10SwifterMac10TwitterURL"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "V10Foundation3URL"
+- "PSo22URLSessionDataDelegate"
+- "PSo18URLSessionDelegate"
+- "PSo22URLSessionTaskDelegate"
+- !private "Sc"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "P10Foundation18_MutablePairBoxing"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "73842621c2d70c8fc0b9256be2a53703"

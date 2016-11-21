@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "12c5884b98fe9111f368f12834cba9e8"
+build_time: [533054858, 698752000]
+inputs:
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Swifter-2.0/SwifterDemoiOS/AuthViewController.swift": [533054560, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Swifter-2.0/SwifterDemoiOS/AppDelegate.swift": [533054560, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Swifter-2.0/SwifterDemoiOS/TweetsViewController.swift": [533054560, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Swifter-2.0/SwifterDemoiOS/TweetCell.swift": [533054560, 0]

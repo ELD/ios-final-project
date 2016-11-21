@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "058927522b2d8c3bf40db5ea200cfc40"
+build_time: [533054944, 508203000]
+inputs:
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Pods/FacebookLogin/Sources/Login/LoginBehavior.swift": [533054613, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Pods/FacebookLogin/Sources/Login/LoginButton.swift": [533054613, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Pods/FacebookLogin/Sources/Login/LoginButton.Tooltip.swift": [533054613, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Pods/FacebookLogin/Sources/Login/LoginButtonDelegate.swift": [533054613, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Pods/FacebookLogin/Sources/Login/LoginButtonDelegateBridge.swift": [533054613, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Pods/FacebookLogin/Sources/Login/LoginDefaultAudience.swift": [533054613, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Pods/FacebookLogin/Sources/Login/LoginManager.swift": [533054613, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Pods/FacebookLogin/Sources/Login/LoginResult.swift": [533054613, 0]

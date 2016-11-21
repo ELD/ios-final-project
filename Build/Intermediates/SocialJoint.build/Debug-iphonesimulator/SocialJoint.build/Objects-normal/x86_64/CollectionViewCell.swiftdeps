@@ -1,0 +1,237 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CollectionViewCell"
+provides-nominal:
+- "C11SocialJoint18CollectionViewCell"
+provides-member:
+- ["C11SocialJoint18CollectionViewCell", ""]
+provides-dynamic-lookup:
+- "socialText"
+- "imageView"
+depends-top-level:
+- "UICollectionViewCell"
+- "UILabel"
+- "UIImageView"
+- "CollectionViewCell"
+depends-member:
+- ["Ps9AnyObject", "imageView"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "socialText"]
+- ["Ps9AnyObject", ""]
+- ["PSo15CALayerDelegate", "imageView"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "socialText"]
+- ["PSo15CALayerDelegate", ""]
+- ["VSC6CGRect", "deinit"]
+- ["Ps7CVarArg", "imageView"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "socialText"]
+- ["Ps7CVarArg", ""]
+- ["C11SocialJoint18CollectionViewCell", "UIImageView"]
+- ["C11SocialJoint18CollectionViewCell", "UILabel"]
+- ["C11SocialJoint18CollectionViewCell", "deinit"]
+- ["C11SocialJoint18CollectionViewCell", "imageView"]
+- ["C11SocialJoint18CollectionViewCell", "init"]
+- ["C11SocialJoint18CollectionViewCell", "socialText"]
+- ["Ps28CustomDebugStringConvertible", "imageView"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "socialText"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "imageView"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "socialText"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "imageView"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "socialText"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "imageView"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "socialText"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "imageView"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "socialText"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "imageView"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "socialText"]
+- ["PSo16NSObjectProtocol", "imageView"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "socialText"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["PSo29UIAccessibilityIdentification", "imageView"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "socialText"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "imageView"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "socialText"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "imageView"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "socialText"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo24UICollectionReusableView", "UIImageView"]
+- ["CSo24UICollectionReusableView", "UILabel"]
+- ["CSo24UICollectionReusableView", "imageView"]
+- ["CSo24UICollectionReusableView", "init"]
+- ["CSo24UICollectionReusableView", "socialText"]
+- ["CSo20UICollectionViewCell", "UIImageView"]
+- ["CSo20UICollectionViewCell", "UILabel"]
+- ["CSo20UICollectionViewCell", "deinit"]
+- ["CSo20UICollectionViewCell", "imageView"]
+- ["CSo20UICollectionViewCell", "init"]
+- ["CSo20UICollectionViewCell", "socialText"]
+- ["CSo20UICollectionViewCell", ""]
+- ["PSo17UICoordinateSpace", "imageView"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "socialText"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "imageView"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "socialText"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "imageView"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "socialText"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo11UIFocusItem", "imageView"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "socialText"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "imageView"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "socialText"]
+- ["PSo30UIResponderStandardEditActions", "imageView"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "socialText"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["PSo18UITraitEnvironment", "imageView"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "socialText"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "imageView"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "socialText"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "imageView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "socialText"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps9_Hashable", "imageView"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "socialText"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- "C11SocialJoint18CollectionViewCell"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "SQ"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo24UICollectionReusableView"
+- "CSo20UICollectionViewCell"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/SwifteriOS.framework/Modules/SwifteriOS.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+interface-hash: "8be6d323499d08428a5f78248865f661"

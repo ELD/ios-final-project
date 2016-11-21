@@ -1,0 +1,670 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TwitterURL"
+- "Swifter"
+- "=="
+provides-nominal:
+- "O10SwifteriOS10TwitterURL"
+- "C10SwifteriOS7Swifter"
+- "VC10SwifteriOS7Swifter20CallbackNotification"
+- "VC10SwifteriOS7Swifter14DataParameters"
+provides-member:
+- ["VCSo14NSNotification4Name", ""]
+- ["O10SwifteriOS10TwitterURL", ""]
+- ["C10SwifteriOS7Swifter", ""]
+- ["VC10SwifteriOS7Swifter20CallbackNotification", ""]
+- ["VC10SwifteriOS7Swifter14DataParameters", ""]
+- ["VCSo14NSNotification4Name", "SwifterCallbackNotification"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- !private "AppOnlyClient"
+- !private "NotificationCenter"
+- !private "!"
+- "SwifterClientProtocol"
+- "TernaryPrecedence"
+- !private "DispatchQueue"
+- "Bool"
+- "Error"
+- "Void"
+- "ExtendedGraphemeClusterType"
+- "Notification"
+- !private "OAuthClient"
+- "BooleanLiteralType"
+- "String"
+- "HTTPRequest"
+- "HTTPMethodType"
+- "JSON"
+- "StringLiteralType"
+- "URL"
+- !private "AccountsClient"
+- "ACAccount"
+- "Dictionary"
+- "TwitterURL"
+- "Swifter"
+- "HTTPURLResponse"
+depends-member:
+- ["CSo9ACAccount", "deinit"]
+- ["C10SwifteriOS14AccountsClient", "deinit"]
+- !private ["C10SwifteriOS14AccountsClient", "init"]
+- !private ["Ps9AnyObject", "AccountsClient"]
+- !private ["Ps9AnyObject", "AppOnlyClient"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "DownloadProgressHandler"]
+- ["Ps9AnyObject", "FailureHandler"]
+- !private ["Ps9AnyObject", "JSON"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "OAuthClient"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "SuccessHandler"]
+- ["Ps9AnyObject", "UploadProgressHandler"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "client"]
+- !private ["Ps9AnyObject", "components"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "global"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "jsonRequest"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "removeObserver"]
+- !private ["Ps9AnyObject", "utf16"]
+- ["Ps9AnyObject", ""]
+- ["C10SwifteriOS13AppOnlyClient", "deinit"]
+- !private ["C10SwifteriOS13AppOnlyClient", "init"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "isEmpty"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "DownloadProgressHandler"]
+- ["Ps7CVarArg", "FailureHandler"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "SuccessHandler"]
+- ["Ps7CVarArg", "UploadProgressHandler"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "components"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "global"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "removeObserver"]
+- !private ["Ps7CVarArg", "utf16"]
+- ["VC10SwifteriOS7Swifter20CallbackNotification", "init"]
+- ["VC10SwifteriOS7Swifter20CallbackNotification", "optionsURLKey"]
+- !private ["V10Foundation12CharacterSet", "deinit"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "isEmpty"]
+- ["Ps10Comparable", "Notification"]
+- !private ["Ps10Comparable", "components"]
+- !private ["Ps10Comparable", "data"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "utf16"]
+- !private ["Ps28CustomDebugStringConvertible", "DownloadProgressHandler"]
+- ["Ps28CustomDebugStringConvertible", "FailureHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "SuccessHandler"]
+- ["Ps28CustomDebugStringConvertible", "UploadProgressHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "components"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "global"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "utf16"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "components"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "data"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "utf16"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- ["Ps17CustomReflectable", "Name"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "components"]
+- !private ["Ps17CustomReflectable", "data"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "utf16"]
+- !private ["Ps23CustomStringConvertible", "DownloadProgressHandler"]
+- ["Ps23CustomStringConvertible", "FailureHandler"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "SuccessHandler"]
+- ["Ps23CustomStringConvertible", "UploadProgressHandler"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "components"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "global"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "parse"]
+- !private ["Ps23CustomStringConvertible", "removeObserver"]
+- !private ["Ps23CustomStringConvertible", "utf16"]
+- !private ["Ps23CustomStringConvertible", "utf8"]
+- !private ["V10Foundation4Data", "deinit"]
+- ["VC10SwifteriOS7Swifter14DataParameters", "dataKey"]
+- ["VC10SwifteriOS7Swifter14DataParameters", "fileNameKey"]
+- ["VC10SwifteriOS7Swifter14DataParameters", "init"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "global"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "deinit"]
+- !private ["CSo13DispatchQueue", "global"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["VE10FoundationSS8Encoding", "deinit"]
+- !private ["VE10FoundationSS8Encoding", "utf8"]
+- !private ["Ps9Equatable", "DownloadProgressHandler"]
+- ["Ps9Equatable", "FailureHandler"]
+- !private ["Ps9Equatable", "GET"]
+- ["Ps9Equatable", "Name"]
+- ["Ps9Equatable", "Notification"]
+- !private ["Ps9Equatable", "POST"]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "SuccessHandler"]
+- !private ["Ps9Equatable", "URL"]
+- ["Ps9Equatable", "UploadProgressHandler"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "api"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "components"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "global"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "oauth"]
+- !private ["Ps9Equatable", "parse"]
+- !private ["Ps9Equatable", "removeObserver"]
+- ["Ps9Equatable", "siteStream"]
+- ["Ps9Equatable", "stream"]
+- ["Ps9Equatable", "upload"]
+- ["Ps9Equatable", "userStream"]
+- !private ["Ps9Equatable", "utf16"]
+- !private ["Ps9Equatable", "utf8"]
+- !private ["Ps9Equatable", "utility"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "parse"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "parse"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "parse"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "components"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "data"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "parse"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "utf16"]
+- !private ["Ps25ExpressibleByFloatLiteral", "parse"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "parse"]
+- !private ["Ps23ExpressibleByNilLiteral", "parse"]
+- !private ["Ps32ExpressibleByStringInterpolation", "components"]
+- !private ["Ps32ExpressibleByStringInterpolation", "data"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "utf16"]
+- !private ["Ps26ExpressibleByStringLiteral", "components"]
+- !private ["Ps26ExpressibleByStringLiteral", "data"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "parse"]
+- !private ["Ps26ExpressibleByStringLiteral", "utf16"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "components"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "data"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "parse"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "utf16"]
+- !private ["O10SwifteriOS14HTTPMethodType", "GET"]
+- !private ["O10SwifteriOS14HTTPMethodType", "POST"]
+- !private ["O10SwifteriOS14HTTPMethodType", "RawValue"]
+- ["O10SwifteriOS14HTTPMethodType", "deinit"]
+- !private ["C10SwifteriOS11HTTPRequest", "DownloadProgressHandler"]
+- ["C10SwifteriOS11HTTPRequest", "FailureHandler"]
+- !private ["C10SwifteriOS11HTTPRequest", "SuccessHandler"]
+- ["C10SwifteriOS11HTTPRequest", "UploadProgressHandler"]
+- ["C10SwifteriOS11HTTPRequest", "deinit"]
+- !private ["CSo15HTTPURLResponse", "deinit"]
+- !private ["Ps8Hashable", "DownloadProgressHandler"]
+- ["Ps8Hashable", "FailureHandler"]
+- !private ["Ps8Hashable", "GET"]
+- ["Ps8Hashable", "Name"]
+- ["Ps8Hashable", "Notification"]
+- !private ["Ps8Hashable", "POST"]
+- !private ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "SuccessHandler"]
+- !private ["Ps8Hashable", "URL"]
+- ["Ps8Hashable", "UploadProgressHandler"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "api"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "components"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "global"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "oauth"]
+- !private ["Ps8Hashable", "removeObserver"]
+- ["Ps8Hashable", "siteStream"]
+- ["Ps8Hashable", "stream"]
+- ["Ps8Hashable", "upload"]
+- ["Ps8Hashable", "userStream"]
+- !private ["Ps8Hashable", "utf16"]
+- !private ["Ps8Hashable", "utf8"]
+- !private ["Ps8Hashable", "utility"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "isEmpty"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "isEmpty"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["O10SwifteriOS4JSON", "deinit"]
+- !private ["O10SwifteriOS4JSON", "parse"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "components"]
+- !private ["Ps25LosslessStringConvertible", "data"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "utf16"]
+- !private ["Ps10MirrorPath", "components"]
+- !private ["Ps10MirrorPath", "data"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "utf16"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["PSo8NSCoding", "components"]
+- !private ["PSo8NSCoding", "data"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "utf16"]
+- !private ["PSo9NSCopying", "components"]
+- !private ["PSo9NSCopying", "data"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "utf16"]
+- !private ["PSo16NSMutableCopying", "components"]
+- !private ["PSo16NSMutableCopying", "data"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "utf16"]
+- !private ["CSo8NSObject", "DownloadProgressHandler"]
+- ["CSo8NSObject", "FailureHandler"]
+- !private ["CSo8NSObject", "SuccessHandler"]
+- ["CSo8NSObject", "UploadProgressHandler"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "components"]
+- !private ["CSo8NSObject", "data"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "global"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "removeObserver"]
+- !private ["CSo8NSObject", "utf16"]
+- !private ["PSo16NSObjectProtocol", "DownloadProgressHandler"]
+- ["PSo16NSObjectProtocol", "FailureHandler"]
+- !private ["PSo16NSObjectProtocol", "SuccessHandler"]
+- ["PSo16NSObjectProtocol", "UploadProgressHandler"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "components"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "global"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "removeObserver"]
+- !private ["PSo16NSObjectProtocol", "utf16"]
+- !private ["PSo14NSSecureCoding", "components"]
+- !private ["PSo14NSSecureCoding", "data"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "utf16"]
+- !private ["CSo8NSString", "components"]
+- !private ["CSo8NSString", "data"]
+- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "utf16"]
+- ["VCSo14NSNotification4Name", "Notification"]
+- ["VCSo14NSNotification4Name", "SwifterCallbackNotification"]
+- ["VCSo14NSNotification4Name", "deinit"]
+- ["VCSo14NSNotification4Name", "init"]
+- ["V10Foundation12Notification", "Name"]
+- !private ["CSo18NotificationCenter", "default"]
+- ["CSo18NotificationCenter", "deinit"]
+- !private ["CSo18NotificationCenter", "removeObserver"]
+- ["C10SwifteriOS11OAuthClient", "deinit"]
+- !private ["C10SwifteriOS11OAuthClient", "init"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "global"]
+- !private ["CSo9OS_object", "main"]
+- ["Sq", "deinit"]
+- !private ["OV8Dispatch11DispatchQoS8QoSClass", "deinit"]
+- !private ["OV8Dispatch11DispatchQoS8QoSClass", "utility"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps16RawRepresentable", "GET"]
+- ["Ps16RawRepresentable", "Notification"]
+- !private ["Ps16RawRepresentable", "POST"]
+- !private ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "utf8"]
+- ["P10Foundation20ReferenceConvertible", "Name"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["SS", "components"]
+- !private ["SS", "data"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- !private ["SS", "utf16"]
+- ["C10SwifteriOS7Swifter", "ACAccount"]
+- !private ["C10SwifteriOS7Swifter", "AccountsClient"]
+- !private ["C10SwifteriOS7Swifter", "AppOnlyClient"]
+- ["C10SwifteriOS7Swifter", "Bool"]
+- ["C10SwifteriOS7Swifter", "CallbackNotification"]
+- ["C10SwifteriOS7Swifter", "CursorSuccessHandler"]
+- ["C10SwifteriOS7Swifter", "DataParameters"]
+- ["C10SwifteriOS7Swifter", "Dictionary"]
+- !private ["C10SwifteriOS7Swifter", "DispatchQueue"]
+- ["C10SwifteriOS7Swifter", "Error"]
+- ["C10SwifteriOS7Swifter", "FailureHandler"]
+- ["C10SwifteriOS7Swifter", "HTTPMethodType"]
+- ["C10SwifteriOS7Swifter", "HTTPRequest"]
+- ["C10SwifteriOS7Swifter", "HTTPURLResponse"]
+- ["C10SwifteriOS7Swifter", "JSON"]
+- ["C10SwifteriOS7Swifter", "JSONSuccessHandler"]
+- !private ["C10SwifteriOS7Swifter", "NotificationCenter"]
+- !private ["C10SwifteriOS7Swifter", "OAuthClient"]
+- ["C10SwifteriOS7Swifter", "String"]
+- ["C10SwifteriOS7Swifter", "SuccessHandler"]
+- ["C10SwifteriOS7Swifter", "SwifterClientProtocol"]
+- ["C10SwifteriOS7Swifter", "TwitterURL"]
+- ["C10SwifteriOS7Swifter", "Void"]
+- ["C10SwifteriOS7Swifter", "client"]
+- ["C10SwifteriOS7Swifter", "deinit"]
+- ["C10SwifteriOS7Swifter", "getJSON"]
+- ["C10SwifteriOS7Swifter", "init"]
+- ["C10SwifteriOS7Swifter", "jsonRequest"]
+- ["C10SwifteriOS7Swifter", "postJSON"]
+- ["P10SwifteriOS21SwifterClientProtocol", "deinit"]
+- !private ["P10SwifteriOS21SwifterClientProtocol", "get"]
+- !private ["P10SwifteriOS21SwifterClientProtocol", "init"]
+- !private ["P10SwifteriOS21SwifterClientProtocol", "post"]
+- !private ["Ps16TextOutputStream", "components"]
+- !private ["Ps16TextOutputStream", "data"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "utf16"]
+- !private ["Ps20TextOutputStreamable", "components"]
+- !private ["Ps20TextOutputStreamable", "data"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "utf16"]
+- ["O10SwifteriOS10TwitterURL", "=="]
+- ["O10SwifteriOS10TwitterURL", "URL"]
+- ["O10SwifteriOS10TwitterURL", "_toAnyHashable"]
+- ["O10SwifteriOS10TwitterURL", "api"]
+- ["O10SwifteriOS10TwitterURL", "deinit"]
+- ["O10SwifteriOS10TwitterURL", "hashValue"]
+- ["O10SwifteriOS10TwitterURL", "oauth"]
+- ["O10SwifteriOS10TwitterURL", "siteStream"]
+- ["O10SwifteriOS10TwitterURL", "stream"]
+- ["O10SwifteriOS10TwitterURL", "upload"]
+- ["O10SwifteriOS10TwitterURL", "url"]
+- ["O10SwifteriOS10TwitterURL", "userStream"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- !private ["PSo22URLSessionDataDelegate", "DownloadProgressHandler"]
+- ["PSo22URLSessionDataDelegate", "FailureHandler"]
+- !private ["PSo22URLSessionDataDelegate", "SuccessHandler"]
+- ["PSo22URLSessionDataDelegate", "UploadProgressHandler"]
+- !private ["PSo18URLSessionDelegate", "DownloadProgressHandler"]
+- ["PSo18URLSessionDelegate", "FailureHandler"]
+- !private ["PSo18URLSessionDelegate", "SuccessHandler"]
+- ["PSo18URLSessionDelegate", "UploadProgressHandler"]
+- !private ["PSo22URLSessionTaskDelegate", "DownloadProgressHandler"]
+- ["PSo22URLSessionTaskDelegate", "FailureHandler"]
+- !private ["PSo22URLSessionTaskDelegate", "SuccessHandler"]
+- ["PSo22URLSessionTaskDelegate", "UploadProgressHandler"]
+- !private ["VSS9UTF16View", "deinit"]
+- !private ["VSS9UTF16View", "isEmpty"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "components"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "data"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "utf16"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "components"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "data"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "utf16"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "components"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "data"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "utf16"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "components"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "data"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "utf16"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "components"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "data"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "utf16"]
+- !private ["Ps9_Hashable", "DownloadProgressHandler"]
+- ["Ps9_Hashable", "FailureHandler"]
+- !private ["Ps9_Hashable", "GET"]
+- ["Ps9_Hashable", "Name"]
+- ["Ps9_Hashable", "Notification"]
+- !private ["Ps9_Hashable", "POST"]
+- !private ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "SuccessHandler"]
+- !private ["Ps9_Hashable", "URL"]
+- ["Ps9_Hashable", "UploadProgressHandler"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "api"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "components"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "global"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "oauth"]
+- !private ["Ps9_Hashable", "removeObserver"]
+- ["Ps9_Hashable", "siteStream"]
+- ["Ps9_Hashable", "stream"]
+- ["Ps9_Hashable", "upload"]
+- ["Ps9_Hashable", "userStream"]
+- !private ["Ps9_Hashable", "utf16"]
+- !private ["Ps9_Hashable", "utf8"]
+- !private ["Ps9_Hashable", "utility"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- ["Ps21_ObjectiveCBridgeable", "Name"]
+- ["Ps21_ObjectiveCBridgeable", "Notification"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "components"]
+- !private ["Ps21_ObjectiveCBridgeable", "data"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "utf16"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+- ["Ps20_SwiftNewtypeWrapper", "Notification"]
+- ["Ps20_SwiftNewtypeWrapper", "init"]
+depends-nominal:
+- "CSo9ACAccount"
+- "C10SwifteriOS14AccountsClient"
+- "Ps9AnyObject"
+- "C10SwifteriOS13AppOnlyClient"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- "VC10SwifteriOS7Swifter20CallbackNotification"
+- !private "V10Foundation12CharacterSet"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- "VC10SwifteriOS7Swifter14DataParameters"
+- "Vs10Dictionary"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- !private "VE10FoundationSS8Encoding"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "O10SwifteriOS14HTTPMethodType"
+- "C10SwifteriOS11HTTPRequest"
+- !private "CSo15HTTPURLResponse"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "O10SwifteriOS4JSON"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "VCSo14NSNotification4Name"
+- "V10Foundation12Notification"
+- "CSo18NotificationCenter"
+- "C10SwifteriOS11OAuthClient"
+- !private "CSo9OS_object"
+- "Sq"
+- !private "OV8Dispatch11DispatchQoS8QoSClass"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "Ps16RawRepresentable"
+- "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "C10SwifteriOS7Swifter"
+- "P10SwifteriOS21SwifterClientProtocol"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "O10SwifteriOS10TwitterURL"
+- "V10Foundation3URL"
+- "PSo22URLSessionDataDelegate"
+- "PSo18URLSessionDelegate"
+- "PSo22URLSessionTaskDelegate"
+- !private "VSS9UTF16View"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "22528d4163df5f5d4f2e7876afd3fcb6"

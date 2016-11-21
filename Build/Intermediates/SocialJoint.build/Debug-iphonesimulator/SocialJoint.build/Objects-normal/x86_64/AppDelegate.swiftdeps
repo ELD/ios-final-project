@@ -6,31 +6,37 @@ provides-nominal:
 provides-member:
 - ["C11SocialJoint11AppDelegate", ""]
 provides-dynamic-lookup:
-- "application"
-- "applicationDidEnterBackground"
 - "applicationWillResignActive"
+- "application"
+- "application"
 - "saveContext"
 - "persistentContainer"
 - "applicationWillTerminate"
-- "window"
 - "applicationDidBecomeActive"
+- "window"
 - "applicationWillEnterForeground"
+- "applicationDidEnterBackground"
 depends-top-level:
-- !private "StringLiteralType"
-- "Bool"
-- "UIApplication"
-- !private "BooleanLiteralType"
-- "UIWindow"
-- "UIResponder"
-- "UIApplicationDelegate"
-- "UIApplicationLaunchOptionsKey"
-- "NSPersistentContainer"
-- !private "fatalError"
+- !private "Swifter"
 - !private "NSError"
-- "AppDelegate"
 - "CastingPrecedence"
+- "URL"
+- "UIApplicationDelegate"
+- "UIApplicationOpenURLOptionsKey"
+- "Bool"
+- !private "StringLiteralType"
+- "NSPersistentContainer"
+- "UIApplication"
+- "UIWindow"
+- "UIApplicationLaunchOptionsKey"
+- !private "BooleanLiteralType"
+- !private "fatalError"
+- "UIResponder"
+- "AppDelegate"
+- "Dictionary"
 depends-member:
 - !private ["Ps9AnyObject", "NSPersistentContainer"]
+- !private ["Ps9AnyObject", "Swifter"]
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
 - ["Ps9AnyObject", "applicationDidEnterBackground"]
@@ -44,6 +50,7 @@ depends-member:
 - ["Ps9AnyObject", "applicationWillResignActive"]
 - ["Ps9AnyObject", "applicationWillTerminate"]
 - !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "handleOpenURL"]
 - !private ["Ps9AnyObject", "hasChanges"]
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "loadPersistentStores"]
@@ -58,9 +65,12 @@ depends-member:
 - ["C11SocialJoint11AppDelegate", "Bool"]
 - !private ["C11SocialJoint11AppDelegate", "NSError"]
 - ["C11SocialJoint11AppDelegate", "NSPersistentContainer"]
+- !private ["C11SocialJoint11AppDelegate", "Swifter"]
 - ["C11SocialJoint11AppDelegate", "UIApplication"]
 - ["C11SocialJoint11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- ["C11SocialJoint11AppDelegate", "UIApplicationOpenURLOptionsKey"]
 - ["C11SocialJoint11AppDelegate", "UIWindow"]
+- ["C11SocialJoint11AppDelegate", "URL"]
 - ["C11SocialJoint11AppDelegate", "application"]
 - ["C11SocialJoint11AppDelegate", "applicationDidBecomeActive"]
 - ["C11SocialJoint11AppDelegate", "applicationDidEnterBackground"]
@@ -80,9 +90,13 @@ depends-member:
 - !private ["C11SocialJoint11AppDelegate", "persistentContainer.storage"]
 - ["C11SocialJoint11AppDelegate", "saveContext"]
 - ["C11SocialJoint11AppDelegate", "window"]
+- !private ["P12FacebookCore26AppEventParameterValueType", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Key"]
 - !private ["Ps7CVarArg", "NSPersistentContainer"]
+- !private ["Ps7CVarArg", "Swifter"]
+- !private ["Ps7CVarArg", "Value"]
 - ["Ps7CVarArg", "application"]
 - ["Ps7CVarArg", "applicationDidBecomeActive"]
 - ["Ps7CVarArg", "applicationDidEnterBackground"]
@@ -108,8 +122,13 @@ depends-member:
 - ["Ps7CVarArg", "window"]
 - ["Ps7CVarArg", ""]
 - !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
 - !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
 - !private ["Ps28CustomDebugStringConvertible", "NSPersistentContainer"]
+- !private ["Ps28CustomDebugStringConvertible", "Swifter"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
 - ["Ps28CustomDebugStringConvertible", "application"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
@@ -136,9 +155,14 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Key"]
 - !private ["Ps23CustomStringConvertible", "NSPersistentContainer"]
+- !private ["Ps23CustomStringConvertible", "Swifter"]
+- !private ["Ps23CustomStringConvertible", "Value"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps23CustomStringConvertible", "application"]
 - ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
@@ -164,9 +188,12 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "viewContext"]
 - ["Ps23CustomStringConvertible", "window"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
 - ["Vs10Dictionary", "deinit"]
 - !private ["Sd", "deinit"]
 - !private ["Ps9Equatable", "NSPersistentContainer"]
+- !private ["Ps9Equatable", "Swifter"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - ["Ps9Equatable", "application"]
 - ["Ps9Equatable", "applicationDidBecomeActive"]
@@ -195,12 +222,15 @@ depends-member:
 - ["Ps5Error", "deinit"]
 - !private ["Ps5Error", "userInfo"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Sf", "deinit"]
 - !private ["Ps8Hashable", "NSPersistentContainer"]
+- !private ["Ps8Hashable", "Swifter"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - ["Ps8Hashable", "application"]
 - ["Ps8Hashable", "applicationDidBecomeActive"]
@@ -226,6 +256,10 @@ depends-member:
 - !private ["Ps8Hashable", "viewContext"]
 - ["Ps8Hashable", "window"]
 - ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
 - !private ["Si", "deinit"]
 - !private ["Vs5Int16", "deinit"]
 - !private ["Vs5Int32", "deinit"]
@@ -251,9 +285,12 @@ depends-member:
 - ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "NSError"]
 - ["CSo8NSObject", "NSPersistentContainer"]
+- !private ["CSo8NSObject", "Swifter"]
 - ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- ["CSo8NSObject", "UIApplicationOpenURLOptionsKey"]
 - ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "URL"]
 - ["CSo8NSObject", "application"]
 - ["CSo8NSObject", "applicationDidBecomeActive"]
 - ["CSo8NSObject", "applicationDidEnterBackground"]
@@ -278,6 +315,7 @@ depends-member:
 - !private ["CSo8NSObject", "viewContext"]
 - ["CSo8NSObject", "window"]
 - !private ["PSo16NSObjectProtocol", "NSPersistentContainer"]
+- !private ["PSo16NSObjectProtocol", "Swifter"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
 - ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
@@ -311,13 +349,17 @@ depends-member:
 - !private ["CSo8NSString", "init"]
 - ["Os5Never", "deinit"]
 - ["Sq", "deinit"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
 - ["Vs12StaticString", "deinit"]
 - !private ["Vs12StaticString", "init"]
 - ["SS", "deinit"]
 - !private ["SS", "init"]
+- !private ["C10SwifteriOS7Swifter", "handleOpenURL"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
 - !private ["PSo21UIApplicationDelegate", "NSPersistentContainer"]
+- !private ["PSo21UIApplicationDelegate", "Swifter"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
 - ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
@@ -338,9 +380,12 @@ depends-member:
 - ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "NSError"]
 - ["CSo11UIResponder", "NSPersistentContainer"]
+- !private ["CSo11UIResponder", "Swifter"]
 - ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- ["CSo11UIResponder", "UIApplicationOpenURLOptionsKey"]
 - ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "URL"]
 - ["CSo11UIResponder", "application"]
 - ["CSo11UIResponder", "applicationDidBecomeActive"]
 - ["CSo11UIResponder", "applicationDidEnterBackground"]
@@ -362,6 +407,7 @@ depends-member:
 - ["CSo11UIResponder", "window"]
 - ["CSo11UIResponder", ""]
 - !private ["PSo30UIResponderStandardEditActions", "NSPersistentContainer"]
+- !private ["PSo30UIResponderStandardEditActions", "Swifter"]
 - ["PSo30UIResponderStandardEditActions", "application"]
 - ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
 - ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
@@ -386,6 +432,7 @@ depends-member:
 - !private ["Vs6UInt32", "deinit"]
 - !private ["Vs6UInt64", "deinit"]
 - !private ["Vs5UInt8", "deinit"]
+- ["V10Foundation3URL", "deinit"]
 - !private ["Sc", "deinit"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
@@ -394,6 +441,7 @@ depends-member:
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "NSPersistentContainer"]
+- !private ["Ps9_Hashable", "Swifter"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - ["Ps9_Hashable", "application"]
 - ["Ps9_Hashable", "applicationDidBecomeActive"]
@@ -419,14 +467,18 @@ depends-member:
 - !private ["Ps9_Hashable", "viewContext"]
 - ["Ps9_Hashable", "window"]
 - ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
 - "C11SocialJoint11AppDelegate"
+- !private "P12FacebookCore26AppEventParameterValueType"
 - "Sb"
 - "Ps7CVarArg"
 - !private "Vs9Character"
+- !private "Ps10Collection"
 - !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
@@ -437,12 +489,15 @@ depends-nominal:
 - "Ps9Equatable"
 - "Ps5Error"
 - !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - !private "Sf"
 - "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
 - !private "Si"
 - !private "Vs5Int16"
 - !private "Vs5Int32"
@@ -463,8 +518,10 @@ depends-nominal:
 - !private "CSo8NSString"
 - "Os5Never"
 - "Sq"
+- !private "Ps8Sequence"
 - "Vs12StaticString"
 - "SS"
+- !private "C10SwifteriOS7Swifter"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
 - "PSo21UIApplicationDelegate"
@@ -475,6 +532,7 @@ depends-nominal:
 - !private "Vs6UInt32"
 - !private "Vs6UInt64"
 - !private "Vs5UInt8"
+- "V10Foundation3URL"
 - !private "Sc"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
@@ -496,5 +554,64 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/SwifteriOS.framework/Modules/SwifteriOS.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "1304984d2289e15bced0fdd3e5c5df30"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+interface-hash: "093f8edad6b5a6b66d0e2a5de6ef0e68"

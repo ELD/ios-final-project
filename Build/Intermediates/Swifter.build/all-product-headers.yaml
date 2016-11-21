@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/SwifteriOS.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Swifter.h",
+          'external-contents': "/Users/Ethan/Documents/PROJECT/ios-final-project/Swifter-2.0/Swifter/Swifter.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwifteriOS-Swift.h",
+          'external-contents': "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/SwifteriOS.framework/Headers/SwifteriOS-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/SwifteriOS.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Intermediates/Swifter.build/Debug-iphonesimulator/SwifteriOS.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

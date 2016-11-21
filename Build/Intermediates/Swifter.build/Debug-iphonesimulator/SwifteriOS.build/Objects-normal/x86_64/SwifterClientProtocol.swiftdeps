@@ -1,0 +1,105 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwifterClientProtocol"
+provides-nominal:
+- "P10SwifteriOS21SwifterClientProtocol"
+provides-member:
+- ["P10SwifteriOS21SwifterClientProtocol", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "HTTPRequest"
+- "SwifterClientProtocol"
+- "TwitterURL"
+- "String"
+- "Dictionary"
+- "Credential"
+depends-member:
+- ["Ps9AnyObject", "DownloadProgressHandler"]
+- ["Ps9AnyObject", "FailureHandler"]
+- ["Ps9AnyObject", "SuccessHandler"]
+- ["Ps9AnyObject", "UploadProgressHandler"]
+- ["Ps7CVarArg", "DownloadProgressHandler"]
+- ["Ps7CVarArg", "FailureHandler"]
+- ["Ps7CVarArg", "SuccessHandler"]
+- ["Ps7CVarArg", "UploadProgressHandler"]
+- ["Ps28CustomDebugStringConvertible", "DownloadProgressHandler"]
+- ["Ps28CustomDebugStringConvertible", "FailureHandler"]
+- ["Ps28CustomDebugStringConvertible", "SuccessHandler"]
+- ["Ps28CustomDebugStringConvertible", "UploadProgressHandler"]
+- ["Ps23CustomStringConvertible", "DownloadProgressHandler"]
+- ["Ps23CustomStringConvertible", "FailureHandler"]
+- ["Ps23CustomStringConvertible", "SuccessHandler"]
+- ["Ps23CustomStringConvertible", "UploadProgressHandler"]
+- ["Ps9Equatable", "DownloadProgressHandler"]
+- ["Ps9Equatable", "FailureHandler"]
+- ["Ps9Equatable", "SuccessHandler"]
+- ["Ps9Equatable", "UploadProgressHandler"]
+- ["C10SwifteriOS11HTTPRequest", "DownloadProgressHandler"]
+- ["C10SwifteriOS11HTTPRequest", "FailureHandler"]
+- ["C10SwifteriOS11HTTPRequest", "SuccessHandler"]
+- ["C10SwifteriOS11HTTPRequest", "UploadProgressHandler"]
+- ["Ps8Hashable", "DownloadProgressHandler"]
+- ["Ps8Hashable", "FailureHandler"]
+- ["Ps8Hashable", "SuccessHandler"]
+- ["Ps8Hashable", "UploadProgressHandler"]
+- ["CSo8NSObject", "DownloadProgressHandler"]
+- ["CSo8NSObject", "FailureHandler"]
+- ["CSo8NSObject", "SuccessHandler"]
+- ["CSo8NSObject", "UploadProgressHandler"]
+- ["PSo16NSObjectProtocol", "DownloadProgressHandler"]
+- ["PSo16NSObjectProtocol", "FailureHandler"]
+- ["PSo16NSObjectProtocol", "SuccessHandler"]
+- ["PSo16NSObjectProtocol", "UploadProgressHandler"]
+- ["P10SwifteriOS21SwifterClientProtocol", "Credential"]
+- ["P10SwifteriOS21SwifterClientProtocol", "Dictionary"]
+- ["P10SwifteriOS21SwifterClientProtocol", "HTTPRequest"]
+- ["P10SwifteriOS21SwifterClientProtocol", "String"]
+- ["P10SwifteriOS21SwifterClientProtocol", "TwitterURL"]
+- ["P10SwifteriOS21SwifterClientProtocol", "credential"]
+- ["P10SwifteriOS21SwifterClientProtocol", "get"]
+- ["P10SwifteriOS21SwifterClientProtocol", "post"]
+- ["P10SwifteriOS21SwifterClientProtocol", ""]
+- ["PSo22URLSessionDataDelegate", "DownloadProgressHandler"]
+- ["PSo22URLSessionDataDelegate", "FailureHandler"]
+- ["PSo22URLSessionDataDelegate", "SuccessHandler"]
+- ["PSo22URLSessionDataDelegate", "UploadProgressHandler"]
+- ["PSo18URLSessionDelegate", "DownloadProgressHandler"]
+- ["PSo18URLSessionDelegate", "FailureHandler"]
+- ["PSo18URLSessionDelegate", "SuccessHandler"]
+- ["PSo18URLSessionDelegate", "UploadProgressHandler"]
+- ["PSo22URLSessionTaskDelegate", "DownloadProgressHandler"]
+- ["PSo22URLSessionTaskDelegate", "FailureHandler"]
+- ["PSo22URLSessionTaskDelegate", "SuccessHandler"]
+- ["PSo22URLSessionTaskDelegate", "UploadProgressHandler"]
+- ["Ps9_Hashable", "DownloadProgressHandler"]
+- ["Ps9_Hashable", "FailureHandler"]
+- ["Ps9_Hashable", "SuccessHandler"]
+- ["Ps9_Hashable", "UploadProgressHandler"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "C10SwifteriOS11HTTPRequest"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "P10SwifteriOS21SwifterClientProtocol"
+- "PSo22URLSessionDataDelegate"
+- "PSo18URLSessionDelegate"
+- "PSo22URLSessionTaskDelegate"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "a308006a515eefa55378b68255417267"

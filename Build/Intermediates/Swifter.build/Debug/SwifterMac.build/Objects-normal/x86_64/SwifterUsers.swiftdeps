@@ -1,0 +1,346 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C10SwifterMac7Swifter", ""]
+- ["C10SwifterMac7Swifter", "getAccountSettings"]
+- ["C10SwifterMac7Swifter", "verifyAccountCredentials"]
+- ["C10SwifterMac7Swifter", "updateAccountSettings"]
+- ["C10SwifterMac7Swifter", "udpateUserProfile"]
+- ["C10SwifterMac7Swifter", "updateProfileBacground"]
+- ["C10SwifterMac7Swifter", "updateProfileColors"]
+- ["C10SwifterMac7Swifter", "updateProfileImage"]
+- ["C10SwifterMac7Swifter", "getBlockedUsers"]
+- ["C10SwifterMac7Swifter", "getBlockedUsersIDs"]
+- ["C10SwifterMac7Swifter", "blockUser"]
+- ["C10SwifterMac7Swifter", "unblockUser"]
+- ["C10SwifterMac7Swifter", "lookupUsers"]
+- ["C10SwifterMac7Swifter", "showUser"]
+- ["C10SwifterMac7Swifter", "searchUsers"]
+- ["C10SwifterMac7Swifter", "removeProfileBanner"]
+- ["C10SwifterMac7Swifter", "updateProfileBanner"]
+- ["C10SwifterMac7Swifter", "getProfileBanner"]
+- ["C10SwifterMac7Swifter", "muteUser"]
+- ["C10SwifterMac7Swifter", "unmuteUser"]
+- ["C10SwifterMac7Swifter", "getMuteUsersIDs"]
+- ["C10SwifterMac7Swifter", "getMuteUsers"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "UsersTag"
+- "Swifter"
+- !private "||"
+- "String"
+- !private "Dictionary"
+- !private "Array"
+- !private "assert"
+- !private "!="
+- "Bool"
+- !private "??="
+- !private "UnicodeScalarType"
+- !private "StringLiteralType"
+- "Int"
+- "Data"
+- "UserTag"
+depends-member:
+- !private ["Ps9AnyObject", "Dictionary"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "getJSON"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "postJSON"]
+- !private ["VCSo6NSData21Base64EncodingOptions", "Element"]
+- ["VCSo6NSData21Base64EncodingOptions", "deinit"]
+- !private ["Ps23BidirectionalCollection", "base64EncodedString"]
+- !private ["Ps22BidirectionalIndexable", "base64EncodedString"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "base64EncodedString"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "base64EncodedString"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "base64EncodedString"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "base64EncodedString"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["V10Foundation4Data", "base64EncodedString"]
+- ["V10Foundation4Data", "deinit"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "api"]
+- !private ["Ps9Equatable", "base64EncodedString"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "string"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "string"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "string"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "string"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "subscript"]
+- !private ["Ps25ExpressibleByFloatLiteral", "string"]
+- !private ["Ps25ExpressibleByFloatLiteral", "subscript"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "string"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "subscript"]
+- !private ["Ps23ExpressibleByNilLiteral", "string"]
+- !private ["Ps23ExpressibleByNilLiteral", "subscript"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "string"]
+- !private ["Ps26ExpressibleByStringLiteral", "subscript"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "string"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "subscript"]
+- ["C10SwifterMac11HTTPRequest", "deinit"]
+- !private ["Ps8Hashable", "api"]
+- !private ["Ps8Hashable", "base64EncodedString"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "base64EncodedString"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "base64EncodedString"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["O10SwifterMac4JSON", "deinit"]
+- !private ["O10SwifterMac4JSON", "string"]
+- !private ["O10SwifterMac4JSON", "subscript"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "base64EncodedString"]
+- !private ["Ps16MutableIndexable", "base64EncodedString"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "Element"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "base64EncodedString"]
+- !private ["Ps21RandomAccessIndexable", "base64EncodedString"]
+- !private ["Ps26RangeReplaceableCollection", "base64EncodedString"]
+- !private ["Ps25RangeReplaceableIndexable", "base64EncodedString"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["P10Foundation20ReferenceConvertible", "base64EncodedString"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "base64EncodedString"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps10SetAlgebra", "Element"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- ["C10SwifterMac7Swifter", "Bool"]
+- ["C10SwifterMac7Swifter", "CursorSuccessHandler"]
+- ["C10SwifterMac7Swifter", "Data"]
+- !private ["C10SwifterMac7Swifter", "Dictionary"]
+- ["C10SwifterMac7Swifter", "FailureHandler"]
+- ["C10SwifterMac7Swifter", "Int"]
+- ["C10SwifterMac7Swifter", "String"]
+- ["C10SwifterMac7Swifter", "SuccessHandler"]
+- ["C10SwifterMac7Swifter", "UserTag"]
+- ["C10SwifterMac7Swifter", "UsersTag"]
+- !private ["C10SwifterMac7Swifter", "assert"]
+- ["C10SwifterMac7Swifter", "blockUser"]
+- ["C10SwifterMac7Swifter", "deinit"]
+- ["C10SwifterMac7Swifter", "getAccountSettings"]
+- ["C10SwifterMac7Swifter", "getBlockedUsers"]
+- ["C10SwifterMac7Swifter", "getBlockedUsersIDs"]
+- !private ["C10SwifterMac7Swifter", "getJSON"]
+- ["C10SwifterMac7Swifter", "getMuteUsers"]
+- ["C10SwifterMac7Swifter", "getMuteUsersIDs"]
+- ["C10SwifterMac7Swifter", "getProfileBanner"]
+- ["C10SwifterMac7Swifter", "lookupUsers"]
+- ["C10SwifterMac7Swifter", "muteUser"]
+- !private ["C10SwifterMac7Swifter", "postJSON"]
+- ["C10SwifterMac7Swifter", "removeProfileBanner"]
+- ["C10SwifterMac7Swifter", "searchUsers"]
+- ["C10SwifterMac7Swifter", "showUser"]
+- ["C10SwifterMac7Swifter", "udpateUserProfile"]
+- ["C10SwifterMac7Swifter", "unblockUser"]
+- ["C10SwifterMac7Swifter", "unmuteUser"]
+- ["C10SwifterMac7Swifter", "updateAccountSettings"]
+- ["C10SwifterMac7Swifter", "updateProfileBacground"]
+- ["C10SwifterMac7Swifter", "updateProfileBanner"]
+- ["C10SwifterMac7Swifter", "updateProfileColors"]
+- ["C10SwifterMac7Swifter", "updateProfileImage"]
+- ["C10SwifterMac7Swifter", "verifyAccountCredentials"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["O10SwifterMac10TwitterURL", "api"]
+- ["O10SwifterMac10TwitterURL", "deinit"]
+- ["Su", "deinit"]
+- ["O10SwifterMac7UserTag", "deinit"]
+- !private ["O10SwifterMac7UserTag", "key"]
+- !private ["O10SwifterMac7UserTag", "value"]
+- ["O10SwifterMac8UsersTag", "deinit"]
+- !private ["O10SwifterMac8UsersTag", "key"]
+- !private ["O10SwifterMac8UsersTag", "value"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "api"]
+- !private ["Ps9_Hashable", "base64EncodedString"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["P10Foundation18_MutablePairBoxing", "base64EncodedString"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "base64EncodedString"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "VCSo6NSData21Base64EncodingOptions"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "Vs10Dictionary"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C10SwifterMac11HTTPRequest"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Ps16IteratorProtocol"
+- !private "O10SwifterMac4JSON"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "Vs5Slice"
+- "Vs12StaticString"
+- "SS"
+- "C10SwifterMac7Swifter"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "O10SwifterMac10TwitterURL"
+- "Su"
+- "O10SwifterMac7UserTag"
+- "O10SwifterMac8UsersTag"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "P10Foundation18_MutablePairBoxing"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "f6d13b68225d72aa338813253a9beef8"

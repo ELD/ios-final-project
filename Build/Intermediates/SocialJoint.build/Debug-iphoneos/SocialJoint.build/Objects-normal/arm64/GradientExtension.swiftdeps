@@ -6,22 +6,25 @@ provides-member:
 - ["CSo15CAGradientLayer", "turquoiseColor"]
 - ["CSo15CAGradientLayer", "WhiteGrayColor"]
 - ["CSo15CAGradientLayer", "IntroColor"]
+- ["CSo15CAGradientLayer", "MainColor"]
 provides-dynamic-lookup:
 - "WhiteGrayColor"
 - "IntroColor"
 - "turquoiseColor"
+- "MainColor"
 depends-top-level:
+- !private "UIColor"
+- "CAGradientLayer"
+- !private "/"
 - !private "Float"
 - "AssignmentPrecedence"
-- "CAGradientLayer"
-- !private "NSNumber"
 - "CastingPrecedence"
-- !private "UIColor"
 - !private "CGColor"
-- !private "/"
+- !private "NSNumber"
 depends-member:
 - !private ["Ps9AnyObject", "CAGradientLayer"]
 - ["Ps9AnyObject", "IntroColor"]
+- ["Ps9AnyObject", "MainColor"]
 - !private ["Ps9AnyObject", "UIColor"]
 - ["Ps9AnyObject", "WhiteGrayColor"]
 - !private ["Ps9AnyObject", "cgColor"]
@@ -34,6 +37,7 @@ depends-member:
 - !private ["CSo15CAGradientLayer", "CGColor"]
 - !private ["CSo15CAGradientLayer", "Float"]
 - ["CSo15CAGradientLayer", "IntroColor"]
+- ["CSo15CAGradientLayer", "MainColor"]
 - !private ["CSo15CAGradientLayer", "NSNumber"]
 - !private ["CSo15CAGradientLayer", "UIColor"]
 - ["CSo15CAGradientLayer", "WhiteGrayColor"]
@@ -46,6 +50,7 @@ depends-member:
 - !private ["CSo7CALayer", "CGColor"]
 - !private ["CSo7CALayer", "Float"]
 - ["CSo7CALayer", "IntroColor"]
+- ["CSo7CALayer", "MainColor"]
 - !private ["CSo7CALayer", "NSNumber"]
 - !private ["CSo7CALayer", "UIColor"]
 - ["CSo7CALayer", "WhiteGrayColor"]
@@ -55,6 +60,7 @@ depends-member:
 - ["CSo7CALayer", "turquoiseColor"]
 - !private ["PSo13CAMediaTiming", "CAGradientLayer"]
 - ["PSo13CAMediaTiming", "IntroColor"]
+- ["PSo13CAMediaTiming", "MainColor"]
 - !private ["PSo13CAMediaTiming", "UIColor"]
 - ["PSo13CAMediaTiming", "WhiteGrayColor"]
 - !private ["PSo13CAMediaTiming", "colors"]
@@ -65,6 +71,7 @@ depends-member:
 - ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["Ps7CVarArg", "CAGradientLayer"]
 - ["Ps7CVarArg", "IntroColor"]
+- ["Ps7CVarArg", "MainColor"]
 - !private ["Ps7CVarArg", "UIColor"]
 - ["Ps7CVarArg", "WhiteGrayColor"]
 - !private ["Ps7CVarArg", "cgColor"]
@@ -74,6 +81,7 @@ depends-member:
 - ["Ps7CVarArg", "turquoiseColor"]
 - !private ["Ps28CustomDebugStringConvertible", "CAGradientLayer"]
 - ["Ps28CustomDebugStringConvertible", "IntroColor"]
+- ["Ps28CustomDebugStringConvertible", "MainColor"]
 - !private ["Ps28CustomDebugStringConvertible", "UIColor"]
 - ["Ps28CustomDebugStringConvertible", "WhiteGrayColor"]
 - !private ["Ps28CustomDebugStringConvertible", "cgColor"]
@@ -83,6 +91,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "turquoiseColor"]
 - !private ["Ps23CustomStringConvertible", "CAGradientLayer"]
 - ["Ps23CustomStringConvertible", "IntroColor"]
+- ["Ps23CustomStringConvertible", "MainColor"]
 - !private ["Ps23CustomStringConvertible", "UIColor"]
 - ["Ps23CustomStringConvertible", "WhiteGrayColor"]
 - !private ["Ps23CustomStringConvertible", "cgColor"]
@@ -92,6 +101,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "turquoiseColor"]
 - !private ["Ps9Equatable", "CAGradientLayer"]
 - ["Ps9Equatable", "IntroColor"]
+- ["Ps9Equatable", "MainColor"]
 - !private ["Ps9Equatable", "UIColor"]
 - ["Ps9Equatable", "WhiteGrayColor"]
 - !private ["Ps9Equatable", "cgColor"]
@@ -102,6 +112,7 @@ depends-member:
 - ["Sf", "deinit"]
 - !private ["Ps8Hashable", "CAGradientLayer"]
 - ["Ps8Hashable", "IntroColor"]
+- ["Ps8Hashable", "MainColor"]
 - !private ["Ps8Hashable", "UIColor"]
 - ["Ps8Hashable", "WhiteGrayColor"]
 - !private ["Ps8Hashable", "cgColor"]
@@ -111,6 +122,7 @@ depends-member:
 - ["Ps8Hashable", "turquoiseColor"]
 - !private ["PSo8NSCoding", "CAGradientLayer"]
 - ["PSo8NSCoding", "IntroColor"]
+- ["PSo8NSCoding", "MainColor"]
 - !private ["PSo8NSCoding", "UIColor"]
 - ["PSo8NSCoding", "WhiteGrayColor"]
 - !private ["PSo8NSCoding", "cgColor"]
@@ -124,6 +136,7 @@ depends-member:
 - !private ["CSo8NSObject", "CGColor"]
 - !private ["CSo8NSObject", "Float"]
 - ["CSo8NSObject", "IntroColor"]
+- ["CSo8NSObject", "MainColor"]
 - !private ["CSo8NSObject", "NSNumber"]
 - !private ["CSo8NSObject", "UIColor"]
 - ["CSo8NSObject", "WhiteGrayColor"]
@@ -134,6 +147,7 @@ depends-member:
 - ["CSo8NSObject", "turquoiseColor"]
 - !private ["PSo16NSObjectProtocol", "CAGradientLayer"]
 - ["PSo16NSObjectProtocol", "IntroColor"]
+- ["PSo16NSObjectProtocol", "MainColor"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - ["PSo16NSObjectProtocol", "WhiteGrayColor"]
 - !private ["PSo16NSObjectProtocol", "cgColor"]
@@ -151,6 +165,7 @@ depends-member:
 - !private ["Ps26_ExpressibleByColorLiteral", "init"]
 - !private ["Ps9_Hashable", "CAGradientLayer"]
 - ["Ps9_Hashable", "IntroColor"]
+- ["Ps9_Hashable", "MainColor"]
 - !private ["Ps9_Hashable", "UIColor"]
 - ["Ps9_Hashable", "WhiteGrayColor"]
 - !private ["Ps9_Hashable", "cgColor"]
@@ -193,5 +208,64 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/arm64.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/SwifteriOS.framework/Modules/SwifteriOS.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
-interface-hash: "c2111c539374720c89ee3e974acba14c"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/arm64.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+interface-hash: "66efac08621a65ec97aeb4203ecdb34e"
