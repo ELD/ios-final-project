@@ -10,12 +10,12 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "AssignmentPrecedence"
+- "Bool"
 - "FBSDKGameRequestDialog"
-- "GameRequest"
 - "Void"
 - !private "BooleanLiteralType"
 - !private "Error"
-- "Bool"
+- "GameRequest"
 depends-member:
 - !private ["Ps9AnyObject", "FBSDKGameRequestDialog"]
 - !private ["Ps9AnyObject", "SDKDelegate"]

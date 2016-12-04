@@ -7,20 +7,20 @@ provides-member:
 - ["C12FacebookCore15AppEventsLogger", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "NSString"
+- "UIApplication"
 - "Dictionary"
 - "AppEvent"
-- "String"
-- !private "FBSDKAppEvents"
 - !private "NSNumber"
-- "AppEventsLogger"
 - "AppEventLoggable"
-- !private "NSString"
-- "Double"
-- "UIApplication"
-- "CastingPrecedence"
+- "AppEventsLogger"
 - "AccessToken"
-- !private "FBSDKSettings"
+- "Double"
+- "CastingPrecedence"
+- !private "FBSDKAppEvents"
 - !private "AppEventName"
+- !private "FBSDKSettings"
+- "String"
 depends-member:
 - !private ["V12FacebookCore11AccessToken", "current"]
 - ["V12FacebookCore11AccessToken", "deinit"]

@@ -11,8 +11,8 @@ depends-top-level:
 - "FBSDKGraphRequestDataAttachment"
 - "Data"
 - "AssignmentPrecedence"
-- "String"
 - "GraphRequestDataAttachment"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "FBSDKGraphRequestDataAttachment"]
 - !private ["Ps9AnyObject", "contentType"]

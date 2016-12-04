@@ -11,16 +11,16 @@ provides-member:
 - ["P12FacebookCore20GraphRequestProtocol", "start"]
 provides-dynamic-lookup:
 depends-top-level:
-- "GraphResponseProtocol"
+- "GraphRequestProtocol"
+- "GraphAPIVersion"
+- !private "~="
+- "AccessToken"
+- "=="
+- "GraphRequestHTTPMethod"
+- "StringLiteralType"
 - "GraphRequestConnection"
 - "String"
-- "GraphRequestHTTPMethod"
-- !private "~="
-- "=="
-- "GraphAPIVersion"
-- "AccessToken"
-- "StringLiteralType"
-- "GraphRequestProtocol"
+- "GraphResponseProtocol"
 depends-member:
 - ["Ps9AnyObject", "Completion"]
 - !private ["Ps9AnyObject", "add"]

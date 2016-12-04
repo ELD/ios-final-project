@@ -7,36 +7,41 @@ provides-member:
 - ["C11SocialJoint11AppDelegate", ""]
 provides-dynamic-lookup:
 - "applicationWillResignActive"
-- "application"
-- "application"
+- "window"
 - "saveContext"
+- "applicationDidEnterBackground"
+- "applicationDidBecomeActive"
+- "application"
+- "application"
+- "applicationWillEnterForeground"
 - "persistentContainer"
 - "applicationWillTerminate"
-- "applicationDidBecomeActive"
-- "window"
-- "applicationWillEnterForeground"
-- "applicationDidEnterBackground"
 depends-top-level:
-- !private "Swifter"
-- !private "NSError"
-- "CastingPrecedence"
-- "URL"
 - "UIApplicationDelegate"
-- "UIApplicationOpenURLOptionsKey"
-- "Bool"
-- !private "StringLiteralType"
-- "NSPersistentContainer"
-- "UIApplication"
-- "UIWindow"
-- "UIApplicationLaunchOptionsKey"
 - !private "BooleanLiteralType"
-- !private "fatalError"
-- "UIResponder"
-- "AppDelegate"
+- "NSPersistentContainer"
+- "UIWindow"
+- "UIApplication"
+- !private "StringLiteralType"
 - "Dictionary"
+- !private "Array"
+- !private "NSError"
+- "Bool"
+- "URL"
+- "UIApplicationOpenURLOptionsKey"
+- "CastingPrecedence"
+- !private "Twitter"
+- !private "Fabric"
+- !private "Swifter"
+- !private "fatalError"
+- "UIApplicationLaunchOptionsKey"
+- "AppDelegate"
+- "UIResponder"
 depends-member:
+- !private ["Ps9AnyObject", "Fabric"]
 - !private ["Ps9AnyObject", "NSPersistentContainer"]
 - !private ["Ps9AnyObject", "Swifter"]
+- !private ["Ps9AnyObject", "Twitter"]
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
 - ["Ps9AnyObject", "applicationDidEnterBackground"]
@@ -61,11 +66,14 @@ depends-member:
 - !private ["Ps9AnyObject", "userInfo"]
 - !private ["Ps9AnyObject", "viewContext"]
 - ["Ps9AnyObject", "window"]
+- !private ["Ps9AnyObject", "with"]
 - ["Ps9AnyObject", ""]
 - ["C11SocialJoint11AppDelegate", "Bool"]
+- !private ["C11SocialJoint11AppDelegate", "Fabric"]
 - !private ["C11SocialJoint11AppDelegate", "NSError"]
 - ["C11SocialJoint11AppDelegate", "NSPersistentContainer"]
 - !private ["C11SocialJoint11AppDelegate", "Swifter"]
+- !private ["C11SocialJoint11AppDelegate", "Twitter"]
 - ["C11SocialJoint11AppDelegate", "UIApplication"]
 - ["C11SocialJoint11AppDelegate", "UIApplicationLaunchOptionsKey"]
 - ["C11SocialJoint11AppDelegate", "UIApplicationOpenURLOptionsKey"]
@@ -91,11 +99,18 @@ depends-member:
 - ["C11SocialJoint11AppDelegate", "saveContext"]
 - ["C11SocialJoint11AppDelegate", "window"]
 - !private ["P12FacebookCore26AppEventParameterValueType", "init"]
+- !private ["Sa", "Element"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Fabric"]
 - !private ["Ps7CVarArg", "Key"]
 - !private ["Ps7CVarArg", "NSPersistentContainer"]
 - !private ["Ps7CVarArg", "Swifter"]
+- !private ["Ps7CVarArg", "Twitter"]
 - !private ["Ps7CVarArg", "Value"]
 - ["Ps7CVarArg", "application"]
 - ["Ps7CVarArg", "applicationDidBecomeActive"]
@@ -120,14 +135,19 @@ depends-member:
 - !private ["Ps7CVarArg", "userInfo"]
 - !private ["Ps7CVarArg", "viewContext"]
 - ["Ps7CVarArg", "window"]
+- !private ["Ps7CVarArg", "with"]
 - ["Ps7CVarArg", ""]
 - !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Element"]
 - !private ["Ps10Collection", "Key"]
 - !private ["Ps10Collection", "Value"]
 - !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Fabric"]
 - !private ["Ps28CustomDebugStringConvertible", "Key"]
 - !private ["Ps28CustomDebugStringConvertible", "NSPersistentContainer"]
 - !private ["Ps28CustomDebugStringConvertible", "Swifter"]
+- !private ["Ps28CustomDebugStringConvertible", "Twitter"]
 - !private ["Ps28CustomDebugStringConvertible", "Value"]
 - ["Ps28CustomDebugStringConvertible", "application"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
@@ -152,16 +172,21 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "userInfo"]
 - !private ["Ps28CustomDebugStringConvertible", "viewContext"]
 - ["Ps28CustomDebugStringConvertible", "window"]
+- !private ["Ps28CustomDebugStringConvertible", "with"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
 - !private ["Ps17CustomReflectable", "Key"]
 - !private ["Ps17CustomReflectable", "Value"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Fabric"]
 - !private ["Ps23CustomStringConvertible", "Key"]
 - !private ["Ps23CustomStringConvertible", "NSPersistentContainer"]
 - !private ["Ps23CustomStringConvertible", "Swifter"]
+- !private ["Ps23CustomStringConvertible", "Twitter"]
 - !private ["Ps23CustomStringConvertible", "Value"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps23CustomStringConvertible", "application"]
@@ -187,13 +212,16 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "userInfo"]
 - !private ["Ps23CustomStringConvertible", "viewContext"]
 - ["Ps23CustomStringConvertible", "window"]
+- !private ["Ps23CustomStringConvertible", "with"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Vs10Dictionary", "Key"]
 - !private ["Vs10Dictionary", "Value"]
 - ["Vs10Dictionary", "deinit"]
 - !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Fabric"]
 - !private ["Ps9Equatable", "NSPersistentContainer"]
 - !private ["Ps9Equatable", "Swifter"]
+- !private ["Ps9Equatable", "Twitter"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - ["Ps9Equatable", "application"]
 - ["Ps9Equatable", "applicationDidBecomeActive"]
@@ -218,9 +246,11 @@ depends-member:
 - !private ["Ps9Equatable", "userInfo"]
 - !private ["Ps9Equatable", "viewContext"]
 - ["Ps9Equatable", "window"]
+- !private ["Ps9Equatable", "with"]
 - ["Ps9Equatable", ""]
 - ["Ps5Error", "deinit"]
 - !private ["Ps5Error", "userInfo"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
 - !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
@@ -228,9 +258,13 @@ depends-member:
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["CSo6Fabric", "deinit"]
+- !private ["CSo6Fabric", "with"]
 - !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "Fabric"]
 - !private ["Ps8Hashable", "NSPersistentContainer"]
 - !private ["Ps8Hashable", "Swifter"]
+- !private ["Ps8Hashable", "Twitter"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - ["Ps8Hashable", "application"]
 - ["Ps8Hashable", "applicationDidBecomeActive"]
@@ -255,9 +289,12 @@ depends-member:
 - !private ["Ps8Hashable", "userInfo"]
 - !private ["Ps8Hashable", "viewContext"]
 - ["Ps8Hashable", "window"]
+- !private ["Ps8Hashable", "with"]
 - ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Element"]
 - !private ["Ps9Indexable", "Key"]
 - !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Element"]
 - !private ["Ps13IndexableBase", "Key"]
 - !private ["Ps13IndexableBase", "Value"]
 - !private ["Si", "deinit"]
@@ -268,6 +305,8 @@ depends-member:
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
 - !private ["PSo8NSCoding", "hasChanges"]
 - !private ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "save"]
@@ -283,9 +322,11 @@ depends-member:
 - !private ["CSo22NSManagedObjectContext", "save"]
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Fabric"]
 - !private ["CSo8NSObject", "NSError"]
 - ["CSo8NSObject", "NSPersistentContainer"]
 - !private ["CSo8NSObject", "Swifter"]
+- !private ["CSo8NSObject", "Twitter"]
 - ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
 - ["CSo8NSObject", "UIApplicationOpenURLOptionsKey"]
@@ -314,8 +355,11 @@ depends-member:
 - !private ["CSo8NSObject", "userInfo"]
 - !private ["CSo8NSObject", "viewContext"]
 - ["CSo8NSObject", "window"]
+- !private ["CSo8NSObject", "with"]
+- !private ["PSo16NSObjectProtocol", "Fabric"]
 - !private ["PSo16NSObjectProtocol", "NSPersistentContainer"]
 - !private ["PSo16NSObjectProtocol", "Swifter"]
+- !private ["PSo16NSObjectProtocol", "Twitter"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
 - ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
@@ -339,6 +383,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "userInfo"]
 - !private ["PSo16NSObjectProtocol", "viewContext"]
 - ["PSo16NSObjectProtocol", "window"]
+- !private ["PSo16NSObjectProtocol", "with"]
 - ["PSo16NSObjectProtocol", ""]
 - ["CSo21NSPersistentContainer", "deinit"]
 - !private ["CSo21NSPersistentContainer", "init"]
@@ -349,6 +394,11 @@ depends-member:
 - !private ["CSo8NSString", "init"]
 - ["Os5Never", "deinit"]
 - ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps8Sequence", "Element"]
 - !private ["Ps8Sequence", "Key"]
 - !private ["Ps8Sequence", "Value"]
 - ["Vs12StaticString", "deinit"]
@@ -358,8 +408,10 @@ depends-member:
 - !private ["C10SwifteriOS7Swifter", "handleOpenURL"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIApplicationDelegate", "Fabric"]
 - !private ["PSo21UIApplicationDelegate", "NSPersistentContainer"]
 - !private ["PSo21UIApplicationDelegate", "Swifter"]
+- !private ["PSo21UIApplicationDelegate", "Twitter"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
 - ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
@@ -378,9 +430,11 @@ depends-member:
 - ["PSo21UIApplicationDelegate", "window"]
 - ["PSo21UIApplicationDelegate", ""]
 - ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "Fabric"]
 - !private ["CSo11UIResponder", "NSError"]
 - ["CSo11UIResponder", "NSPersistentContainer"]
 - !private ["CSo11UIResponder", "Swifter"]
+- !private ["CSo11UIResponder", "Twitter"]
 - ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
 - ["CSo11UIResponder", "UIApplicationOpenURLOptionsKey"]
@@ -406,8 +460,10 @@ depends-member:
 - ["CSo11UIResponder", "saveContext"]
 - ["CSo11UIResponder", "window"]
 - ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "Fabric"]
 - !private ["PSo30UIResponderStandardEditActions", "NSPersistentContainer"]
 - !private ["PSo30UIResponderStandardEditActions", "Swifter"]
+- !private ["PSo30UIResponderStandardEditActions", "Twitter"]
 - ["PSo30UIResponderStandardEditActions", "application"]
 - ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
 - ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
@@ -434,14 +490,18 @@ depends-member:
 - !private ["Vs5UInt8", "deinit"]
 - ["V10Foundation3URL", "deinit"]
 - !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Fabric"]
 - !private ["Ps9_Hashable", "NSPersistentContainer"]
 - !private ["Ps9_Hashable", "Swifter"]
+- !private ["Ps9_Hashable", "Twitter"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - ["Ps9_Hashable", "application"]
 - ["Ps9_Hashable", "applicationDidBecomeActive"]
@@ -466,7 +526,9 @@ depends-member:
 - !private ["Ps9_Hashable", "userInfo"]
 - !private ["Ps9_Hashable", "viewContext"]
 - ["Ps9_Hashable", "window"]
+- !private ["Ps9_Hashable", "with"]
 - ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "Key"]
 - !private ["Ps21_ObjectiveCBridgeable", "Value"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
@@ -475,6 +537,9 @@ depends-nominal:
 - "Ps9AnyObject"
 - "C11SocialJoint11AppDelegate"
 - !private "P12FacebookCore26AppEventParameterValueType"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
 - "Sb"
 - "Ps7CVarArg"
 - !private "Vs9Character"
@@ -488,12 +553,14 @@ depends-nominal:
 - !private "Sd"
 - "Ps9Equatable"
 - "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps30ExpressibleByDictionaryLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CSo6Fabric"
 - !private "Sf"
 - "Ps8Hashable"
 - !private "Ps9Indexable"
@@ -505,6 +572,8 @@ depends-nominal:
 - !private "Vs4Int8"
 - !private "Ps25LosslessStringConvertible"
 - !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - "CSo7NSError"
@@ -518,6 +587,10 @@ depends-nominal:
 - !private "CSo8NSString"
 - "Os5Never"
 - "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
 - !private "Ps8Sequence"
 - "Vs12StaticString"
 - "SS"
@@ -534,6 +607,8 @@ depends-nominal:
 - !private "Vs5UInt8"
 - "V10Foundation3URL"
 - !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - !private "Ps34_ExpressibleByBuiltinStringLiteral"
@@ -554,6 +629,57 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterCore.framework/Headers/TWTRSessionStore.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterCore.framework/Headers/TWTRSession.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterCore.framework/Headers/TWTRGuestSession.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterCore.framework/Headers/TWTRCoreOAuthSigning.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterCore.framework/Headers/TWTRConstants.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterCore.framework/Headers/TWTRAuthSession.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterCore.framework/Headers/TWTRAuthConfig.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterCore.framework/Headers/TWTRAPIErrorCode.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterCore.framework/Headers/TWTRDefines.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterCore.framework/Headers/TwitterCore.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterCore.framework/Modules/module.modulemap"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRVideoMetaData.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRUserTimelineDataSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRUser.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTweetUserMentionEntity.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTweetUrlEntity.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTweetViewDelegate.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTweetView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTweetTableViewCell.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTweetHashtagEntity.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTweetDetailViewController.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTweetEntity.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTweetCashtagEntity.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTweet.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTimelineViewController.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTimelineDelegate.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTimelineCursor.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRSearchTimelineDataSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTROAuthSigning.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRNotificationConstants.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRMoPubNativeAdContainerView.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRMoPubAdConfiguration.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRMediaEntitySize.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRLogInButton.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRListTimelineDataSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRJSONConvertible.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRComposerViewController.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRComposerTheme.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRComposer.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTimelineType.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRTimelineDataSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRCollectionTimelineDataSource.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRCardConfiguration.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TWTRAPIClient.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/Twitter.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Headers/TwitterKit.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/TwitterKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 - "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
 - "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
 - "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
@@ -600,18 +726,7 @@ depends-external:
 - "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
 - "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
 - "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/SwifteriOS.framework/Modules/SwifteriOS.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64.swiftmodule"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
-- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
-interface-hash: "093f8edad6b5a6b66d0e2a5de6ef0e68"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Fabric.framework/Headers/FABAttributes.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Fabric.framework/Headers/Fabric.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Fabric.framework/Modules/module.modulemap"
+interface-hash: "ca8cb110576ca5e7e978db8dcf1a9efa"

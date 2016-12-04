@@ -9,8 +9,7 @@
 import UIKit
 import TwitterKit
 
-class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-    @IBOutlet weak var collectionView: UICollectionView!
+class MainScreenVC: UIViewController  {
     
     // Collection of Tweets
     var tweets: [Tweet] = []
@@ -21,8 +20,10 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionView.delegate = self
-        collectionView.dataSource = self
+        //This sets the color of the background of the view.
+        self.gradient = CAGradientLayer().IntroColor()
+        self.gradient?.frame = self.view.bounds
+        self.view.layer.insertSublayer(self.gradient!, at: 0)
         
         // Add a button to the center of the view to show the timeline
         let button = UIButton(type: .system)
@@ -63,37 +64,8 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        //This sets the color of the background of the view.
-        self.gradient = CAGradientLayer().IntroColor()
-        self.gradient?.frame = self.view.bounds
-        self.view.layer.insertSublayer(self.gradient!, at: 0)
+
         
-        collectionView.reloadData()
     }
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection: Int) -> Int {
-        return tweets.count
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as! CollectionViewCell
-        
-        cell.socialText.text = tweets[indexPath.row].tweet_text
-        cell.socialText.lineBreakMode = .byWordWrapping
-        
-        return cell
-    }
-    
-    //    func collectionView(_ collectionView: UICollectionView,
-    //                        layout collectionViewLayout: UICollectionViewLayout,
-    //                        sizeForItemAt indexPath: IndexPath) -> CGSize {
-    //        let image = UIImage(contentsOfFile: tweets[indexPath.row].img_url!)!
-    //        let maxSize = max(image.size.width, image.size.height)
-    //        let maxSizeNew = max(collectionView.bounds.width, collectionView.bounds.height) / 6
-    //
-    //        let scale = maxSizeNew / maxSize
-    //        let newWidth = image.size.width * scale
-    //        let newHeight = image.size.height * scale
-    //        return CGSize(width: newWidth, height: newHeight)
-    //    }
+  
 }

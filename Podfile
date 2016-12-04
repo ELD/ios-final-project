@@ -9,4 +9,5 @@ target 'SocialJoint' do
   pod 'FacebookCore'
   pod 'FacebookLogin'
   pod 'FacebookShare'
+  pod 'CircleMenu', '~> 2.0.1'
 end

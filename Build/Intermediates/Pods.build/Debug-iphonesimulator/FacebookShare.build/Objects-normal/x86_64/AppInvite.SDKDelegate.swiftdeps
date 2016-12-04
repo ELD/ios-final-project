@@ -7,24 +7,24 @@ provides-member:
 - ["CV13FacebookShare9AppInvite11SDKDelegate", ""]
 - ["V13FacebookShare9AppInvite", "SDKDelegate"]
 provides-dynamic-lookup:
-- "appInviteDialog"
-- "appInviteDialog"
 - "setupAsDelegateFor"
+- "appInviteDialog"
+- "appInviteDialog"
 depends-top-level:
-- "AppInvite"
-- "Error"
-- "AssignmentPrecedence"
-- !private "CastingPrecedence"
 - "NSObject"
-- "AnyHashable"
-- !private "Dictionary"
-- "FBSDKAppInviteDialogDelegate"
-- !private "??"
-- "FBSDKAppInviteDialog"
-- !private "objc_setAssociatedObject"
-- !private "Unmanaged"
-- !private "String"
 - "Void"
+- !private "Unmanaged"
+- "AppInvite"
+- !private "??"
+- "Error"
+- !private "objc_setAssociatedObject"
+- "FBSDKAppInviteDialog"
+- !private "Dictionary"
+- !private "String"
+- !private "CastingPrecedence"
+- "AnyHashable"
+- "AssignmentPrecedence"
+- "FBSDKAppInviteDialogDelegate"
 depends-member:
 - !private ["Vs11AnyHashable", "deinit"]
 - !private ["Ps9AnyObject", "Unmanaged"]

@@ -8,19 +8,19 @@ provides-member:
 - ["V13FacebookShare21OpenGraphShareContent", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "PostSharingResult"
-- "OpenGraphAction"
 - "=="
-- "OpenGraphShareContent"
 - "AssignmentPrecedence"
-- "String"
-- "Equatable"
-- "FBSDKSharingContent"
-- "URL"
-- "Hashtag"
-- "SDKBridgedContent"
-- !private "FBSDKShareOpenGraphContent"
 - "OpenGraphPropertyName"
+- "String"
+- "PostSharingResult"
+- "URL"
+- "FBSDKSharingContent"
+- !private "FBSDKShareOpenGraphContent"
+- "OpenGraphShareContent"
+- "OpenGraphAction"
+- "SDKBridgedContent"
+- "Equatable"
+- "Hashtag"
 - "Bool"
 depends-member:
 - !private ["Ps9AnyObject", "action"]

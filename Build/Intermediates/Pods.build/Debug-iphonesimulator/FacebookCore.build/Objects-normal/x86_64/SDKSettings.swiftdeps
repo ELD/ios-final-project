@@ -11,16 +11,16 @@ provides-member:
 - ["V12FacebookCore11SDKSettings", "disableLoggingBehavior"]
 provides-dynamic-lookup:
 depends-top-level:
+- "FBSDKSettings"
 - "Double"
 - "String"
-- "Bool"
-- "FBSDKSettings"
-- !private "CastingPrecedence"
-- "SDKVersion"
-- "Set"
-- !private "CGFloat"
-- "SDKSettings"
 - "SDKLoggingBehavior"
+- "Bool"
+- "Set"
+- !private "CastingPrecedence"
+- "SDKSettings"
+- "SDKVersion"
+- !private "CGFloat"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Vs11AnyHashable", "deinit"]

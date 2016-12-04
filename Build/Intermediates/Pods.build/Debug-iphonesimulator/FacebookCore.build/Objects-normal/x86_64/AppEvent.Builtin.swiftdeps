@@ -18,20 +18,20 @@ provides-member:
 - ["V12FacebookCore8AppEvent", "spentCredits"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "UInt64"
-- "Double"
+- "AppEvent"
 - "Bool"
 - "String"
-- "UnsignedInteger"
-- "AppEvent"
 - "Dictionary"
-- !private "AssignmentPrecedence"
-- !private "FBSDKAppEventParameterValueNo"
-- !private "CastingPrecedence"
-- !private "NSNumber"
-- !private "FBSDKAppEventParameterValueYes"
-- !private "TernaryPrecedence"
 - "AppEventParameterValueType"
+- "Double"
+- !private "UInt64"
+- !private "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- !private "FBSDKAppEventParameterValueNo"
+- !private "FBSDKAppEventParameterValueYes"
+- "UnsignedInteger"
+- !private "TernaryPrecedence"
+- !private "NSNumber"
 depends-member:
 - !private ["Ps9AnyObject", "achievedLevel"]
 - !private ["Ps9AnyObject", "addedPaymentInfo"]

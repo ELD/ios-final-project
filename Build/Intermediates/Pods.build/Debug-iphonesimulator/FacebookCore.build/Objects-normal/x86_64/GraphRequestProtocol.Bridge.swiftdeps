@@ -6,14 +6,14 @@ provides-member:
 - ["P12FacebookCore20GraphRequestProtocol", "sdkRequest"]
 provides-dynamic-lookup:
 depends-top-level:
-- "GraphRequestProtocol"
-- !private "CastingPrecedence"
-- "FBSDKGraphRequest"
-- !private "String"
-- !private "GraphRequestDataAttachment"
 - !private "StringLiteralType"
 - !private "UnicodeScalarType"
+- !private "String"
+- "FBSDKGraphRequest"
 - !private "+"
+- "GraphRequestProtocol"
+- !private "GraphRequestDataAttachment"
+- !private "CastingPrecedence"
 depends-member:
 - !private ["V12FacebookCore11AccessToken", "authenticationToken"]
 - ["V12FacebookCore11AccessToken", "deinit"]

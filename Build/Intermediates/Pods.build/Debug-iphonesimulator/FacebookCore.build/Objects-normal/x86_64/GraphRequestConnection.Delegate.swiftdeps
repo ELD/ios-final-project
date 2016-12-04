@@ -7,22 +7,22 @@ provides-member:
 - ["C12FacebookCore36GraphRequestConnectionDelegateBridge", ""]
 provides-dynamic-lookup:
 - "networkProgressHandler"
-- "setupAsDelegateFor"
 - "networkFailureHandler"
+- "setupAsDelegateFor"
 - "requestConnection"
 - "requestConnection"
 depends-top-level:
-- "Int"
-- "Error"
 - !private "objc_setAssociatedObject"
-- "AssignmentPrecedence"
-- "GraphRequestConnection"
-- "NSObject"
-- !private "Unmanaged"
-- "FBSDKGraphRequestConnection"
-- "FBSDKGraphRequestConnectionDelegate"
 - "GraphRequestConnectionDelegateBridge"
+- "FBSDKGraphRequestConnection"
+- "Int"
+- "AssignmentPrecedence"
+- !private "Unmanaged"
+- "GraphRequestConnection"
 - !private "Int64"
+- "NSObject"
+- "Error"
+- "FBSDKGraphRequestConnectionDelegate"
 depends-member:
 - !private ["Ps9AnyObject", "Int64"]
 - ["Ps9AnyObject", "NetworkFailureHandler"]

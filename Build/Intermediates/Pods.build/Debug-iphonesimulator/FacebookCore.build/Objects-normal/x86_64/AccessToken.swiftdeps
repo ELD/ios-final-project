@@ -11,17 +11,17 @@ provides-member:
 - ["V12FacebookCore11AccessToken", "sdkAccessTokenRepresentation"]
 provides-dynamic-lookup:
 depends-top-level:
-- "FBSDKAccessToken"
 - "Date"
-- "String"
-- !private "SDKSettings"
-- "Permission"
 - "Set"
+- "Permission"
+- "Void"
+- "FBSDKAccessToken"
+- !private "SDKSettings"
+- "String"
 - "AssignmentPrecedence"
+- "Error"
 - "CastingPrecedence"
 - "AccessToken"
-- "Void"
-- "Error"
 depends-member:
 - ["V12FacebookCore11AccessToken", "AccessToken"]
 - ["V12FacebookCore11AccessToken", "Date"]

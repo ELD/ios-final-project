@@ -8,9 +8,9 @@ provides-member:
 - ["V13FacebookShare11GameRequest", "ActionType"]
 provides-dynamic-lookup:
 depends-top-level:
-- "GameRequest"
-- "FBSDKGameRequestActionType"
 - "String"
+- "FBSDKGameRequestActionType"
+- "GameRequest"
 depends-member:
 - ["OV13FacebookShare11GameRequest10ActionType", "FBSDKGameRequestActionType"]
 - ["OV13FacebookShare11GameRequest10ActionType", "String"]

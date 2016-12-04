@@ -9,12 +9,12 @@ provides-member:
 - ["OV12FacebookCore11UserProfile11FetchResult", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "UserProfile"
-- "Error"
-- "FBSDKProfile"
 - "AssignmentPrecedence"
 - !private "NSError"
+- "FBSDKProfile"
 - !private "StringLiteralType"
+- "Error"
+- "UserProfile"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["P12FacebookCore26AppEventParameterValueType", "init"]

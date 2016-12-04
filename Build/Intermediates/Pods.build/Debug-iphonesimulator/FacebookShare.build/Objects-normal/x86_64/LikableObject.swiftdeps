@@ -10,12 +10,12 @@ provides-member:
 - ["O13FacebookShare13LikableObject", "sdkObjectRepresntation"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "FBSDKLikeObjectType"
-- "Equatable"
 - "=="
+- "Equatable"
 - "AssignmentPrecedence"
 - "Bool"
+- "String"
+- "FBSDKLikeObjectType"
 - "LikableObject"
 depends-member:
 - ["Sb", "deinit"]

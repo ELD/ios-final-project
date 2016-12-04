@@ -8,23 +8,23 @@ provides-member:
 - ["V13FacebookShare21OpenGraphPropertyName", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private ">="
 - "=="
 - "AssignmentPrecedence"
-- !private "print"
-- "Hashable"
-- "String"
 - "TernaryPrecedence"
-- "ExpressibleByStringLiteral"
-- !private "..."
 - "ExtendedGraphemeClusterType"
-- "UnicodeScalarType"
-- !private "+"
 - "Int"
-- "OpenGraphPropertyName"
-- "Bool"
 - "RawRepresentable"
+- "Bool"
+- !private "+"
+- !private "print"
+- "String"
+- !private "..."
+- "Hashable"
+- "UnicodeScalarType"
+- "OpenGraphPropertyName"
+- "ExpressibleByStringLiteral"
 - !private "StringLiteralType"
+- !private ">="
 depends-member:
 - !private ["Ps9AnyObject", "characters"]
 - !private ["Ps9AnyObject", "hashValue"]

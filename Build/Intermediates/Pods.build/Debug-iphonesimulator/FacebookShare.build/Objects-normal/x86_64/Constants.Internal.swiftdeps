@@ -8,10 +8,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "ShareResultKeys"
+- "=="
+- !private "~="
 - "String"
 - "StringLiteralType"
-- !private "~="
-- "=="
 depends-member:
 - ["Ps9AnyObject", "init"]
 - !private ["P12FacebookCore26AppEventParameterValueType", "hashValue"]

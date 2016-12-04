@@ -8,13 +8,13 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "String"
-- "GraphAPIVersion"
-- "AssignmentPrecedence"
-- "GraphRequestHTTPMethod"
 - "GraphRequest"
+- "GraphAPIVersion"
+- "GraphRequestHTTPMethod"
 - "AccessToken"
 - "Dictionary"
 - "GraphRequestProtocol"
+- "AssignmentPrecedence"
 - "GraphResponse"
 depends-member:
 - !private ["V12FacebookCore11AccessToken", "current"]

@@ -116,6 +116,33 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/CircleMenu/CircleMenu.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CircleMenu-Swift.h",
+          'external-contents': "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/CircleMenu/CircleMenu.framework/Headers/CircleMenu-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CircleMenu-umbrella.h",
+          'external-contents': "/Users/Ethan/Documents/PROJECT/ios-final-project/Pods/Target Support Files/CircleMenu/CircleMenu-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/CircleMenu/CircleMenu.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Intermediates/Pods.build/Debug-iphonesimulator/CircleMenu.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers",
       'contents': [
         {

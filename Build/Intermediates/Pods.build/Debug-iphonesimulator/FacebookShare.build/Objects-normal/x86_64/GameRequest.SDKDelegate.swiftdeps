@@ -7,25 +7,25 @@ provides-member:
 - ["CV13FacebookShare11GameRequest11SDKDelegate", ""]
 - ["V13FacebookShare11GameRequest", "SDKDelegate"]
 provides-dynamic-lookup:
+- "gameRequestDialogDidCancel"
 - "setupAsDelegateFor"
 - "gameRequestDialog"
 - "gameRequestDialog"
-- "gameRequestDialogDidCancel"
 depends-top-level:
+- "FBSDKGameRequestDialog"
+- "Error"
+- !private "String"
+- "Void"
+- "AssignmentPrecedence"
 - "NSObject"
 - "AnyHashable"
-- "FBSDKGameRequestDialog"
-- "AssignmentPrecedence"
-- "GameRequest"
 - !private "CastingPrecedence"
-- !private "??"
-- "Void"
-- !private "String"
-- !private "Dictionary"
 - "FBSDKGameRequestDialogDelegate"
-- !private "Unmanaged"
+- "GameRequest"
 - !private "objc_setAssociatedObject"
-- "Error"
+- !private "Unmanaged"
+- !private "Dictionary"
+- !private "??"
 depends-member:
 - !private ["Vs11AnyHashable", "deinit"]
 - !private ["Ps9AnyObject", "Unmanaged"]

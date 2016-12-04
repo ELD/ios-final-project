@@ -7,11 +7,11 @@ provides-member:
 - ["V12FacebookCore13GraphResponse", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "GraphResponse"
 - "AssignmentPrecedence"
 - "CastingPrecedence"
 - "GraphResponseProtocol"
+- "GraphResponse"
+- "String"
 depends-member:
 - ["Sa", "deinit"]
 - ["Vs10Dictionary", "deinit"]

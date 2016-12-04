@@ -7,21 +7,21 @@ provides-member:
 - ["C13FacebookLogin12LoginManager", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "LoginManager"
-- "FBSDKLoginManager"
-- !private "AccessToken"
+- "ReadPermission"
 - "UIViewController"
+- !private "UserProfile"
 - "PublishPermission"
-- "LoginResult"
-- "LoginBehavior"
-- "AssignmentPrecedence"
-- "LoginDefaultAudience"
-- "Void"
 - !private "FBSDKLoginManagerRequestTokenHandler"
+- "LoginBehavior"
 - !private "FBSDKLoginManagerLoginResult"
 - !private "Error"
-- "ReadPermission"
-- !private "UserProfile"
+- "LoginResult"
+- "FBSDKLoginManager"
+- !private "AccessToken"
+- "Void"
+- "AssignmentPrecedence"
+- "LoginManager"
+- "LoginDefaultAudience"
 depends-member:
 - !private ["V12FacebookCore11AccessToken", "current"]
 - !private ["Ps9AnyObject", "AccessToken"]

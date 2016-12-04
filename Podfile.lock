@@ -5,6 +5,7 @@ PODS:
   - Bolts/AppLinks (1.8.4):
     - Bolts/Tasks
   - Bolts/Tasks (1.8.4)
+  - CircleMenu (2.0.1)
   - FacebookCore (0.2.0):
     - Bolts (~> 1.8)
     - FBSDKCoreKit (~> 4.15)
@@ -26,12 +27,14 @@ PODS:
     - FBSDKCoreKit
 
 DEPENDENCIES:
+  - CircleMenu (~> 2.0.1)
   - FacebookCore
   - FacebookLogin
   - FacebookShare
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CircleMenu: a964e8b03aae58c84b40d5cf64630b62bef077eb
   FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
   FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
   FacebookShare: 8e9ee8ea06505e6a1d3d719b0cc63e840fb8aaeb
@@ -39,6 +42,6 @@ SPEC CHECKSUMS:
   FBSDKLoginKit: 42b7129ac0373ca99eaf4cbebf4d07bd42371f59
   FBSDKShareKit: 9b573d03fbee36cbaf42d5bb1f2bc019e0d72347
 
-PODFILE CHECKSUM: 1929129abc292a7929ca618d0086695192392820
+PODFILE CHECKSUM: a8358a9e9370a18f96193568ebd8438068c9f8f3
 
 COCOAPODS: 1.1.1

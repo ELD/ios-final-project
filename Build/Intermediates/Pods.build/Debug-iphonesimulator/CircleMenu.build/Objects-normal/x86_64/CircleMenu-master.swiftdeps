@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "4d356f79bc864c33ea9789a3fcabe545"
+build_time: [534191662, 968860000]
+inputs:
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Pods/CircleMenu/CircleMenuLib/CircleMenu.swift": [534191660, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Pods/CircleMenu/CircleMenuLib/CircleMenuButton/CircleMenuButton.swift": [534191660, 0]
+  "/Users/Ethan/Documents/PROJECT/ios-final-project/Pods/CircleMenu/CircleMenuLib/CircleMenuLoader/CircleMenuLoader.swift": [534191660, 0]

@@ -10,15 +10,15 @@ provides-member:
 - ["V13FacebookShare5Photo", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bool"
-- "FBSDKSharePhoto"
+- "Equatable"
 - "=="
 - "AssignmentPrecedence"
-- "UIImage"
-- "String"
-- "Equatable"
 - "URL"
 - "Photo"
+- "Bool"
+- "String"
+- "UIImage"
+- "FBSDKSharePhoto"
 depends-member:
 - !private ["Ps9AnyObject", "caption"]
 - !private ["Ps9AnyObject", "image"]

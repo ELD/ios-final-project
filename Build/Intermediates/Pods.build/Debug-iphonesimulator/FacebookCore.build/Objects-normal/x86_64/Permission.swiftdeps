@@ -11,16 +11,16 @@ provides-member:
 - ["P12FacebookCore23PermissionRepresentable", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Hashable"
-- "PermissionRepresentable"
-- "String"
-- "StringLiteralType"
-- "Bool"
-- "=="
 - "Int"
-- "AssignmentPrecedence"
-- "ExpressibleByStringLiteral"
 - "Permission"
+- "StringLiteralType"
+- "=="
+- "AssignmentPrecedence"
+- "PermissionRepresentable"
+- "Bool"
+- "Hashable"
+- "String"
+- "ExpressibleByStringLiteral"
 depends-member:
 - !private ["Ps9AnyObject", "hashValue"]
 - !private ["P12FacebookCore26AppEventParameterValueType", "hashValue"]

@@ -118,7 +118,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import UIKit;
 @import Foundation;
 @import QuartzCore;
-@import CoreGraphics;
 @import ObjectiveC;
 #endif
 
@@ -151,21 +150,12 @@ SWIFT_CLASS("_TtC11SocialJoint11AppDelegate")
 - (CAGradientLayer * _Nonnull)MainColor;
 @end
 
-@class UIImageView;
 @class UILabel;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC11SocialJoint18CollectionViewCell")
-@interface CollectionViewCell : UICollectionViewCell
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageView;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified socialText;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
+@class UIImageView;
 @class UIButton;
 @class UITapGestureRecognizer;
 @class NSBundle;
+@class NSCoder;
 
 SWIFT_CLASS("_TtC11SocialJoint14InitialSetUpVC")
 @interface InitialSetUpVC : UIViewController <CAAnimationDelegate>
@@ -195,35 +185,28 @@ SWIFT_CLASS("_TtC11SocialJoint14InitialSetUpVC")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UICollectionView;
 
 SWIFT_CLASS("_TtC11SocialJoint12MainScreenVC")
-@interface MainScreenVC : UIViewController <UIScrollViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDataSource>
-@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified collectionView;
+@interface MainScreenVC : UIViewController
 @property (nonatomic, strong) CAGradientLayer * _Nullable gradient;
 - (void)viewDidLoad;
+- (void)showTimeline;
+- (void)dismissTimeline;
 - (void)didReceiveMemoryWarning;
 - (void)alertWithTitle:(NSString * _Nonnull)title message:(NSString * _Nonnull)message;
 - (void)viewDidAppear:(BOOL)animated;
-- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)numberOfItemsInSection;
-- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class LoginButton;
 
 SWIFT_CLASS("_TtC11SocialJoint8SignInVC")
 @interface SignInVC : UIViewController
-@property (nonatomic, readonly, copy) NSString * _Nonnull CONSUMER_KEY;
-@property (nonatomic, readonly, copy) NSString * _Nonnull CONSUMER_SECRET;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aCoder OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified nextButton;
-- (IBAction)twitterLoginWasClicked:(UIButton * _Nonnull)sender;
 - (void)alertWithTitle:(NSString * _Nonnull)title message:(NSString * _Nonnull)message;
 - (void)viewDidLoad;
-- (void)loginButtonDidLogOut:(LoginButton * _Nonnull)loginButton;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #pragma clang diagnostic pop

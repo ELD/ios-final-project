@@ -7,11 +7,11 @@ provides-member:
 - ["V13FacebookShare17PostSharingResult", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
-- !private "ShareResultKeys"
-- "String"
-- "PostSharingResult"
 - "ContentSharingResultProtocol"
+- "PostSharingResult"
+- "AssignmentPrecedence"
+- "String"
+- !private "ShareResultKeys"
 depends-member:
 - !private ["Ps7CVarArg", "Index"]
 - !private ["Ps7CVarArg", "SubSequence"]
