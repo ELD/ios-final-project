@@ -7,22 +7,22 @@ provides-member:
 - ["C11SocialJoint8SignInVC", ""]
 provides-dynamic-lookup:
 - "viewDidLoad"
-- "alert"
 - "nextButton"
+- "alert"
 depends-top-level:
+- !private "UIAlertAction"
 - !private "StringLiteralType"
 - !private "UIAlertController"
-- "UIButton"
-- !private "UIAlertAction"
-- !private "UIAlertActionStyle"
-- !private "BooleanLiteralType"
-- !private "NSLog"
-- "SignInVC"
-- "UIViewController"
-- !private "UIAlertControllerStyle"
-- "AssignmentPrecedence"
 - !private "TWTRLogInButton"
+- !private "UIAlertControllerStyle"
+- "UIViewController"
+- !private "BooleanLiteralType"
 - "String"
+- "SignInVC"
+- "UIButton"
+- !private "UIAlertActionStyle"
+- !private "NSLog"
+- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "NSLog"]
 - !private ["Ps9AnyObject", "TWTRLogInButton"]
@@ -588,6 +588,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/CircleMenu/CircleMenu.framework/Modules/CircleMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/CircleMenu/CircleMenu.framework/Headers/CircleMenu-Swift.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/CircleMenu/CircleMenu.framework/Headers/CircleMenu-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/CircleMenu/CircleMenu.framework/Modules/module.modulemap"
 - "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
 - "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
 - "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"

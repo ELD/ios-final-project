@@ -9,18 +9,18 @@ provides-member:
 - ["CSo15CAGradientLayer", "MainColor"]
 provides-dynamic-lookup:
 - "WhiteGrayColor"
+- "IntroColor"
 - "turquoiseColor"
 - "MainColor"
-- "IntroColor"
 depends-top-level:
-- !private "/"
-- "CAGradientLayer"
-- !private "CGColor"
 - !private "UIColor"
-- !private "NSNumber"
-- "AssignmentPrecedence"
-- "CastingPrecedence"
+- "CAGradientLayer"
+- !private "/"
 - !private "Float"
+- !private "NSNumber"
+- !private "CGColor"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "CAGradientLayer"]
 - ["Ps9AnyObject", "IntroColor"]
@@ -259,6 +259,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/CircleMenu/CircleMenu.framework/Modules/CircleMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/CircleMenu/CircleMenu.framework/Headers/CircleMenu-Swift.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/CircleMenu/CircleMenu.framework/Headers/CircleMenu-umbrella.h"
+- "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/CircleMenu/CircleMenu.framework/Modules/module.modulemap"
 - "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
 - "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
 - "/Users/Ethan/Documents/PROJECT/ios-final-project/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"

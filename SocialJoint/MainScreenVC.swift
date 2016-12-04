@@ -8,11 +8,32 @@
 
 import UIKit
 import TwitterKit
+import CircleMenu
 
-class MainScreenVC: UIViewController  {
+
+extension UIColor {
+    static func color(_ red: Int, green: Int, blue: Int, alpha: Float) -> UIColor {
+        return UIColor(
+            colorLiteralRed: Float(1.0) / Float(255.0) * Float(red),
+            green: Float(1.0) / Float(255.0) * Float(green),
+            blue: Float(1.0) / Float(255.0) * Float(blue),
+            alpha: alpha)
+    }
+}
+
+class MainScreenVC: UIViewController, CircleMenuDelegate  {
     
     // Collection of Tweets
     var tweets: [Tweet] = []
+    
+    
+    let items: [(icon: String, color: UIColor)] = [
+        ("icon_home", UIColor(red:0.19, green:0.57, blue:1, alpha:1)),
+        ("icon_search", UIColor(red:0.22, green:0.74, blue:0, alpha:1)),
+        ("notifications-btn", UIColor(red:0.96, green:0.23, blue:0.21, alpha:1)),
+        ("settings-btn", UIColor(red:0.51, green:0.15, blue:1, alpha:1)),
+        ("nearby-btn", UIColor(red:1, green:0.39, blue:0, alpha:1)),
+        ]
     
     //Gradient Vairable for background
     var gradient : CAGradientLayer?;
@@ -25,14 +46,45 @@ class MainScreenVC: UIViewController  {
         self.gradient?.frame = self.view.bounds
         self.view.layer.insertSublayer(self.gradient!, at: 0)
         
+        // Cricle Menu button
+        let menu = CircleMenu( frame: CGRect(x: self.view.center.x, y: self.view.center.y, width: 50, height: 50), normalIcon:"icon_menu", selectedIcon:"icon_close", buttonsCount: 4, duration: 4,
+distance: 120)
+        menu.backgroundColor = UIColor.lightGray
+        menu.delegate = self
+        menu.layer.cornerRadius = menu.frame.size.width / 2.0
+        view.addSubview(menu)
+        
+        
+        
         // Add a button to the center of the view to show the timeline
-        let button = UIButton(type: .system)
-        button.setTitle("Show Timeline", for: .normal)
-        button.sizeToFit()
-        button.center = view.center
-        button.addTarget(self, action: #selector(showTimeline), for: [.touchUpInside])
-        view.addSubview(button)
+     //   let button = UIButton(type: .system)
+//        button.setTitle("Show Timeline", for: .normal)
+//        button.sizeToFit()
+//        button.center = view.center
+//        button.addTarget(self, action: #selector(showTimeline), for: [.touchUpInside])
+      //  view.addSubview(button)
     }
+    
+    func circleMenu(_ circleMenu: CircleMenu, willDisplay button: UIButton, atIndex: Int) {
+        button.backgroundColor = items[atIndex].color
+        
+        button.setImage(UIImage(named: items[atIndex].icon), for: .normal)
+        
+        // set highlited image
+        let highlightedImage  = UIImage(named: items[atIndex].icon)?.withRenderingMode(.alwaysTemplate)
+        button.setImage(highlightedImage, for: .highlighted)
+        button.tintColor = UIColor.init(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0.3)
+    }
+    
+    func circleMenu(_ circleMenu: CircleMenu, buttonWillSelected button: UIButton, atIndex: Int) {
+        print("button will selected: \(atIndex)")
+        
+    }
+    
+    func circleMenu(_ circleMenu: CircleMenu, buttonDidSelected button: UIButton, atIndex: Int) {
+        print("button did selected: \(atIndex)")
+    }
+    
     
     func showTimeline() {
         // Create an API client and data source to fetch Tweets for the timeline
@@ -48,6 +100,10 @@ class MainScreenVC: UIViewController  {
         let navigationController = UINavigationController(rootViewController: timelineViewControlller)
         showDetailViewController(navigationController, sender: self)
     }
+    
+    
+    
+    
     func dismissTimeline() {
         dismiss(animated: true, completion: nil)
     }
@@ -64,8 +120,8 @@ class MainScreenVC: UIViewController  {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-
+        
         
     }
-  
+    
 }

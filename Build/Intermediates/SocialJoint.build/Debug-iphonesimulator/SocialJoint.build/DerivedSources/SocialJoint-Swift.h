@@ -119,6 +119,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import QuartzCore;
 @import ObjectiveC;
+@import CircleMenu;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -185,11 +186,15 @@ SWIFT_CLASS("_TtC11SocialJoint14InitialSetUpVC")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class CircleMenu;
 
 SWIFT_CLASS("_TtC11SocialJoint12MainScreenVC")
-@interface MainScreenVC : UIViewController
+@interface MainScreenVC : UIViewController <CircleMenuDelegate>
 @property (nonatomic, strong) CAGradientLayer * _Nullable gradient;
 - (void)viewDidLoad;
+- (void)circleMenu:(CircleMenu * _Nonnull)circleMenu willDisplay:(UIButton * _Nonnull)button atIndex:(NSInteger)atIndex;
+- (void)circleMenu:(CircleMenu * _Nonnull)circleMenu buttonWillSelected:(UIButton * _Nonnull)button atIndex:(NSInteger)atIndex;
+- (void)circleMenu:(CircleMenu * _Nonnull)circleMenu buttonDidSelected:(UIButton * _Nonnull)button atIndex:(NSInteger)atIndex;
 - (void)showTimeline;
 - (void)dismissTimeline;
 - (void)didReceiveMemoryWarning;
@@ -207,6 +212,11 @@ SWIFT_CLASS("_TtC11SocialJoint8SignInVC")
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface UIColor (SWIFT_EXTENSION(SocialJoint))
++ (UIColor * _Nonnull)color:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue alpha:(float)alpha;
 @end
 
 #pragma clang diagnostic pop
