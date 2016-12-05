@@ -25,12 +25,16 @@ PODS:
     - FBSDKCoreKit
   - FBSDKShareKit (4.17.0):
     - FBSDKCoreKit
+  - reddift (2.0.0):
+    - reddift/MiniKeychain (= 2.0.0)
+  - reddift/MiniKeychain (2.0.0)
 
 DEPENDENCIES:
   - CircleMenu (~> 2.0.1)
   - FacebookCore
   - FacebookLogin
   - FacebookShare
+  - reddift
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
@@ -41,7 +45,8 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: 30a21d2d7b92984b3d80497113433c00824c35e9
   FBSDKLoginKit: 42b7129ac0373ca99eaf4cbebf4d07bd42371f59
   FBSDKShareKit: 9b573d03fbee36cbaf42d5bb1f2bc019e0d72347
+  reddift: 5eef0cb08a07ed8ad9abdc4d007a127e84fb6f5d
 
-PODFILE CHECKSUM: a8358a9e9370a18f96193568ebd8438068c9f8f3
+PODFILE CHECKSUM: 83224cd3e3647845067c93b49bee99925c35e2cd
 
 COCOAPODS: 1.2.0.beta.1

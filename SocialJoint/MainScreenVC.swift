@@ -57,12 +57,12 @@ distance: 120)
         
         
         // Add a button to the center of the view to show the timeline
-        let button = UIButton(type: .system)
-        button.setTitle("Show Timeline", for: .normal)
-        button.sizeToFit()
-        button.center = view.center
-        button.addTarget(self, action: #selector(showTimeline), for: [.touchUpInside])
-        view.addSubview(button)
+//        let button = UIButton(type: .system)
+//        button.setTitle("Show Timeline", for: .normal)
+//        button.sizeToFit()
+//        button.center = view.center
+//        button.addTarget(self, action: #selector(showTimeline), for: [.touchUpInside])
+//        view.addSubview(button)
     }
     
     func circleMenu(_ circleMenu: CircleMenu, willDisplay button: UIButton, atIndex: Int) {

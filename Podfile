@@ -10,4 +10,5 @@ target 'SocialJoint' do
   pod 'FacebookLogin'
   pod 'FacebookShare'
   pod 'CircleMenu', '~> 2.0.1'
+  pod 'reddift'
 end
