@@ -57,12 +57,12 @@ distance: 120)
         
         
         // Add a button to the center of the view to show the timeline
-     //   let button = UIButton(type: .system)
-//        button.setTitle("Show Timeline", for: .normal)
-//        button.sizeToFit()
-//        button.center = view.center
-//        button.addTarget(self, action: #selector(showTimeline), for: [.touchUpInside])
-      //  view.addSubview(button)
+        let button = UIButton(type: .system)
+        button.setTitle("Show Timeline", for: .normal)
+        button.sizeToFit()
+        button.center = view.center
+        button.addTarget(self, action: #selector(showTimeline), for: [.touchUpInside])
+        view.addSubview(button)
     }
     
     func circleMenu(_ circleMenu: CircleMenu, willDisplay button: UIButton, atIndex: Int) {
@@ -87,10 +87,12 @@ distance: 120)
     
     
     func showTimeline() {
+        let userId = Twitter.sharedInstance().sessionStore.session()?.userID
         // Create an API client and data source to fetch Tweets for the timeline
-        let client = TWTRAPIClient()
+        let client = TWTRAPIClient(userID: userId)
         //TODO: Replace with your collection id or a different data source
-        let dataSource = TWTRCollectionTimelineDataSource(collectionID: "539487832448843776", apiClient: client)
+//        let dataSource = TWTRCollectionTimelineDataSource(collectionID: "539487832448843776", apiClient: client)
+        let dataSource = TWTRUserTimelineDataSource(screenName: nil, userID: userId, apiClient: client, maxTweetsPerRequest: 100, includeReplies: false, includeRetweets: false)
         // Create the timeline view controller
         let timelineViewControlller = TWTRTimelineViewController(dataSource: dataSource)
         // Create done button to dismiss the view controller
@@ -100,9 +102,6 @@ distance: 120)
         let navigationController = UINavigationController(rootViewController: timelineViewControlller)
         showDetailViewController(navigationController, sender: self)
     }
-    
-    
-    
     
     func dismissTimeline() {
         dismiss(animated: true, completion: nil)

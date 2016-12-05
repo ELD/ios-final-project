@@ -192,7 +192,7 @@
 				TargetAttributes = {
 					EAB74CD51DD69C1C0041A0E1 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = MCRP5NXT9W;
+						DevelopmentTeam = 7N5NS23973;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -432,7 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SocialJoint/SocialJoint.entitlements;
-				DEVELOPMENT_TEAM = MCRP5NXT9W;
+				DEVELOPMENT_TEAM = 7N5NS23973;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -451,7 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SocialJoint/SocialJoint.entitlements;
-				DEVELOPMENT_TEAM = MCRP5NXT9W;
+				DEVELOPMENT_TEAM = 7N5NS23973;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

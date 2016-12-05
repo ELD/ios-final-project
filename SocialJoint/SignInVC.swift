@@ -33,8 +33,10 @@ class SignInVC: UIViewController {
             }
         }
         
+        // TODO: Change where the log in button is positioned in your view
         logInButton.center = self.view.center
         self.view.addSubview(logInButton)
+
     }
     
 

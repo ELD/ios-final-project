@@ -9,7 +9,6 @@
 import UIKit
 import CoreData
 import FacebookCore
-import SwifteriOS
 import Fabric
 import TwitterKit
 
@@ -26,7 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     public func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-        Swifter.handleOpenURL(url)
 //        SDKApplicationDelegate.shared.application(app, open: url, options: options)
         
         return true
