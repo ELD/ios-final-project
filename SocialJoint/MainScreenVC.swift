@@ -26,7 +26,6 @@ class MainScreenVC: UIViewController, CircleMenuDelegate  {
     // Collection of Tweets
     var tweets: [Tweet] = []
     
-    
     let items: [(icon: String, color: UIColor)] = [
         ("icon_home", UIColor(red:0.19, green:0.57, blue:1, alpha:1)),
         ("icon_search", UIColor(red:0.22, green:0.74, blue:0, alpha:1)),
@@ -47,7 +46,7 @@ class MainScreenVC: UIViewController, CircleMenuDelegate  {
         self.view.layer.insertSublayer(self.gradient!, at: 0)
         
         // Cricle Menu button
-        let menu = CircleMenu( frame: CGRect(x: self.view.center.x, y: self.view.center.y, width: 50, height: 50), normalIcon:"icon_menu", selectedIcon:"icon_close", buttonsCount: 4, duration: 4,
+        let menu = CircleMenu( frame: CGRect(x: self.view.center.x - 15, y: self.view.center.y, width: 50, height: 50), normalIcon:"icon_menu", selectedIcon:"icon_close", buttonsCount: 4, duration: 4,
 distance: 120)
         menu.backgroundColor = UIColor.lightGray
         menu.delegate = self
@@ -78,6 +77,16 @@ distance: 120)
     
     func circleMenu(_ circleMenu: CircleMenu, buttonWillSelected button: UIButton, atIndex: Int) {
         print("button will selected: \(atIndex)")
+    
+        if atIndex == 0 {
+            showTimeline()
+        } else if atIndex == 1{
+            
+        } else if atIndex == 2 {
+            accessFacebook()
+        } else if atIndex == 3 {
+            accessInstagram()
+        }
         
     }
     
@@ -116,6 +125,28 @@ distance: 120)
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         self.present(alert, animated: true, completion: nil)
+    }
+    
+    func accessFacebook() {
+        let appUrl = URL(string: "fb://")!
+        let webUrl = URL(string: "https://facebook.com")!
+        if UIApplication.shared.canOpenURL(appUrl) {
+            UIApplication.shared.open(appUrl, options: [:], completionHandler: nil)
+        } else {
+            print("Can't open Facebook app")
+            UIApplication.shared.open(webUrl, options: [:], completionHandler: nil)
+        }
+    }
+    
+    func accessInstagram() {
+        let appUrl = URL(string: "instagram://app")!
+        let webUrl = URL(string: "https://instagram.com")!
+        if UIApplication.shared.canOpenURL(appUrl) {
+            UIApplication.shared.open(appUrl, options: [:], completionHandler: nil)
+        } else {
+            print("Can't open Instagram app")
+            UIApplication.shared.open(webUrl, options: [:], completionHandler: nil)
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
