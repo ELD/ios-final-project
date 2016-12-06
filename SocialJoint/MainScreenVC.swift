@@ -20,11 +20,7 @@ extension UIColor {
     }
 }
 
-class MainScreenVC: UIViewController, CircleMenuDelegate  {
-    
-    // Collection of Tweets
-    var tweets: [Tweet] = []
-    
+class MainScreenVC: UIViewController, CircleMenuDelegate  {    
     let items: [(icon: String, color: UIColor)] = [
         ("icon_home", UIColor(red:0.19, green:0.57, blue:1, alpha:1)),
         ("icon_search", UIColor(red:0.22, green:0.74, blue:0, alpha:1)),
@@ -80,7 +76,7 @@ distance: 120)
         if atIndex == 0 {
             showTimeline()
         } else if atIndex == 1{
-            
+            self.performSegue(withIdentifier: "showReddit", sender: self)
         } else if atIndex == 2 {
             accessFacebook()
         } else if atIndex == 3 {
@@ -146,11 +142,5 @@ distance: 120)
             print("Can't open Instagram app")
             UIApplication.shared.open(webUrl, options: [:], completionHandler: nil)
         }
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        
-        
-    }
-    
+    }    
 }

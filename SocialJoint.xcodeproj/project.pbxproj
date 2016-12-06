@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A404C3DB1DF69268005C0C62 /* RedditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A404C3DA1DF69268005C0C62 /* RedditViewController.swift */; };
 		A47319D11DE35AFA00F6752A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47319CD1DE35AFA00F6752A /* Fabric.framework */; };
 		A47319D21DE35AFA00F6752A /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47319CE1DE35AFA00F6752A /* TwitterKit.framework */; };
 		A47319D31DE35AFA00F6752A /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A47319CF1DE35AFA00F6752A /* TwitterKitResources.bundle */; };
 		A47319D41DE35AFA00F6752A /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47319D01DE35AFA00F6752A /* TwitterCore.framework */; };
-		A483448E1DE252C100FC5419 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483448D1DE252C100FC5419 /* Tweet.swift */; };
+		A483448E1DE252C100FC5419 /* Reddit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483448D1DE252C100FC5419 /* Reddit.swift */; };
 		AA73467D1DDCB1B1008019EF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73467C1DDCB1B1008019EF /* SignInVC.swift */; };
 		AA73467F1DDCB313008019EF /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73467E1DDCB313008019EF /* MainScreenVC.swift */; };
 		DE0C5C3917164CCA48B61DD7 /* Pods_SocialJoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECDCB73DF256AD9CC3671F4 /* Pods_SocialJoint.framework */; };
@@ -27,11 +28,12 @@
 
 /* Begin PBXFileReference section */
 		7ECDCB73DF256AD9CC3671F4 /* Pods_SocialJoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialJoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A404C3DA1DF69268005C0C62 /* RedditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditViewController.swift; sourceTree = "<group>"; };
 		A47319CD1DE35AFA00F6752A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		A47319CE1DE35AFA00F6752A /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
 		A47319CF1DE35AFA00F6752A /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		A47319D01DE35AFA00F6752A /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
-		A483448D1DE252C100FC5419 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tweet.swift; path = SocialJoint/Tweet.swift; sourceTree = "<group>"; };
+		A483448D1DE252C100FC5419 /* Reddit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reddit.swift; path = SocialJoint/Reddit.swift; sourceTree = "<group>"; };
 		A4C3D5601DE106690006980A /* SocialJoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialJoint.entitlements; sourceTree = "<group>"; };
 		AA73467C1DDCB1B1008019EF /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		AA73467E1DDCB313008019EF /* MainScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
@@ -88,7 +90,7 @@
 		AA2E495A1DD79C6A0059760B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A483448D1DE252C100FC5419 /* Tweet.swift */,
+				A483448D1DE252C100FC5419 /* Reddit.swift */,
 			);
 			name = Model;
 			path = ..;
@@ -100,6 +102,7 @@
 				EAB74CF11DD6A1C10041A0E1 /* InitialSetUpVC.swift */,
 				AA73467C1DDCB1B1008019EF /* SignInVC.swift */,
 				AA73467E1DDCB313008019EF /* MainScreenVC.swift */,
+				A404C3DA1DF69268005C0C62 /* RedditViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -306,8 +309,9 @@
 				EAB74CF21DD6A1C10041A0E1 /* InitialSetUpVC.swift in Sources */,
 				AA73467F1DDCB313008019EF /* MainScreenVC.swift in Sources */,
 				EAB74CDA1DD69C1C0041A0E1 /* AppDelegate.swift in Sources */,
+				A404C3DB1DF69268005C0C62 /* RedditViewController.swift in Sources */,
 				AA73467D1DDCB1B1008019EF /* SignInVC.swift in Sources */,
-				A483448E1DE252C100FC5419 /* Tweet.swift in Sources */,
+				A483448E1DE252C100FC5419 /* Reddit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
