@@ -6,9 +6,5 @@ target 'SocialJoint' do
   use_frameworks!
 
   # Pods for SocialJoint
-  pod 'FacebookCore'
-  pod 'FacebookLogin'
-  pod 'FacebookShare'
   pod 'CircleMenu', '~> 2.0.1'
-  pod 'reddift'
 end
