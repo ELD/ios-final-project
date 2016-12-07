@@ -13,6 +13,7 @@
 		A47319D31DE35AFA00F6752A /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A47319CF1DE35AFA00F6752A /* TwitterKitResources.bundle */; };
 		A47319D41DE35AFA00F6752A /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47319D01DE35AFA00F6752A /* TwitterCore.framework */; };
 		A483448E1DE252C100FC5419 /* Reddit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483448D1DE252C100FC5419 /* Reddit.swift */; };
+		A4E3C52B1DF77D0600AB472D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3C52A1DF77D0600AB472D /* Constants.swift */; };
 		AA73467D1DDCB1B1008019EF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73467C1DDCB1B1008019EF /* SignInVC.swift */; };
 		AA73467F1DDCB313008019EF /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73467E1DDCB313008019EF /* MainScreenVC.swift */; };
 		DE0C5C3917164CCA48B61DD7 /* Pods_SocialJoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECDCB73DF256AD9CC3671F4 /* Pods_SocialJoint.framework */; };
@@ -35,6 +36,7 @@
 		A47319D01DE35AFA00F6752A /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		A483448D1DE252C100FC5419 /* Reddit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reddit.swift; path = SocialJoint/Reddit.swift; sourceTree = "<group>"; };
 		A4C3D5601DE106690006980A /* SocialJoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialJoint.entitlements; sourceTree = "<group>"; };
+		A4E3C52A1DF77D0600AB472D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AA73467C1DDCB1B1008019EF /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		AA73467E1DDCB313008019EF /* MainScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
 		AD1C29BF70EBB17DB54D021D /* Pods-SocialJoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialJoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialJoint/Pods-SocialJoint.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				EAB74CEE1DD69D940041A0E1 /* .gitignore */,
+				A4E3C52A1DF77D0600AB472D /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				A404C3DB1DF69268005C0C62 /* RedditViewController.swift in Sources */,
 				AA73467D1DDCB1B1008019EF /* SignInVC.swift in Sources */,
 				A483448E1DE252C100FC5419 /* Reddit.swift in Sources */,
+				A4E3C52B1DF77D0600AB472D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

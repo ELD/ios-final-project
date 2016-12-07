@@ -19,6 +19,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         Fabric.with([Twitter.self])
         
+        // Check plist for setup being completed
+        let filePath = Constants.docFilePath(filename: Constants.configFile)
+        
+        if FileManager.default.fileExists(atPath: filePath!) {
+            let data = NSDictionary(contentsOfFile: filePath!) as! [String: Bool]
+            
+            if data["setup_done"]! {
+                self.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil)
+                    .instantiateViewController(withIdentifier: "MainScreenVC") as! MainScreenVC
+                self.window?.makeKeyAndVisible()
+            }
+        }
+        
+        
         return true
     }
     

@@ -22,6 +22,12 @@ class SignInVC: UIViewController {
         super.viewDidLoad()
         let logInButton = TWTRLogInButton { (session, error) in
             if let unwrappedSession = session {
+                let filePath = Constants.docFilePath(filename: Constants.configFile)
+                let data = NSMutableDictionary()
+                data.addEntries(from: ["setup_done": true])
+                data.write(toFile: filePath!, atomically: true)
+                print("Written the plist")
+                
                 let alert = UIAlertController(title: "Logged In",
                                               message: "User \(unwrappedSession.userName) has logged in",
                     preferredStyle: UIAlertControllerStyle.alert
