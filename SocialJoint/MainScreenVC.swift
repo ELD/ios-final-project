@@ -41,22 +41,13 @@ class MainScreenVC: UIViewController, CircleMenuDelegate  {
         self.view.layer.insertSublayer(self.gradient!, at: 0)
         
         // Cricle Menu button
-        let menu = CircleMenu( frame: CGRect(x: self.view.center.x - 15, y: self.view.center.y, width: 50, height: 50), normalIcon:"icon_menu", selectedIcon:"icon_close", buttonsCount: 4, duration: 4,
+        let menu = CircleMenu( frame: CGRect(x: self.view.center.x - 20, y: self.view.center.y - 20, width: 50, height: 50), normalIcon:"icon_menu", selectedIcon:"icon_menu", buttonsCount: 4, duration: 4,
 distance: 120)
         menu.backgroundColor = UIColor.lightGray
         menu.delegate = self
         menu.layer.cornerRadius = menu.frame.size.width / 2.0
         view.addSubview(menu)
         
-        
-        
-        // Add a button to the center of the view to show the timeline
-//        let button = UIButton(type: .system)
-//        button.setTitle("Show Timeline", for: .normal)
-//        button.sizeToFit()
-//        button.center = view.center
-//        button.addTarget(self, action: #selector(showTimeline), for: [.touchUpInside])
-//        view.addSubview(button)
     }
     
     func circleMenu(_ circleMenu: CircleMenu, willDisplay button: UIButton, atIndex: Int) {
@@ -84,6 +75,8 @@ distance: 120)
         }
         
     }
+    
+
     
     func circleMenu(_ circleMenu: CircleMenu, buttonDidSelected button: UIButton, atIndex: Int) {
         print("button did selected: \(atIndex)")

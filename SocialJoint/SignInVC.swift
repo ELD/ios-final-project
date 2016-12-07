@@ -18,8 +18,17 @@ class SignInVC: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
     
+    //Gradient Vairable for background
+    var gradient : CAGradientLayer?;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //This sets the color of the background of the view.
+        self.gradient = CAGradientLayer().IntroColor()
+        self.gradient?.frame = self.view.bounds
+        self.view.layer.insertSublayer(self.gradient!, at: 0)
+        
         let logInButton = TWTRLogInButton { (session, error) in
             if let unwrappedSession = session {
                 let filePath = Constants.docFilePath(filename: Constants.configFile)
@@ -33,7 +42,7 @@ class SignInVC: UIViewController {
                     preferredStyle: UIAlertControllerStyle.alert
                 )
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-                self.present(alert, animated: true, completion: nil)
+                self.present(alert, animated: true, completion: self.doSomething)
             } else {
                 NSLog("Login error: %@", error!.localizedDescription);
             }
@@ -45,6 +54,10 @@ class SignInVC: UIViewController {
 
     }
     
+    
+    func doSomething() {
+       performSegue(withIdentifier: "mainMenuSegue", sender: nil)
+    }
 
     /*
     // MARK: - Navigation

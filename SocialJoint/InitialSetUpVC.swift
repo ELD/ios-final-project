@@ -51,14 +51,14 @@ class InitialSetUpVC: UIViewController, CAAnimationDelegate {
         
         //This sets all the buttons and Images to alpha 0, until IntroScreenTracker reaches 1
         if (introScreenTracker == 0 ){
-            FBImageView.alpha = 0
-            TwImageView.alpha = 0
-            IGImageView.alpha = 0
-            GPImageView.alpha = 0
+//            FBImageView.alpha = 0
+//            TwImageView.alpha = 0
+//            IGImageView.alpha = 0
+//            GPImageView.alpha = 0
             FBButtonChecked.alpha = 0
-            TwButtonChecked.alpha = 0
-            IGButtonChecked.alpha = 0
-            GPButtonChecked.alpha = 0
+//            TwButtonChecked.alpha = 0
+//            IGButtonChecked.alpha = 0
+//            GPButtonChecked.alpha = 0
             ContinueButton.alpha = 0
         }
         if (introScreenTracker == 1){
@@ -150,17 +150,17 @@ class InitialSetUpVC: UIViewController, CAAnimationDelegate {
             UIView.animate(withDuration: 3) {
                 self.WelcomeLabel.alpha = 0
                 if (self.WelcomeLabel.alpha == 0){
-                    self.WelcomeLabel.text = "Choose your Social Media"
+                    self.WelcomeLabel.text = "The social medias that you will have at \n your convience are:\n Reddit,\n Facebook,\n Instagram and Twitter.\n If you understand, please\n press the Understand Button to continue."
                     UIView.animate(withDuration: 5, animations: {
                         self.WelcomeLabel.alpha = 1
-                        self.FBImageView.alpha = 1
-                        self.TwImageView.alpha = 1
-                        self.IGImageView.alpha = 1
-                        self.GPImageView.alpha = 1
+//                        self.FBImageView.alpha = 1
+//                        self.TwImageView.alpha = 1
+//                        self.IGImageView.alpha = 1
+//                        self.GPImageView.alpha = 1
                         self.FBButtonChecked.alpha = 1
-                        self.TwButtonChecked.alpha = 1
-                        self.IGButtonChecked.alpha = 1
-                        self.GPButtonChecked.alpha = 1
+//                        self.TwButtonChecked.alpha = 1
+//                        self.IGButtonChecked.alpha = 1
+//                        self.GPButtonChecked.alpha = 1
                    
                     })
                 }
